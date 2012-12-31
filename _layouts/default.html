@@ -30,10 +30,7 @@
                 <div id="content" role="main">
                     {{ content }}
                 </div>
-                <!-- #content -->
             </div>
-            <!-- #primary .site-content -->
-
             <div id="secondary" class="widget-area" role="complementary">
                 <aside id="text-5" class="widget widget_text">
                     <h1 class="widget-title">Follow</h1>
@@ -53,34 +50,24 @@
                     <h1 class="widget-title">Archive</h1>
                     {% assign year = '2015' %}
                     {% assign month = 'December' %}
-
-                      <ul class="posts">
-                        {% for post in site.posts %}
-                          {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
-                          <!-- {{ postmonth }} {{ month }} -->
-                          {% if postmonth != month %}
-                            {% assign month = postmonth %}
-                            <li><a href='/archive#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a></li>
-                          {% endif %}
-                        {% endfor %}
-                      </ul>
+                    <ul class="posts">
+                    {% for post in site.posts %}
+                      {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
+                      {% if postmonth != month %}
+                        {% assign month = postmonth %}
+                        <li><a href='/archive#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                    </ul>
                 </aside>
             </div>
-            <!-- #secondary .widget-area -->
-
-
         </div>
-        <!-- #main -->
-
         <footer id="colophon" class="site-footer" role="contentinfo">
             <div class="site-info">
                 Powered by <a href="https://github.com/" rel="generator">Github</a>
             </div>
-            <!-- .site-info -->
         </footer>
-        <!-- #colophon .site-footer -->
     </div>
-    <!-- #page .hfeed .site -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js' type='text/javascript'></script>
     <script type='text/javascript'>
