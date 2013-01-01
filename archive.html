@@ -2,7 +2,7 @@
 layout: default
 title: Archive
 ---
-<h2>Archives</h2>
+<h2>Archive</h2>
 {% for post in site.posts %}
     {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
     {% if postmonth != month %}
@@ -12,7 +12,7 @@ title: Archive
 </ul>
         {% endif %}
 <a name="{{ post.date | date: '%Y' }}{{ month }}"></a>
-<h2>{{ month }}</h2>
+<h3>{{ month }}</h3>
 <ul>
     {% endif %}
   <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
