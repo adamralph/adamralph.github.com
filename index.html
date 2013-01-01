@@ -2,12 +2,8 @@
 layout: default
 title: Adam Ralph
 ---
-<ul>
-  {% for post in site.posts limit:10 %}
-  <li>
-    <h2><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h2>
-    ({{ post.date | date_to_string }})
-    {{ post.content }}
-  </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts limit:10 %}
+  <h2><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h2>
+  ({{ post.date | date_to_string }})
+  {{ post.content }}
+{% endfor %}
