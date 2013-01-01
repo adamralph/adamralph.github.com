@@ -28,7 +28,7 @@ StyleCop.MSBuild installs exactly the same binaries as those contained in [the o
 
 (Note that the 'StyleCop.MSBuild' Nuget package is not to be confused with the 'StyleCop' Nuget package, which is intended for referencing as a library for writing custom StyleCop rules.)
 
-##For current users of StyleCop.MSBuild version 4.7.14.0 or 4.7.17.0
+##For current users of versions 4.7.14.0 or 4.7.17.0
 
 If you are already using StyleCop.MSBuild version 4.7.14.0 or 4.7.17.0 then updating to 4.7.17.1 or higher will not work. Those versions simply added the binaries to your source code repository and did not affect your projects in any way which means that Nuget doesn't recognise them as being installed in any projects, only the solution. Instead of *updating* from either of these versions, *remove* them and then *install* version 4.7.17.1 or higher.
 
