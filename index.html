@@ -5,5 +5,5 @@ title: Adam Ralph
 {% for post in site.posts limit:10 %}
   <h1><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h1>
   {{ post.content | truncatewords: 200 }}
-  <a href="{{ post.url | remove:'.html' }}">Read more...</a>
+  <p><a href="{{ post.url | remove:'.html' }}">Read more...</a></p>
 {% endfor %}
