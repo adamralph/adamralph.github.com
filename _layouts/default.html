@@ -2,34 +2,42 @@
 <html dir="ltr" lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }} &#8211; adamralph.com</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/">Adam Ralph</a>
-          <p>On the Origin of Code.</p>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-            </ul>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"/>
+              <span class="icon-bar"/>
+              <span class="icon-bar"/>
+            </a>
+            <a class="brand" href="/">Adam Ralph</a>
+            <p>On the Origin of Code.</p>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active">
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/about">About</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </header>
+    <section>
       <a href="http://www.adamralph.com/" title="Adam Ralph">
         <img src="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce?s=100" alt="Adam Ralph" width="100" height="100" />
       </a>
+    </section>
     <section>
       {{ content }}
     </section>
