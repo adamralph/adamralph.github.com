@@ -13,19 +13,17 @@
       .sidebar-nav {
         padding: 9px 0;
       }
-      
+
       /* Custom container */
       .container-narrow {
         margin: 0 auto;
-        max-width: 700px;
+        max-width: 950px;
       }
-      .container-narrow > hr {
-        margin: 30px 0;
-      }
-    </style>
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
-  </head>
-  <body>
+  </style>
+  <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container-narrow">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
@@ -93,9 +91,9 @@
         </div>
         <div class="span10">
           <section>
-            <div class="container-narrow">
+
 {{ content }}
-            </div>
+
           </section>
         </div>
       </div>
@@ -107,5 +105,6 @@
     </div>
     <script src="http://code.jquery.com/jquery-latest.js"/>
     <script src="/js/bootstrap.min.js"/>
-  </body>
+  </div>
+</body>
 </html>
