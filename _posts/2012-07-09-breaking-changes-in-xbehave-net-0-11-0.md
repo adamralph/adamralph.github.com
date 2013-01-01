@@ -7,7 +7,7 @@ excerpt: 14
 
 Today sees the release of [xBehave.net](https://bitbucket.org/adamralph/xbehave.net) version [0.11.0](https://nuget.org/packages/Xbehave/0.11.0).
 
-Unfortunately, 0.11.0 contains breaking changes to the API. It was a difficult decision but, after a week or two of agonizing, I decided to jump over the cliff to avoid the tiger1.
+Unfortunately, 0.11.0 contains breaking changes to the API. It was a difficult decision but, after a week or two of agonizing, I decided to jump over the cliff to avoid the tiger*.
 
 ##Teh Original Codez
 
@@ -18,19 +18,20 @@ In 0.10.0, a step definition method had 4 overloads...
 	Given(Func<IEnumerable<IDisposable>> body)    // 3
 	Given(Action body, Action dispose)            // 4
 
-The same overloads were also available for When(), Then(), And() and But(). The use of methods When(), Then() and But() rarely required anything other than overload 1.
+(The same overloads were also available for `When()`, `Then()`, `And()` and `But()` although the use of When(), Then() and But() rarely required anything other than overload 1.)
 
-Overload 1 is the most straightforward and, when working with non-IDisposable objects and in a context requiring no explicit teardown, it is all that is needed.
+Overload 1 is the most straightforward and, when working with non-`IDisposable` objects and in a context requiring no explicit teardown, it is all that is needed.
 
-Overloads 2 and 3 were added in order to ensure disposal of IDisposable objects...
+Overloads 2 and 3 were added in order to ensure disposal of `IDisposable` objects...
 
-Given(() => foo = new SomeDisposable())       // 2
-Given(() => new[]                             // 3
-    {
-        foo = new SomeDisposable(),
-        bar = new SomeDisposable(),
-    })
-Upon execution of a step defined using either of these overloads, the returned IDisposable objects are registered for disposal. The disposals are executed in a seperate test command which is guaranteed to execute at the end of the scenario, even if exceptions are thrown during execution of the scenario. The intention was to achieve a similar effect as a using block. (I'll come to overload 4 shortly.)
+	Given(() => foo = new SomeDisposable())       // 2
+	Given(() => new[]                             // 3
+	    {
+	        foo = new SomeDisposable(),
+	        bar = new SomeDisposable(),
+	    })
+
+Upon execution of a step defined using either of these overloads, the returned `IDisposable` objects are registered for disposal. The disposals are executed in a seperate test command which is guaranteed to execute at the end of the scenario, even if exceptions are thrown during execution of the scenario. The intention was to achieve a similar effect as a `using` block. (I'll come to overload 4 shortly.)
 
 The API Design Fail
 
@@ -118,4 +119,4 @@ In this example, the name of foo.Teardown() already clearly communicates the int
 
 Fortunately it was possible to deprecate, rather than remove, overload 4 since it is differentiated from the other overloads by an extra parameter and, therefore, does not suffer from the same problems as overloads 2 and 3 described in The Really Tricky Part.
 
-1Michael Feathers (2004). Working Effectively with Legacy Code. USA: Prentice Hall PTR. p5.
+*Michael Feathers (2004). Working Effectively with Legacy Code. USA: Prentice Hall PTR. p5.
