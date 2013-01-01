@@ -1,86 +1,67 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{{ page.title }} &#8211; adamralph.com</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
-</head>
-<body class="home blog">
-    <div id="page" class="hfeed site">
-        <header id="masthead" class="site-header" role="banner">
-            <hgroup>
-                <a class="site-logo" href="http://www.adamralph.com/" title="Adam Ralph" rel="home">
-                    <img src="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce?s=100" alt="Adam Ralph" width="100" height="100" class="no-grav"></a>
-                <h1 class="site-title"><a href="http://www.adamralph.com/" title="Adam Ralph" rel="home">Adam Ralph</a></h1>
-                <h2 class="site-description">On the Origin of Code.</h2>
-            </hgroup>
-            <nav role="navigation" class="site-navigation main-navigation">
-                <h1 class="assistive-text">Menu</h1>
-                <div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
-                <div class="menu">
-                    <ul>
-                        <li class="page_item page-item-2"><a href="about/">About</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <div id="main">
-            <div id="primary" class="site-content">
-                <div id="content" role="main">
-                    {{ content }}
-                </div>
-            </div>
-            <div id="secondary" class="widget-area" role="complementary">
-                <aside id="text-5" class="widget widget_text">
-                    <h1 class="widget-title">Follow</h1>
-                    <div class="textwidget">
-                        <a href="http://twitter.com/adamralph" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com']);">Twitter</a><br />
-                        <a href="http://github.com/adamralph" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://github.com']);">Github</a>
-                    </div>
-                </aside>
-                <aside id="text-8" class="widget widget_text">
-                    <h1 class="widget-title">Projects</h1>
-                    <div class="textwidget">
-                        <a href="http://github.com/xbehave/xbehave.net" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://github.com']);">xBehave.net</a><br />
-                        <a href="http://bitbucket.org/adamralph/stylecop-msbuild" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://bitbucket.org']);">StyleCop.MSBuild</a>
-                    </div>
-                </aside>
-                <aside id="archives-4" class="widget widget_archive">
-                    <h1 class="widget-title">Archive</h1>
-                    {% assign year = '2015' %}
-                    {% assign month = 'December' %}
-                    <ul class="posts">
-                    {% for post in site.posts %}
-                      {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
-                      {% if postmonth != month %}
-                        {% assign month = postmonth %}
-                        <li><a href='/archive#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a></li>
-                      {% endif %}
-                    {% endfor %}
-                    </ul>
-                </aside>
-            </div>
-        </div>
-        <footer id="colophon" class="site-footer" role="contentinfo">
-            <div class="site-info">
-                Powered by <a href="https://github.com/" rel="generator">Github</a>
-            </div>
-        </footer>
-    </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js' type='text/javascript'></script>
-    <script type='text/javascript'>
-        $(function () {
-            $("pre code").parent().each(function () {
-                if (!$(this).hasClass("prettyprint")) {
-                    $(this).addClass("prettyprint");
-                    a = true
-                }
-            });
-
-            prettyPrint();
-        });
-    </script>
-</body>
+  </head>
+  <body>
+    <header>
+      <a href="http://www.adamralph.com/" title="Adam Ralph">
+        <img src="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce?s=100" alt="Adam Ralph" width="100" height="100" />
+      </a>
+      <h1>
+        <a href="http://www.adamralph.com/" title="Adam Ralph">Adam Ralph</a>
+      </h1>
+      <p>On the Origin of Code.</p>
+    </header>
+    <section>
+      {{ content }}
+    </section>
+    <section>
+      <aside>
+        <h2>Follow</h2>
+        <ul>
+          <li>
+            <a href="http://twitter.com/adamralph">Twitter</a>
+          </li>
+          <li>
+            <a href="http://github.com/adamralph">Github</a>
+          </li>
+        </ul>
+      </aside>
+      <aside>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="http://github.com/xbehave/xbehave.net">xBehave.net</a>
+          </li>
+          <li>
+            <a href="http://bitbucket.org/adamralph/stylecop-msbuild">StyleCop.MSBuild</a>
+          </li>
+        </ul>
+      </aside>
+      <aside>
+        <h2>Archive</h2>
+          {% assign year = '2015' %}
+          {% assign month = 'December' %}
+        <ul>
+          {% for post in site.posts %}
+            {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
+            {% if postmonth != month %}
+              {% assign month = postmonth %}
+          <li>
+            <a href='/archive#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a>
+          </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </aside>
+    </section>
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <p>Powered by <a href="https://github.com/">Github</a> and <a href="http://jekyllrb.com/">jekyll</a>
+      </p>
+    </footer>
+  </body>
 </html>
