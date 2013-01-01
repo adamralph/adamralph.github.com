@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Breaking changes in xBehave.net 0.11.0
-excerpt: 12
+excerpt: 13
 ---
 09 July 2012 - Zurich
 
