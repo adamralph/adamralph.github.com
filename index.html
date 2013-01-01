@@ -5,7 +5,10 @@ title: Adam Ralph
 {% for post in site.posts limit:10 %}
 <div class="well">
   <h1><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h1>
-  {{ post.content | truncatewords: 200 }}
-  <p><a href="{{ post.url | remove:'.html' }}">Read more...</a></p>
+  {% capture excerpt %}
+      {% for paragraph in post.content %}{% if forloop.index0 <= post.more %}{{ paragraph }}{% endif %}{% endfor %}
+      <p><a href="{{ post.url | remove:'.html' }}">Read more...</a></p>
+  {% endcapture %}
+  {{ excerpt }}
 </div>
 {% endfor %}

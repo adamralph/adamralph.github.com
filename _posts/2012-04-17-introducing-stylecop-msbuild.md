@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing StyleCop.MSBuild
+more: 3
 ---
 17 April 2012 - Zurich
 
