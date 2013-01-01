@@ -5,18 +5,19 @@ excerpt: 9
 ---
 09 July 2012 - Zurich
 
-Today sees the release of xBehave.net version 0.11.0.
+Today sees the release of [xBehave.net](https://bitbucket.org/adamralph/xbehave.net) version [0.11.0](https://nuget.org/packages/Xbehave/0.11.0).
 
 Unfortunately, 0.11.0 contains breaking changes to the API. It was a difficult decision but, after a week or two of agonizing, I decided to jump over the cliff to avoid the tiger1.
 
-Teh Original Codez
+##Teh Original Codez
 
 In 0.10.0, a step definition method had 4 overloads...
 
-Given(Action body)                            // 1
-Given(Func<IDisposable> body)                 // 2
-Given(Func<IEnumerable<IDisposable>> body)    // 3
-Given(Action body, Action dispose)            // 4
+	Given(Action body)                            // 1
+	Given(Func<IDisposable> body)                 // 2
+	Given(Func<IEnumerable<IDisposable>> body)    // 3
+	Given(Action body, Action dispose)            // 4
+
 The same overloads were also available for When(), Then(), And() and But(). The use of methods When(), Then() and But() rarely required anything other than overload 1.
 
 Overload 1 is the most straightforward and, when working with non-IDisposable objects and in a context requiring no explicit teardown, it is all that is needed.
