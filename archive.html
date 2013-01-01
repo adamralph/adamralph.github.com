@@ -2,25 +2,19 @@
 layout: default
 title: Archive
 ---
-
-<h1>Archives</h1>
-
-{% assign year = '2015' %}
-{% assign month = 'December' %}
-
+<h2>Archives</h2>
 {% for post in site.posts %}
     {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
     {% if postmonth != month %}
         {% assign month = postmonth %}
         {% if forloop.first %}
         {% else %}
-            </ul>
+</ul>
         {% endif %}
-        <a name="{{ post.date | date: '%Y' }}{{ month }}"></a>
-        <h2>{{ month }}</h2>
-        <ul class="posts">
+<a name="{{ post.date | date: '%Y' }}{{ month }}"></a>
+<h2>{{ month }}</h2>
+<ul>
     {% endif %}
-
-    <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> (<span>{{ post.date | date_to_string }}</span>)</li>
+  <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
 {% endfor %}
 </ul>

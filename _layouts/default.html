@@ -45,8 +45,6 @@
       </aside>
       <aside>
         <h2>Archive</h2>
-          {% assign year = '2015' %}
-          {% assign month = 'December' %}
         <ul>
           {% for post in site.posts %}
             {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
