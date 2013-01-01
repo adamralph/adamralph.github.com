@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buildstarted.com
+title: Archive
 ---
 
 <h1>Archives</h1>
@@ -16,7 +16,7 @@ title: Buildstarted.com
         {% else %}
             </ul>
         {% endif %}
-        <a name="{{ post.date | date: "%Y" }}{{ month }}"></a>
+        <a name="{{ post.date | date: '%Y' }}{{ month }}"></a>
         <h2>{{ month }}</h2>
         <ul class="posts">
     {% endif %}
