@@ -20,7 +20,7 @@ To set this up, a number of manual steps are involved:-
 
 As I'm sure the astute reader is already asking, wouldn't it be good if all this were automated?
 
-#Enter StyleCop.MSBuild
+##Enter StyleCop.MSBuild
 
 StyleCop.MSBuild is a [Nuget package](http://nuget.org/packages/StyleCop.MSBuild) which automates this process. In order to add MSBuild-integrated StyleCop analysis to your projects, simply install the StyleCop.MSBuild Nuget package in the normal way using either the Package manager console or GUI. The installation script will take care of adding the relevant <Import> elements to your csproj files (uninstallation is also supported).
 
@@ -28,15 +28,15 @@ StyleCop.MSBuild installs exactly the same binaries as those contained in [the o
 
 (Note that the 'StyleCop.MSBuild' Nuget package is not to be confused with the 'StyleCop' Nuget package, which is intended for referencing as a library for writing custom StyleCop rules.)
 
-#For current users of StyleCop.MSBuild version 4.7.14.0 or 4.7.17.0
+##For current users of StyleCop.MSBuild version 4.7.14.0 or 4.7.17.0
 
 If you are already using StyleCop.MSBuild version 4.7.14.0 or 4.7.17.0 then updating to 4.7.17.1 or higher will not work. Those versions simply added the binaries to your source code repository and did not affect your projects in any way which means that Nuget doesn't recognise them as being installed in any projects, only the solution. Instead of *updating* from either of these versions, *remove* them and then *install* version 4.7.17.1 or higher.
 
-#Credits
+##Credits
 
 Thanks to eddie_butt @ codeplex and Amy Dullard @ Microsoft for suggesting the addition of the auto-import feature. Thanks to Andy Reeves @ StyleCop for offering to pull the package code into the main project (when either I or someone else get round to providing a patch!).
 
-#Source
+##Source
 
 The source code for this package is currently hosted at [https://bitbucket.org/adamralph/stylecop-msbuild](https://bitbucket.org/adamralph/stylecop-msbuild). Pull requests are gladly accepted.
 
