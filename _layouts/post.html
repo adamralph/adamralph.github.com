@@ -5,7 +5,7 @@ layout: default
 <p>
 {{ page.date | date_to_string }} {{ page.location }}
 {% for tag in page.tags %}
-<a href="tags#{{ tag }}"><span class="badge">{{ tag }}</span></a>
+<a href="/tags#{{ tag }}"><span class="badge">{{ tag }}</span></a>
 {% endfor %}
 </p>
 {{ content }}
