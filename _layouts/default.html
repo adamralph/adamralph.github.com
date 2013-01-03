@@ -178,7 +178,9 @@
               <li>
                 <a href="http://bitbucket.org/adamralph/stylecop-msbuild">StyleCop.MSBuild</a>
               </li>
-              <li class="nav-header">Archive</li>
+              <li class="nav-header">
+                <a href="/archive">Archive</a>
+              </li>
           {% for post in site.posts %}
             {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
             {% if postmonth != month %}
