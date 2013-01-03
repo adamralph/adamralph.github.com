@@ -4,6 +4,7 @@ title: A New Blog for a New Year
 excerpt: 14
 tags:
 - meta
+- jekyll
 ---
 02 January 2013 - London Heathrow
 
