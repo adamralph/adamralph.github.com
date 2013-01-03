@@ -2,6 +2,8 @@
 layout: post
 title: A New Blog for a New Year
 excerpt: 14
+tags:
+- meta
 ---
 02 January 2013 - London Heathrow
 

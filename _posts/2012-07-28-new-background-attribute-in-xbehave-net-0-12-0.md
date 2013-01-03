@@ -2,6 +2,8 @@
 layout: post
 title: New Background Attribute in xBehave.net 0.12.0
 excerpt: 3
+tags:
+- xbehave
 ---
 28 July 2012 - Zurich
 

@@ -2,6 +2,8 @@
 layout: post
 title: Introducing StyleCop.MSBuild
 excerpt: 6
+tags:
+- stylecop
 ---
 17 April 2012 - Zurich
 
