@@ -4,5 +4,5 @@ title: Tags
 ---
 <h1>Tags</h1>
 {% for site_tag in site.tags %}
-<h2>{{ site_tag.name }}</h2>
+<h2>{{ site_tag.to_s }}</h2>
 {% endfor %}
