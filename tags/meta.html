@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Meta
+title: meta
 ---
 <h1>Posts tagged '{{ page.title }}'</h1>
 <ul>
   {% for post in site.posts %}
     {% for tag in post.tags %}
-      {% if tag == "meta" %}
+      {% if tag == page.title %}
   <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
       {% endif %}
     {% endfor %}
