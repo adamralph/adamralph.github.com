@@ -6,7 +6,7 @@ title: Meta
 <ul>
   {% for post in site.posts %}
     {% for tag in post.tags %}
-      {% if tag == page.title %}
+      {% if tag == "meta %}
   <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
       {% endif %}
     {% endfor %}
