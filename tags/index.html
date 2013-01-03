@@ -3,8 +3,8 @@ layout: default
 title: Tags
 ---
 <h1>Tags</h1>
-{% for site_tag in site.tags %}
-<h2>{{ site_tag[0] }}</h2>
+{% for tag in site.tags %}
+<h2>{{ tag[0] }}</h2>
   {% for post in tag[1] %}
 <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
   {% endfor %}
