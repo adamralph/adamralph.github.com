@@ -159,6 +159,11 @@
             <p>These are my own twisted, narrow-minded views and have nothing to do with those of past, present or future employers</p>
             <p>Any offence caused may even be intentional and intended to spark useful debate</p>
           </div>
+          <div>
+            {% for tag in site.tags %}
+            <a href="/tags#{{ tag }}"><span class="badge">{{ tag }}</span></a><span> </span>
+            {% endfor %}
+          </div>
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Follow</li>
