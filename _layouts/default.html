@@ -40,6 +40,10 @@
         margin-bottom: 16px;
       }
 
+      #tags {
+        margin-bottom: 16px;
+      }
+
       code {
         white-space: nowrap;
         display: inline;
@@ -159,7 +163,7 @@
             <p>These are my own twisted, narrow-minded views and have nothing to do with those of past, present or future employers</p>
             <p>Any offence caused may even be intentional and intended to spark useful debate</p>
           </div>
-          <div>
+          <div id="tags">
             {% for tag in site.tags %}
             <a href="/tags#{{ tag[0] }}"><span class="badge">{{ tag[0] }}</span></a><span> </span>
             {% endfor %}
