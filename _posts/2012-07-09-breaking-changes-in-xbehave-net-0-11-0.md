@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Breaking changes in xBehave.net 0.11.0
+location: Zurich
 excerpt: 14
 tags:
 - xbehave
 ---
-09 July 2012 - Zurich
-
 Today sees the release of [xBehave.net](https://bitbucket.org/adamralph/xbehave.net) version [0.11.0](https://nuget.org/packages/Xbehave/0.11.0).
 
 Unfortunately, 0.11.0 contains breaking changes to the API. It was a difficult decision but, after a week or two of agonizing, I decided to jump over the cliff to avoid the tiger*.

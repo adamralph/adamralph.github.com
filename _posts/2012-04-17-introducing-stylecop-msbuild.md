@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Introducing StyleCop.MSBuild
+location: Zurich
 excerpt: 6
 tags:
 - stylecop
 ---
-17 April 2012 - Zurich
-
 For me, StyleCop is a valuable element in the C# toolchain. It helps to maintain a consistent coding style within a given context, be it a single file, project, solution, a dev team, an entire organisation or, potentially, even the entire C# industry.
 
 Until now, StyleCop has been made available principally as a Visual Studio add-in which can be invoked on demand by a developer - see [the documentation](https://stylecop.codeplex.com/documentation) for more details.
