@@ -2,7 +2,7 @@
 layout: post
 title: New Background Attribute in xBehave.net 0.12.0
 location: Zurich
-excerpt: 1
+excerpt: 3
 tags:
 - xbehave
 ---
