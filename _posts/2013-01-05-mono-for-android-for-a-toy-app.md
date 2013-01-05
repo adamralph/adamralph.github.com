@@ -2,7 +2,7 @@
 layout: post
 title: Mono for Android for a Toy App
 location: Zurich
-excerpt: 3
+excerpt: 4
 tags:
 - mono
 - android
