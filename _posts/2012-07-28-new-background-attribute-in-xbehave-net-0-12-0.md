@@ -22,7 +22,7 @@ With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) versio
 	                Owner = Users.Get("Dr. Bill") }))
 	        .Teardown(() => Blogs.Remove("Expensive Therapy"));
 	}
-	
+
 	[Scenario]
 	public static void DoctorBillPostsToHisOwnBlog()
 	{
