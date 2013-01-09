@@ -9,4 +9,7 @@ tags:
 ---
 Something weird happened in the last few days with GitHub pages. Previously, I was using the following code to generate excerpts of each post on the home page.
 
-  {{ "{% capture excerpt " }}%}
+	{{ "{% capture excerpt " }}%}
+		{{ "{% for paragraph in post.content " }}%}{{ "{% if forloop.index0 <= post.excerpt " }}%}{{ "{{ paragraph " }}}}{{ "{% endif " }}%}{{ "{% endfor " }}%}
+	{{ "{% endcapture " }}%}
+	{{ "{{ excerpt " }}}}
