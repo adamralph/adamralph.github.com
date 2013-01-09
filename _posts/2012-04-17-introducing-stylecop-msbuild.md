@@ -12,8 +12,6 @@ Until now, StyleCop has been made available principally as a Visual Studio add-i
 
 It is also possible to run StyleCop as part of the build process - see ['Setting Up StyleCop MSBuild Integration'](https://stylecop.codeplex.com/wikipage?title=Setting%20Up%20StyleCop%20MSBuild%20Integration). As the documentation shows, it is even possible to add the StyleCop binaries to a source code repository and have the analysis run whenever and wherever the assemblies are built. The advantage of this approach is that StyleCop does not need to be installed on every machine where the assemblies are built and is therefore guaranteed to run during every build.
 
-<!-- more start -->
-
 To set this up, a number of manual steps are involved:-
 
 1. Install the add-in, choosing the option to install MSBuild files (or grab the binaries and targets from elsewhere)
