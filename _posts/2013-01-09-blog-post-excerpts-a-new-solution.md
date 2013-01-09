@@ -2,7 +2,7 @@
 layout: post
 title: Blog Post Excerpts - A New Solution
 location: Zurich
-excerpt: 400
+excerpt: 600
 tags:
 - meta
 - liquid
