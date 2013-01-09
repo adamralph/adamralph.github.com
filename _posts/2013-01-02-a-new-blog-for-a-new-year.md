@@ -3,6 +3,7 @@ layout: post
 title: A New Blog for a New Year
 location: London Heathrow Terminal 1
 excerpt: 13
+truncate: 500
 tags:
 - meta
 - jekyll
