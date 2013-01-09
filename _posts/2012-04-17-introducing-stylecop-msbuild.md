@@ -2,7 +2,7 @@
 layout: post
 title: Introducing StyleCop.MSBuild
 location: Zurich
-excerpt: 1759
+excerpt: 1760
 tags:
 - stylecop
 ---
