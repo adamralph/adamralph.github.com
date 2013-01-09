@@ -10,6 +10,6 @@ title: Adam Ralph
 <a href="/tags#{{ tag }}"><span class="badge">{{ tag }}</span></a>
   {% endfor %}
 </p>
-  {{ post.content | truncate: post.truncate }}
+  {{ post.content | truncate: post.excerpt, '' }}
 <p><a href="{{ post.url | remove:'.html' }}">Read more...</a></p>
 {% endfor %}
