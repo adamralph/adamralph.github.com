@@ -2,7 +2,6 @@
 layout: post
 title: Breaking changes in xBehave.net 0.11.0
 location: Zurich
-excerpt: 14
 truncate: 500
 tags:
 - xbehave
