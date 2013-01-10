@@ -6,8 +6,10 @@
     <meta name="keywords" content="{% for tag in page.tags %}{{ tag }} {% endfor %}.net software development blog" />
     <meta name="description" content="{{ page.title }}" />
     <title>{{ page.title }} &#8211; adamralph.com</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link rel="alternate" type="application/atom+xml" title="adamralph.com atom feed" href="/feed/" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="/css/code.css" rel="stylesheet" />
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -47,84 +49,7 @@
       #tags {
         margin-bottom: 16px;
       }
-
-      code {
-        white-space: nowrap;
-        display: inline;
-      }
-
-      code, tt {
-        background-color: #F8F8F8;
-        border: 1px solid #EAEAEA;
-        border-radius: 3px 3px 3px 3px;
-        margin: 0 2px;
-        padding: 0 5px;
-        color: #555555;
-      }
-
-      pre {
-        background-color: #F8F8F8;
-        border: 1px solid #CCCCCC;
-        border-radius: 3px 3px 3px 3px;
-        font-size: 13px;
-        line-height: 19px;
-        overflow: auto;
-        padding: 6px 10px;
-        margin: 15px 0;
-        display: block;
-      }
-
-      pre code {
-        border: none;
-        white-space: pre;
-        padding: 0;
-      }
-
-      .str {
-        color: #800;
-      }
-
-      .kwd {
-        color: #008;
-      }
-
-      .com {
-        color: #080;
-      }
-
-      .typ {
-        color: #2b91af;
-      }
-
-      .lit {
-        color: #066;
-      }
-
-      .pun, .opn, .clo {
-        color: #660;
-      }
-
-      .tag {
-        color: #008;
-      }
-
-      .atn {
-        color: #606;
-      }
-
-      .atv {
-        color: #080;
-      }
-
-      .dec, .var {
-        color: #606;
-      }
-
-      .fun {
-        color: #2b91af;
-      }
     </style>
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
