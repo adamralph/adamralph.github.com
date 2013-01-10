@@ -124,7 +124,7 @@
             {% if postmonth != month %}
               {% assign month = postmonth %}
               <li>
-                <a href='/archive#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a>
+                <a href='/archive/#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a>
               </li>
             {% endif %}
           {% endfor %}
