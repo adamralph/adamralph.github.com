@@ -18,7 +18,7 @@ Previously (last push on 06 Jan), I was using the following code to generate exc
 
 This uses a YAML variable `excerpt` in each post which states how many paragraphs to include.
 
-This morning, after I pushed an unrelated change, this code no longer worked and the entire content of each post was being show on the homepage. I [reported the issue to GitHub support](https://gist.github.com/4491164) but at the time of writing I have not yet received a reply.
+This morning, after I pushed an unrelated change, this code no longer worked and the entire content of each post was being shown on the homepage. I [reported the issue to GitHub support](https://gist.github.com/4491164) but at the time of writing I have not yet received a reply.
 
 *(Brief interlude for day job.)*
 
