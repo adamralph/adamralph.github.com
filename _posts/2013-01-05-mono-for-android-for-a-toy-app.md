@@ -6,7 +6,7 @@ tags:
 - mono
 - android
 ---
-Today I created a Hello World app using Mono for Android. I must say, Xamarin have this nicely packaged up. I followed both the [installation instructions](http://docs.xamarin.com/android/guides/getting_started/installation) and the ["Hello, Android"](http://docs.xamarin.com/Android/Guides/Getting_Started/Hello%2C_World) walkthrough and everything worked like a charm. In no time at all I had my emulator running and my app deployed.
+Today I created a Hello World app using Mono for Android. I must say, Xamarin have this nicely packaged up. I followed both the [installation instructions](http://docs.xamarin.com/android/guides/getting_started/installation) and the ["Hello, Android"](http://docs.xamarin.com/Android/Guides/Getting_Started/Hello%2C_World) walk-through and everything worked like a charm. In no time at all I had my emulator running and my app deployed.
 
 So where do I go from here? If I want to put the app on my phone then I need to buy a $399 license. Hmmm, not sure I'm ready to do that yet. When will I be ready to do that? I guess I'd need to be sure that either a) my app is really useful to me ($399 useful) or b) that it would make enough revenue to cover the $399 investment.
 
