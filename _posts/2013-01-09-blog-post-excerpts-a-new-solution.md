@@ -35,7 +35,7 @@ And normal service resumes...
 
 **Update** 12 Jan 2013
 
-Yesterday I received a reply from GitHub support with a link to an alternate solution which I think is much nicer. With this solution, the `exceprt` YAML variable is no longer needed. Instead, the following comment is inserted into each post to signify the end of the excerpt.
+Yesterday I received a reply from GitHub support with a link to [an alternate solution](http://mikeygee.com/blog/truncate.html) which I think is much nicer (the second solution in the post). With this solution, the `exceprt` YAML variable is no longer needed. Instead, the following comment is inserted into each post to signify the end of the excerpt.
 
 	<!--excerpt-->
 
