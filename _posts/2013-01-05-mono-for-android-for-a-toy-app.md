@@ -12,7 +12,7 @@ So where do I go from here? If I want to put the app on my phone then I need to 
 
 In that case I should carry on playing with some ideas until I'm ready to make the investment. Now, emulators are all well and good, but whilst my app is in an emulator, it's just a promise of how it *might* look on my phone. I don't have the 'real' experience of having the screen in my hand, having all the real gestures available, moving stuff around with my thumbs etc. I can't show it to people! Well, I can, but until it's actually on my phone it's just another geeky thing that I'm doing on my PC. It lacks the impact of 'dude, look at this app which I wrote for **my phone**'!
 
-<!-- excerpt -->
+<!--excerpt-->
 
 So, what I'd like to see is the ability to deploy to at least **one device** using the free license. Then I have something to get excited about. I'll be spurred on to improve my app and make it really cool and something which I'm glad to have on my phone. I'd also be much more likely to have something which I think is worth putting on the marketplace and investing $399 in. Free options for open source projects would also be a big win.
 

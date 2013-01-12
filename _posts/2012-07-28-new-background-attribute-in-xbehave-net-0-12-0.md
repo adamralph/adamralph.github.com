@@ -22,7 +22,7 @@ With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) versio
 	        .Teardown(() => Blogs.Remove("Expensive Therapy"));
 	}
 
-<!-- excerpt -->
+<!--excerpt-->
 
 Where a typical scenario may look something like:-
 

@@ -20,7 +20,7 @@ In 0.10.0, a step definition method had 4 overloads...
 
 (The same overloads were also available for `When()`, `Then()`, `And()` and `But()` although the use of When(), Then() and But() rarely required anything other than overload 1.)
 
-<!-- excerpt -->
+<!--excerpt-->
 
 Overload 1 is the most straightforward and, when working with non-`IDisposable` objects and in a context requiring no explicit teardown, it is all that is needed.
 

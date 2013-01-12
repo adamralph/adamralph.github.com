@@ -21,7 +21,7 @@ This morning, after I pushed an unrelated change, this code no longer worked and
 
 *(Brief interlude for day job.)*
 
-<!-- excerpt -->
+<!--excerpt-->
 
 After coming home from work this evening and investigating further, I noticed that [Henrik Andersson](http://henri.kandersson.com/) had [changed his code to use truncation instead](https://github.com/alfhenrik/henri.kandersson.com/blob/c129f9f5fbb4b5923c1e9e9523496664178e470d/index.html#L15). This seemed like a viable alternative but I didn't like the way each post was potentially truncated mid-word or mid-sentence depending on its content.
 

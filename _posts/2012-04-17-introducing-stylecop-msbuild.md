@@ -21,7 +21,7 @@ To set this up, a number of manual steps are involved:-
 
 As I'm sure the astute reader is already asking, wouldn't it be good if all this were automated?
 
-<!-- excerpt -->
+<!--excerpt-->
 
 ##Enter StyleCop.MSBuild
 
