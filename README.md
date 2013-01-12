@@ -1,4 +1,4 @@
 adamralph.github.com
 ====================
 
-This is the source code for [www.adamralph.com](http://www.adamralph.com).
+This is the source code for [adamralph.com](http://adamralph.com).
