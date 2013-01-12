@@ -32,3 +32,15 @@ Then it struck me - why not combine the two approaches, so that each post still 
 Not only much simpler, but immune to the recent changes made to the GitHub pages Liquid engine! (In case you're wondering, the second `truncate` parameter controls the suffix, which defaults to '...'.)
 
 And normal service resumes...
+
+**Update** 12 Jan 2013
+
+Yesterday I received a reply from GitHub support with a link to an alternate solution which I think is much nicer. With this solution, the `exceprt` YAML variable is no longer needed. Instead, the following comment is inserted into each post to signify the end of the excerpt.
+
+	&lt;!--excerpt--&gt;
+
+And the template code is changed to the following.
+
+    {{ "{{ post.content | split:'<!--excerpt-->' | first " }}}}
+
+Thanks very much to [David Graham from GitHub](https://github.com/dgraham).
