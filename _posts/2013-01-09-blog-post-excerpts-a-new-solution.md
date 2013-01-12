@@ -37,7 +37,7 @@ And normal service resumes...
 
 Yesterday I received a reply from GitHub support with a link to an alternate solution which I think is much nicer. With this solution, the `exceprt` YAML variable is no longer needed. Instead, the following comment is inserted into each post to signify the end of the excerpt.
 
-	&lt;!--excerpt--&gt;
+	<!--excerpt-->
 
 And the template code is changed to the following.
 
