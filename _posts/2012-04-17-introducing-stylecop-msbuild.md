@@ -2,7 +2,6 @@
 layout: post
 title: Introducing StyleCop.MSBuild
 location: Zurich
-excerpt: 1760
 tags:
 - stylecop
 ---
@@ -21,6 +20,8 @@ To set this up, a number of manual steps are involved:-
 (There are variations on this theme such adding an environment variable pointing to the targets file to make csproj file maintenance easier.)
 
 As I'm sure the astute reader is already asking, wouldn't it be good if all this were automated?
+
+<!-- excerpt -->
 
 ##Enter StyleCop.MSBuild
 

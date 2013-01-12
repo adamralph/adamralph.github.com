@@ -2,7 +2,6 @@
 layout: post
 title: A New Blog for a New Year
 location: London Heathrow Terminal 1
-excerpt: 1148
 tags:
 - meta
 - jekyll
@@ -17,6 +16,8 @@ Here are the main selling points for me:-
 - Free hosting (Github)
 
 After battling with Blogger for my previous posts (all 3 of them), creating the post you are reading now is a breeze! I'm stitting in Heathrow airport waiting for my flight and I thought I'd draft the post, so I fired up MarkdownPad and off I go!
+
+<!-- excerpt -->
 
 And that is the key - simple authoring. If there's one thing wrong with my blog currently, it's lack of content. 3 posts in 8 months is pitiful. Often I've been tempted to write a quick blog post about something I've encountered in my coding adventures but then the thought of coercing something into existence using Blogger and the bizarre formatting and code highlighting solution which I came up with sent me into a whirlpool of procrastination which resulted in, ultimately, no blog post. I hope this has now changed.
 

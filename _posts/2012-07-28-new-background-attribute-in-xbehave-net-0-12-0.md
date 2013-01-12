@@ -2,7 +2,6 @@
 layout: post
 title: New Background Attribute in xBehave.net 0.12.0
 location: Zurich
-excerpt: 808
 tags:
 - xbehave
 ---
@@ -22,6 +21,8 @@ With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) versio
 	                Owner = Users.Get("Dr. Bill") }))
 	        .Teardown(() => Blogs.Remove("Expensive Therapy"));
 	}
+
+<!-- excerpt -->
 
 Where a typical scenario may look something like:-
 
