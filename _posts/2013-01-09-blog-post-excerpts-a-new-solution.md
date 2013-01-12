@@ -8,7 +8,7 @@ tags:
 ---
 Something weird happened in the last few days with the Liquid template engine used for GitHub pages.
 
-Previously (last push on 06 Jan), I was using the following code to generate excerpts of each post on the home page.
+Previously (last push on 06 Jan), I was using the following code to generate excerpts of each post on the home page ([source](https://github.com/adamralph/adamralph.github.com/blob/142bf461c601dd9bd147d981eb7dd40d45575f70/index.html#L8)).
 
 	{{ "{% capture excerpt " }}%}
 		{{ "{% for paragraph in post.content " }}%}{{ "{% if forloop.index0 <= post.excerpt " }}%}{{ "{{ paragraph " }}}}{{ "{% endif " }}%}{{ "{% endfor " }}%}
@@ -25,7 +25,7 @@ This morning, after I pushed an unrelated change, this code no longer worked and
 
 After coming home from work this evening and investigating further, I noticed that [Henrik Andersson](http://henri.kandersson.com/) had [changed his code to use truncation instead](https://github.com/alfhenrik/henri.kandersson.com/blob/c129f9f5fbb4b5923c1e9e9523496664178e470d/index.html#L15). This seemed like a viable alternative but I didn't like the way each post was potentially truncated mid-word or mid-sentence depending on its content.
 
-Then it struck me - why not combine the two approaches, so that each post still has a variable stating how long the excerpt should be but instead of being a paragraph count, make it a character count? So I changed the `excerpt` variables in each post accordingly and changed the template code to the following.
+Then it struck me - why not combine the two approaches, so that each post still has a variable stating how long the excerpt should be but instead of being a paragraph count, make it a character count? So I changed the `excerpt` variables in each post accordingly and changed the template code to the following ([source](https://github.com/adamralph/adamralph.github.com/blob/dcb7d5f9da6e9614c95bef314e5dae3986175972/index.html#L13)).
 
 	{{ "{{ post.content | truncate: post.excerpt, '' " }}}}
 
@@ -39,7 +39,7 @@ Yesterday I received a reply from GitHub support with a link to [an alternate so
 
 	<!--excerpt-->
 
-And the template code is changed to the following.
+And the template code is changed to the following ([source](https://github.com/adamralph/adamralph.github.com/blob/83bbe606241c4199c8b93e70bf970535d6ce6b3b/index.html#L13)).
 
     {{ "{{ post.content | split:'<!--excerpt-->' | first " }}}}
 
