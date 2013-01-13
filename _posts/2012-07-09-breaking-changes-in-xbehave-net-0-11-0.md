@@ -42,7 +42,7 @@ Unfortunately, overloads 2 and 3 were a mistake. Here's why...
 	Given(() =>           // 2	
     {
         foo = new SomeDisposable();
-        foo.Bar();    // which, of course, may throw an exception
+        foo.Bar();        // which, of course, may throw an exception
         return foo;
     });
 

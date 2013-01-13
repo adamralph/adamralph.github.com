@@ -11,7 +11,11 @@ Something weird happened in the last few days with the Liquid template engine us
 Previously (last push on 06 Jan), I was using the following code to generate excerpts of each post on the home page ([source](https://github.com/adamralph/adamralph.github.com/blob/142bf461c601dd9bd147d981eb7dd40d45575f70/index.html#L8)).
 
 	{{ "{% capture excerpt " }}%}
-		{{ "{% for paragraph in post.content " }}%}{{ "{% if forloop.index0 <= post.excerpt " }}%}{{ "{{ paragraph " }}}}{{ "{% endif " }}%}{{ "{% endfor " }}%}
+      {{ "{% for paragraph in post.content " }}%}
+        {{ "{% if forloop.index0 <= post.excerpt " }}%}
+          {{ "{{ paragraph " }}}}
+        {{ "{% endif " }}%}
+      {{ "{% endfor " }}%}
 	{{ "{% endcapture " }}%}
 	{{ "{{ excerpt " }}}}
 
