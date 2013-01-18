@@ -15,6 +15,8 @@ Here are the main selling points for me:-
 - Fully customisable (I control the code!)
 - Free hosting (Github)
 
+<a name="more"></a>
+
 After battling with Blogger for my previous posts (all 3 of them), creating the post you are reading now is a breeze! I'm sitting in Heathrow airport waiting for my flight and I thought I'd draft the post, so I fired up MarkdownPad and off I go!
 
 <!--excerpt-->

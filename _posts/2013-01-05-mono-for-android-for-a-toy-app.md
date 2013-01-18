@@ -11,6 +11,8 @@ Today I created a Hello World app using Mono for Android. I must say, Xamarin ha
 
 So where do I go from here? If I want to put the app on my phone then I need to buy a $399 license. Hmmm, not sure I'm ready to do that yet. When will I be ready to do that? I guess I'd need to be sure that either a) my app is really useful to me ($399 useful) or b) that it would make enough revenue to cover the $399 investment.
 
+<a name="more"></a>
+
 In that case I should carry on playing with some ideas until I'm ready to make the investment. Now, emulators are all well and good, but whilst my app is in an emulator, it's just a promise of how it *might* look on my phone. I don't have the 'real' experience of having the screen in my hand, having all the real gestures available, moving stuff around with my thumbs etc. I can't show it to people! Well, I can, but until it's actually on my phone it's just another geeky thing that I'm doing on my PC. It lacks the impact of 'dude, look at this app which I wrote for **my phone**'!
 
 <!--excerpt-->

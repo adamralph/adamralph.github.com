@@ -11,5 +11,5 @@ title: Adam Ralph
   {% endfor %}
 </p>
   {{ post.content | split:'<!--excerpt-->' | first }}
-<p><a href="{{ post.url | remove:'.html' }}">Read more...</a></p>
+<p><a href="{{ post.url | remove:'.html' | append:'/#more' }}">Read more...</a></p>
 {% endfor %}

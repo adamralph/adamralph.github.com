@@ -23,6 +23,8 @@ This uses a YAML variable `excerpt` in each post which states how many paragraph
 
 This morning, after I pushed an unrelated change, this code no longer worked and the entire content of each post was being shown on the homepage. I [reported the issue to GitHub support](https://gist.github.com/4491164) but at the time of writing I have not yet received a reply.
 
+<a name="more"></a>
+
 *(Brief interlude for day job.)*
 
 <!--excerpt-->
