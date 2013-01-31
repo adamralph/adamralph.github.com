@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="{% for tag in page.tags %}{{ tag }} {% endfor %}.net software development blog" />
     <meta name="description" content="{{ page.title }}" />
+    <meta name="application-name" content="Adam Ralph"/> 
+    <meta name="msapplication-TileColor" content="#0066cc"/> 
+    <meta name="msapplication-TileImage" content="/img/portrait.png"/>
     <title>{{ page.title }} &#8211; adamralph.com</title>
     <link rel="alternate" type="application/atom+xml" title="adamralph.com atom feed" href="/feed/" />
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen" />
@@ -21,28 +24,33 @@
         line-height: 1.5em;
         margin-bottom: 1.5em;
       }
-            
+
       h1 {
         line-height: 1.1em;
       }
-      
+
+      canvas {
+        -ms-touch-action: double-tap-zoom;
+      }
+
       .container-narrow {
         margin: 0 auto;
         max-width: 700px;
       }
+
       .container-narrow > hr {
         margin: 30px 0;
       }
-      
+
       .badge {
         background-color: #dfdfdf;
         color: #999;
       }
-      
+
       .sidebar-nav {
         padding: 9px 0;
       }
-      
+
       #logo {
         margin: 2em;
       }
@@ -58,15 +66,15 @@
       #site-description p {
         max-width: 161px;
       }
-      
+
       #tags {
         margin-bottom: 2em;
       }
-      
+
       #side {
         max-width: 160.5px;
       }
-      
+
       #content {
         padding-left: 2em;
         max-width: 521.5px;
