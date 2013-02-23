@@ -22,3 +22,8 @@ So, what I'd like to see is the ability to deploy to at least **one device** usi
 At the moment I don't see a path to me paying for the $399 license. With the ability to deploy to one device for free, I can see a path to me paying the $399.
 
 If you want to add your voice to the argument then pay a visit to Xamarin's uservoice ([More affordable personal license](http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2709419-more-affordable-personal-license) and [free license for open source project](http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2640864-free-license-for-open-source-project)). Thanks to @ermau on [Jabbr](http://jabbr.net) for the feedback - apparently Xamarin have acknowledged the need for a lower barrier to entry for the indie developer and are working on a solution.
+
+<a name="update1"></a>
+**Update** 23 Feb 2013
+
+[Xamarin 2.0](http://blog.xamarin.com/announcing-xamarin-2.0/) has now been launched and includes a free 'Starter edition' which allows the publishing of apps to app stores. There is a limitation of 32KB of IL for each app which seems rather small but at least we now have the possibility to write .NET code and execute it on a real Android device for free! Also, the price for the 'Indie edition' (which lifts the app size restriction) has been lowered from $399 to $299. Well done Xamarin!
