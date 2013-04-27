@@ -58,6 +58,8 @@ Here is the test re-written using [FakeItEasy](https://github.com/FakeItEasy/Fak
 		result.Should().Be(12);
 	}
 
+FakeItEasy requires less ceremony than RhinoMocks (no `MockRepository`), makes no distinction between stubs/mocks and has a fluent, easy to read DSL (a call to X returns Y).
+
 And here is the test (now a scenario) re-written using both FakeItEasy and [xBehave.net](https://github.com/xbehave/xbehave.net):
 
 	[Scenario]
@@ -97,6 +99,8 @@ And here is the test (now a scenario) re-written using both FakeItEasy and [xBeh
 		"And the result should be 12"
 			.And(() => result.Should().Be(12));
 	}
+
+As ever, the benefits of using xBehave.net are primarily readability (read the English to understand what the test is doing and only dive into the implementation if you need to) and a test per step (if one step fails the test output tells you exactly which one failed rather than only which test method).
 
 It's also easy to add further examples when using xBehave.net with the `Example` attribute:
 
