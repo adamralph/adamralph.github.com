@@ -60,6 +60,10 @@
         margin-bottom: 0.5em;
       }
 
+      .tag-count {
+        vertical-align: super;
+      }
+      
       #logo-panel {
         text-align: center;
       }
@@ -123,7 +127,7 @@
           </div>
           <div id="tags">
             {% for tag in site.tags %}
-            <a href="/tags/#{{ tag[0] }}"><span class="badge" style="margin-top:2px;font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px">{{ tag[0] }} x{{ tag[1] | size }}</span></a><span> </span>
+            <a href="/tags/#{{ tag[0] }}"><span class="badge" style="margin-top:2px;font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px">{{ tag[0] }}<span class="tag-count" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 | times:0.6  }}px;"> {{ tag[1] | size }}</span></span></a><span> </span>
             {% endfor %}
           </div>
           <div class="well sidebar-nav">
