@@ -96,7 +96,7 @@ And here is the test (now a scenario) re-written using [xBehave.net](https://git
 			.And(() => result.Should().Be(12));
 	}
 
-It's also quite easy to add further examples using xBehave.net using the `Example` attribute:
+It's also easy to add further examples when using xBehave.net with the `Example` attribute:
 
 	[Scenario]
 	[Example(8, 4, 12)]
