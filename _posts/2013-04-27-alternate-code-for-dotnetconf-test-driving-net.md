@@ -58,7 +58,7 @@ Here is the test re-written using [FakeItEasy](https://github.com/FakeItEasy/Fak
 		result.Should().Be(12);
 	}
 
-And here is the test (now a scenario) re-written using [xBehave.net](https://github.com/xbehave/xbehave.net):
+And here is the test (now a scenario) re-written using both FakeItEasy and [xBehave.net](https://github.com/xbehave/xbehave.net):
 
 	[Scenario]
 	public void Addition(
