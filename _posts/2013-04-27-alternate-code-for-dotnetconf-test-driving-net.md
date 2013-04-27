@@ -11,7 +11,9 @@ tags:
 
 [Keith Burnell](http://www.dotnetdevdude.com/) gave a great talk today titled [Test Driving .NET](http://www.youtube.com/watch?v=_m41mTIPLIE&feature=c4-feed-u) at [dotnetConf](http://live.dotnetconf.net/).
 
-For anyone who might be interesting in using alternate frameworks for TDD in .NET, I'd thought I'd reproduce the code shown during his talk using a couple of my own OSS projects, [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) and [xBehave.net](https://github.com/xbehave/xbehave.net). I've taken the version of the code before the IoC was introduced in the last part of the talk because this is not affected by the changes which I'd like to demonstrate.
+For anyone who might be interested in using alternate frameworks for TDD in .NET, I thought I'd reproduce the code shown during his talk using a couple of my own OSS projects, [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) and [xBehave.net](https://github.com/xbehave/xbehave.net). I've taken the version of the code before the IoC was introduced in the last part of the talk because this is not affected by the changes which I'd like to demonstrate.
+
+<!--excerpt-->
 
 The original code from Keith's talk (using [NUnit](http://www.nunit.org/), [RhinoMocks](http://hibernatingrhinos.com/oss/rhino-mocks) and [FluentAssertions](https://fluentassertions.codeplex.com/)) looked something like this (using `var` where possible):
 
