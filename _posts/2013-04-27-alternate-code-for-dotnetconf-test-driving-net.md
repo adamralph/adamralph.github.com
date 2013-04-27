@@ -47,13 +47,15 @@ Here is the test re-written using [FakeItEasy](https://github.com/FakeItEasy/Fak
 		const decimal input1 = 8;
 		const decimal input2 = 4;
 		var validationService = A.Fake<IValidationService>();
-		A.CallTo(() => validationService.Add(input1, input2))
+		A.CallTo(() => validationService
+ 				.ValidateForAdd(input1, input2))
  			.Returns(true);
 		var classUnderTest = new CalculatorService(validationService);
 		//Act
 		var result = classUnderTest.Add(input1, input2);
 		//Assert
-		A.CallTo(() => validationService.Add(input1, input2))
+		A.CallTo(() => validationService
+ 				.ValidateForAdd(input1, input2))
  			.MustHaveHappened(Repeated.Exactly.Once);
 		result.Should().Be(12);
 	}
@@ -80,7 +82,8 @@ And here is the test (now a scenario) re-written using both FakeItEasy and [xBeh
 			.And(() =>
 			{
 				validationService = A.Fake<IValidationService>();
-				A.CallTo(() => validationService.Add(input1, input2))
+				A.CallTo(() => validationService
+ 						.ValidateForAdd(input1, input2))
  					.Returns(true);
 			});
 
@@ -93,7 +96,7 @@ And here is the test (now a scenario) re-written using both FakeItEasy and [xBeh
 		
 		"Then the input must have been validated"
 			.Then(() => A.CallTo(() =>
- 					validationService.Add(input1, input2))
+ 					validationService.ValidateForAdd(input1, input2))
 				.MustHaveHappened(Repeated.Exactly.Once));
  		
 		"And the result should be 12"
@@ -126,7 +129,8 @@ It's also easy to add further examples when using xBehave.net with the `Example`
 			.And(() =>
 			{
 				validationService = A.Fake<IValidationService>();
-				A.CallTo(() => validationService.Add(input1, input2))
+				A.CallTo(() => validationService
+ 						.ValidateForAdd(input1, input2))
  					.Returns(true);
 			});
 
@@ -139,7 +143,7 @@ It's also easy to add further examples when using xBehave.net with the `Example`
 		
 		"Then the input must have been validated"
 			.Then(() => A.CallTo(() =>
- 					validationService.Add(input1, input2))
+ 					validationService.ValidateForAdd(input1, input2))
  				.MustHaveHappened());
  		
 		"And the result should be {2}"
