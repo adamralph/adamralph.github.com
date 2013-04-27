@@ -3,10 +3,10 @@ layout: post
 title: Alternate Code for dotnetConf Test Driving .NET
 location: Zurich
 tags:
-- dotnetConf
-- TDD
-- FakeItEasy
-- xBehave.net
+- dotnetconf
+- tdd
+- fakeiteasy
+- xbehave.net
 ---
 
 [Keith Burnell](http://www.dotnetdevdude.com/) gave a great talk today titled [Test Driving .NET](http://www.youtube.com/watch?v=_m41mTIPLIE&feature=c4-feed-u) at [dotnetConf](http://live.dotnetconf.net/).

@@ -3,9 +3,9 @@ layout: post
 title: Mono for Android for a Toy App
 location: Zurich
 tags:
-- .net
 - mono
 - android
+- xamarin
 ---
 Today I created a Hello World app using Mono for Android. I must say, Xamarin have this nicely packaged up. I followed both the [installation instructions](http://docs.xamarin.com/android/guides/getting_started/installation) and the ["Hello, Android"](http://docs.xamarin.com/Android/Guides/Getting_Started/Hello%2C_World) walk-through and everything worked like a charm. In no time at all I had my emulator running and my app deployed.
 

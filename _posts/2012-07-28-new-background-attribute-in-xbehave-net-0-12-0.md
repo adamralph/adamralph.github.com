@@ -3,7 +3,6 @@ layout: post
 title: New Background Attribute in xBehave.net 0.12.0
 location: Zurich
 tags:
-- .net
 - xbehave.net
 ---
 With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) version [0.12.0](https://nuget.org/packages/Xbehave/0.12.0), it is now possible to add background steps to features using the new [Background] attribute. E.g.
