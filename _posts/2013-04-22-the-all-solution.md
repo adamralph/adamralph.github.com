@@ -19,21 +19,21 @@ Sadly, nothing could be further from the truth.
 
 The solution shown is for a fictional team named 'HGC' who develop fictional apps 'Andromeda', 'Gemini', 'Jupiter' and 'Saturn'. The rest of the projects are so called 'common' libraries which are to be reused between applications. This is very similar to how my team had their code organised when I joined the team. In fact, our All solution was *way* bigger than this. Some of the problems with this approach are:
 
-- Technological stagnation. The apps get so locked together and locked into the same frameworks and approaches that it becomes nearly impossible to try new things and innovate.
+- **Technological stagnation.** The apps get so locked together and locked into the same frameworks and approaches that it becomes nearly impossible to try new things and innovate.
 
-- Lack of defined and recognisable bounded contexts. Models bleed into and corrupt each other with no discernible integration patterns.
+- **Lack of defined and recognisable bounded contexts.** Models bleed into and corrupt each other with no discernible integration patterns.
 
-- Spaghetti like references. Saturn shouldn't *really* reference Andromeda, but it does! Need something from Jupiter? Reference it!
+- **Spaghetti like references.** Saturn shouldn't *really* reference Andromeda, but it does! Need something from Jupiter? Reference it!
 
-- Little refactoring. Developers are worried about changing *anything* because it's so difficult to tell what will break. (Good test coverage alleviates this but this was also severely lacking in our case!)
+- **Little refactoring.** Developers are worried about changing *anything* because it's so difficult to tell what will break. (Good test coverage alleviates this but this was also severely lacking in our case!)
 
-- Huge build times. Our All solution took well over an hour to build!
+- **Huge build times.** Our All solution took well over an hour to build!
 
-- Lack of modularisation within apps (look at Hgc.Jupiter). Developers are afraid to break out apps into defined layers/modules because then there would be 'too many projects'.
+- **Lack of modularisation within apps (look at Hgc.Jupiter).** Developers are afraid to break out apps into defined layers/modules because then there would be 'too many projects'.
 
-- Very difficult for each application to evolve independently. We can't change the Hgc.Mars0 'reusable' library to do something differently for Hgc.Saturn because it would break Hgc.Gemini!
+- **Very difficult for each application to evolve independently.** We can't change the Hgc.Mars0 'reusable' library to do something differently for Hgc.Saturn because it would break Hgc.Gemini!
 
-- Package updates can be nearly impossible. You need a new version of package X for Saturn but it might break Jupiter and then you have to run all that manual regression testing again. Argh! You can go with different versions of packages for different apps but then it takes a brave soul to venture into the packages folder and attempt to make head or tail of it!
+- **Package updates can be nearly impossible.** You need a new version of package X for Saturn but it might break Jupiter and then you have to run all that manual regression testing again. Argh! You can go with different versions of packages for different apps but then it takes a brave soul to venture into the packages folder and attempt to make head or tail of it!
 
 As we learnt more about DDD and also gained more exposure to OSS projects, we slowly realised that this approach made no sense at all. It was more driven by the organisation of personnel rather than the meaning of the code and the applications. Recognition of bounded contexts and integration patterns where necessary showed us that we were mixing separate concerns all into the same pot for no good reason. Imagine mixing unrelated OSS projects together in a single GitHub repo!
 
