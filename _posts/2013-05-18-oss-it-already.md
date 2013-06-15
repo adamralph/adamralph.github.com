@@ -14,7 +14,7 @@ I also write some very good code. Or at least I hope I do. My OSS (open source s
 
 The point is, I'm not ashamed to admit it that I write bad code. Every programmer writes bad code sometimes and it doesn't matter whether they are a complete beginner or an old hand. Any programmer who claims they *never* write bad code is either deluded or a liar.
 
-The attitude of programmers to bad code becomes particularly relevent with regard to OSS.
+The attitude of programmers to bad code becomes particularly relevant with regard to OSS.
 
 <!--excerpt-->
 
@@ -34,7 +34,7 @@ Yes, people may criticise your work. But if it's positive criticism, what better
 
 ![I LOOKED AT YOUR CODE... IT'S CRAP! HAHAHA LOL](http://adamralph.com/img/i-looked-at-your-code.jpg)
 
-Of course, trolls exist and you may even encounter one who flames your work as a load of rubbish without any offering any help. I believe that such cases are rare, but if they do happen a degree of humility is necessary. Maintain your dignity, don't feed the troll and carry on. In the OSS community, the number of good poeple who want to help far outweighs the number of nasty well-poisoners.
+Of course, trolls exist and you may even encounter one who flames your work as a load of rubbish without any offering any help. I believe that such cases are rare, but if they do happen a degree of humility is necessary. Maintain your dignity, don't feed the troll and carry on. In the OSS community, the number of good people who want to help far outweighs the number of nasty well-poisoners.
 
 ![STARTS NEW PROJECT... PUSHES INITIAL COMMIT TO GITHUB](http://adamralph.com/img/starts-new-project.jpg)
 

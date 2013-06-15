@@ -35,7 +35,7 @@ Overloads 2 and 3 were added in order to ensure disposal of `IDisposable` object
 	        bar = new SomeDisposable(),
 	    })
 
-Upon execution of a step defined using either of these overloads, the returned `IDisposable` objects are registered for disposal. The disposals are executed in a seperate test command which is guaranteed to execute at the end of the scenario, even if exceptions are thrown during execution of the scenario. The intention was to achieve a similar effect as a `using` block. (I'll come to overload 4 shortly.)
+Upon execution of a step defined using either of these overloads, the returned `IDisposable` objects are registered for disposal. The disposals are executed in a separate test command which is guaranteed to execute at the end of the scenario, even if exceptions are thrown during execution of the scenario. The intention was to achieve a similar effect as a `using` block. (I'll come to overload 4 shortly.)
 
 ##The API Design Fail
 
