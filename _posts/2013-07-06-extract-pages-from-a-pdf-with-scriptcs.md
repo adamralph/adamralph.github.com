@@ -19,7 +19,7 @@ I discovered a much nicer way.
 1. `#load "ExtractPages.csx"`
 1. `ExtractPages(@"C:\big.pdf", @"C:\small.pdf", 1, 3);` (pages 1-3)
 
-Job done! **scriptcs FTW**.
+Job done! [scriptcs](http://scriptcs.net/) FTW.
 
 Thanks to [David Christiansen](https://twitter.com/dchristiansen "@dchristiansen") for recommending [iTextSharp](https://nuget.org/packages/iTextSharp/) over at [JabbR](https://jabbr.net/#/rooms/general-chat).
 
