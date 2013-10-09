@@ -5,16 +5,13 @@ title: Announcing xBehave.net 1.0
 location: Zurich
 tags:
 - xbehave.net
-published: false
 ---
 
 ![](https://raw.github.com/xbehave/xbehave.net/master/assets/xbehave_128x128.png)
 
-It gives me great pleasure to announce the release today of [xBehave.net](http://xbehave.github.io/) [1.0](https://www.nuget.org/packages/Xbehave/1.0.0).
+It gives me great pleasure to announce the release of [xBehave.net](http://xbehave.github.io/) [1.0](https://www.nuget.org/packages/Xbehave/1.0.0).
 
-This is the first stable release of xBehave.net after more than 18 months of (sporadic) initial development.
-
-Extensive documentation is also now available on the xBehave.net [wiki](https://github.com/xbehave/xbehave.net/wiki).
+This is the first stable release of xBehave.net after more than 18 months of (sporadic) initial development. Extensive documentation is also now available on the xBehave.net [wiki](https://github.com/xbehave/xbehave.net/wiki).
 
 <!--excerpt-->
 
@@ -26,8 +23,8 @@ In particular, I'd like to thank the following developers for their contribution
 
 - [Glenn Block](https://github.com/glennblock)
 - [James Foster](https://github.com/jamesfoster)
-- [Manoj](https://github.com/manojlds)
 - [robi-y](https://github.com/robi-y)
+- [Manoj](https://github.com/manojlds)
 
 ## History ##
 
@@ -43,11 +40,11 @@ After a month of development and a few more releases, I re-branded the project a
 
 Over the next 18 months the library became richer and more polished and gained a few contributors in the march up to 1.0.
 
-After a little [tweeting](https://twitter.com/gblock/status/338899543821262849) in May 2013 [Glenn Block](https://twitter.com/gblock) decided to use xBehave.net for acceptance test examples in his forthcoming book ['Designing Evolvable Web APIs with ASP.NET'](http://ofps.oreilly.com/titles/9781449337711/).
+After a little [tweeting](https://twitter.com/gblock/status/338899543821262849) in May 2013 [Glenn Block](https://twitter.com/gblock) decided to use xBehave.net for acceptance test examples in his forthcoming book ['Designing Evolvable Web APIs with ASP.NET'](http://shop.oreilly.com/product/0636920026617.do).
 
 ## Future ##
 
-The next planned version is 2.0 which will see a transition from xUnit.net 1.9 to xUnit.net 2.0 (currently in alpha) and [several enhancements](https://github.com/xbehave/xbehave.net/issues?labels=enhancement&page=1&state=open).
+The next planned version is 2.0 which will see a transition from xUnit.net 1.9 to xUnit.net 2.0 (currently in alpha).
 
 1.0 has entered maintenance mode with bug fix releases only. All new features will be scheduled for 2.0 or later.
 
@@ -55,6 +52,6 @@ Internally, the changes in 2.0 will be significant. xUnit.net 2.0 is more or les
 
 If you'd like to help out, just head over to the [GitHub](https://github.com/xbehave/xbehave.net/) repository where you can get familiar with the code, send pull requests or raise issues for new features, bugs, questions, discussions etc.
 
-You can also ping me on [Twitter](https://twitter.com/adamralph) or in the xBehave.net [chat room](https://jabbr.net/#/rooms/xbehavenet) in JabbR.
+You can also ping me on [Twitter](https://twitter.com/adamralph) or in the xBehave.net [chat room](https://jabbr.net/#/rooms/xbehavenet) on JabbR.
 
 **Thanks again!**
