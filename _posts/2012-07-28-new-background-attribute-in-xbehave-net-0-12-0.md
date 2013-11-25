@@ -43,6 +43,6 @@ Where a typical scenario may look something like:-
 	            .Should().Contain("Your article was published."));
 	}
 
-[View the full example](https://github.com/xbehave/xbehave.net/blob/master/src/Xbehave.Samples.Net40/BackgroundSample.cs).
+[View the full example](https://github.com/xbehave/xbehave.net/blob/master/src/Xbehave.Samples.Net40/Backgrounds.cs).
 
 This is functionally equivalent to the Gherkin [Background](https://github.com/cucumber/cucumber/wiki/Background) keyword. The background steps are executed before each scenario.
