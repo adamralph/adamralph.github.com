@@ -25,3 +25,7 @@ The first parts of the workshop were largely re-treading old ground for me with 
 I'm glad I attended the workshop and I now feel far more confident and enthusiastic about using JS in anger. I feel myself itching to implement an application using [NodeJS](http://nodejs.org/), which we used for the workshop exercises.
 
 **Tommorrow:** ['Continuous Delivery'](http://www.ndc-london.com/pre-conference-workshop/continuous-delivery-workshop/1043) with [Jez Humble](https://twitter.com/jezhumble)...
+
+## Names to faces checklist
+
+[@mat_mcloughlin](https://twitter.com/mat_mcloughlin) [@venkat_s](https://twitter.com/venkat_s)

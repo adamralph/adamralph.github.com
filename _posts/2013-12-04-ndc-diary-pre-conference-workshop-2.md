@@ -33,3 +33,7 @@ Throughout the rest of the talk, Jez went into detail on many subjects and demon
 I also recommend Jez's [Continuous Delivery book](http://www.amazon.co.uk/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912), which I am currently about half way through. The workshop was the perfect complement to the book to go into some more detail and it's great to have the author standing in front of you to bounce questions off!    
 
 **Today:** Keynote with [Dan North](https://twitter.com/tastapod) and more...
+
+## Names to faces checklist
+
+[@jezhumble](https://twitter.com/jezhumble) [@randompunter](https://twitter.com/randompunter) [@jrusbatch](https://twitter.com/jrusbatch) [@roysvork](https://twitter.com/roysvork) [@stevensanderson](https://twitter.com/stevensanderson) [@serialseb](https://twitter.com/serialseb) [@darrel_miller](https://twitter.com/darrel_miller) [@shiftkey](https://twitter.com/shiftkey) [@JakeGinnivan](https://twitter.com/JakeGinnivan) [@chrissie1](https://twitter.com/chrissie1)
