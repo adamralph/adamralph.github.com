@@ -21,7 +21,9 @@ Glenn and Justin were kind enough to invite me to join them this morning in reco
 
 ### The Future of C# with Mads Torgersen
 
-The NDC Wi-Fi was put to the test during this talk with the C# Twitter stream seeing an explosion in traffic as Mads revealed, for the first time publicly, a range of features either set to be delivered in the next version of C# or at least under strong consideration. Unfortunately I was too caught up in the excitement to note everything down but after mining my memory and the Twitter feed, here is the list of implemented/potential language features (I'm sure I'm missing at least one of them):
+The NDC Wi-Fi was put to the test during this talk with the C# Twitter stream seeing an explosion in traffic as Mads revealed, for the first time publicly, a range of features either set to be delivered in the next version of C# or at least under strong consideration.
+
+Unfortunately I was too caught up in the excitement to note everything down but after mining my memory and the Twitter feed, here is the list of implemented/potential language features (I'm sure I'm missing at least one of them):
 
 * primary constructors - `public class Point(int x, int y) { }`
 * read only auto-properties - `public int X { get; } = x;`
@@ -43,7 +45,9 @@ But still, the rest of the features look awesome and I can't wait to get my hand
 
 ### NodeJS vs C# Cage Match with [Rob Ashton](https://twitter.com/RobAshton) and [Jeremy Miller](https://twitter.com/jeremydmiller)
 
-Rob spun my head as usual. Jeremy quietly impressed me. I didn't understand much of what Rob did, but I'm sure he doesn't care. He seemed to be enjoying himself. Jeremy's work in FubuMVC to give it a Rails-like management system using Rake is impressive and shows just what Rake can do when put to work. This was particularly interesting for me since I've recently started work on a C# Rake equivalent named [Bau](https://github.com/bau-build/bau), based on Roslyn and scriptcs. If I can get Bau to the level where it could potentially be used for FubuMVC instead of Rake that would be quite an achievement and has definitely given me something to aim for.
+Rob spun my head as usual. Jeremy quietly impressed me. I didn't understand much of what Rob did, but I'm sure he doesn't care. He seemed to be enjoying himself.
+
+Jeremy's work in FubuMVC to give it a Rails-like management system using Rake is impressive and shows just what Rake can do when put to work. This was particularly interesting for me since I've recently started work on a C# Rake equivalent named [Bau](https://github.com/bau-build/bau), based on Roslyn and scriptcs. If I can get Bau to the level where it could potentially be used for FubuMVC instead of Rake that would be quite an achievement and has definitely given me something to aim for.
 
 ### SignalR with [Damian Edwards](https://twitter.com/DamianEdwards) and [David Fowler](https://twitter.com/davidfowl)
 
@@ -51,11 +55,15 @@ The dynamic duo took centre stage again and didn't fail to impress with another 
 
 ### scriptcs with [Justin Rusbatch](https://twitter.com/jrusbatch)
 
-And the holy trinity is finally complete. I'm now one of the lucky few that has seen scriptcs presented by all three of the owners independently. One thing that really stood out in Justin's talk was how *blazingly fast* he had scriptcs running in his demos. I couldn't help asking about this during the talk and it turns out Justin completely threw the rule book out of the window and compiled a custom version of scriptcs right before his talk with some new compiler switches introduced in .NET 4.5. Wow, this is the definition of courage! I can't wait to see those compiler switches make it into the published package.  
+And the holy trinity is finally complete. I'm now one of the lucky few that has seen scriptcs presented by all three of the owners independently.
+
+One thing that really stood out in Justin's talk was how *blazingly fast* he had scriptcs running in his demos. I couldn't help asking about this during the talk and it turns out Justin completely threw the rule book out of the window and compiled a custom version of scriptcs right before his talk with some new compiler switches introduced in .NET 4.5. Wow, this is the definition of courage! I can't wait to see those compiler switches make it into the published package.  
 
 ### NDC London: The Conclusion
 
-What a week. Remember those times you went on holiday as a child and you never wanted it to end? That's me right now. NDC London was my first conference and the decision to attend was one of the best I've made in a while. Would I recommend it to others? Definitely. Will I be back? Yes. Where and when? Next year in Oslo. My biggest takeaway from the conference? All the awesome people I met, many of whom I've chatted and coded with virtually but never before met in person and others I've admired and followed over the years and was honoured to finally meet in person. And with that I leave you with my complete 'names to faces checklist', collected each day to show just how many great people you can meet at an event like the NDC. Bye bye NDC London. Hello NDC Oslo...
+What a week. Remember those times you went on holiday as a child and you never wanted it to end? That's me right now. NDC London was my first conference and the decision to attend was one of the best I've made in a while.
+
+Would I recommend it to others? Definitely. Will I be back? Yes. Where and when? Next year in Oslo. My biggest takeaway from the conference? All the awesome people I met, many of whom I've chatted and coded with virtually but never before met in person and others I've admired and followed over the years and was honoured to finally meet in person. And with that I leave you with my complete 'names to faces checklist', collected each day to show just how many great people you can meet at an event like the NDC. Bye bye NDC London. Hello NDC Oslo...
 
 
 Until next time (apologies to anyone I've missed):
