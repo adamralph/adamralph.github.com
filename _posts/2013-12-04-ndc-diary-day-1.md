@@ -7,7 +7,7 @@ tags:
 - NDC
 ---
 
-After nursing a slight hangover inflicted by Seb Lambla's drinks night in Soho, I somehow managed to drag myself in well before 09:00 to finish off and push yesterday's diary entry before proceedings began.
+After nursing a slight hangover inflicted by [@serialseb](https://twitter.com/serialseb)'s drinks night in Soho, I somehow managed to drag myself in well before 09:00 to finish off and push yesterday's diary entry before proceedings began.
 
 ### Keynote - Jackstones: the Journey to Mastery with [Dan North](https://twitter.com/tastapod)
 
