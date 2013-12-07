@@ -36,4 +36,4 @@ I also recommend Jez's [Continuous Delivery book](http://www.amazon.co.uk/Contin
 
 ## Names to faces checklist
 
-[@jezhumble](https://twitter.com/jezhumble) [@randompunter](https://twitter.com/randompunter) [@jrusbatch](https://twitter.com/jrusbatch) [@roysvork](https://twitter.com/roysvork) [@stevensanderson](https://twitter.com/stevensanderson) [@serialseb](https://twitter.com/serialseb) [@darrel_miller](https://twitter.com/darrel_miller) [@shiftkey](https://twitter.com/shiftkey) [@JakeGinnivan](https://twitter.com/JakeGinnivan) [@chrissie1](https://twitter.com/chrissie1)
+[@jezhumble](https://twitter.com/jezhumble) [@randompunter](https://twitter.com/randompunter) [@jrusbatch](https://twitter.com/jrusbatch) [@roysvork](https://twitter.com/roysvork) [@stevensanderson](https://twitter.com/stevensanderson) [@serialseb](https://twitter.com/serialseb) [@darrel_miller](https://twitter.com/darrel_miller) [@shiftkey](https://twitter.com/shiftkey) [@JakeGinnivan](https://twitter.com/JakeGinnivan) [@Ben_Hall](https://twitter.com/Ben_Hall) [@chrissie1](https://twitter.com/chrissie1)
