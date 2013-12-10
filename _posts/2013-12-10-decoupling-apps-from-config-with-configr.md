@@ -38,7 +38,7 @@ In their great book, *Continuous Delivery*\*, Jez Humble and David Farley descri
 
 ### Run Time Configuration
 
-The most flexible of these strategies is **run time** configuration which allows identical building, packaging and deployment of your application in all environments by deferring all configuration decisions until run time. This is easy to achieve using ConfigR since the configuration script is executed at runtime and allows any C# which can be executed by scriptcs\**.
+The most flexible of these strategies is **run time** configuration which allows identical building, packaging and deployment of your application in all environments by deferring all configuration decisions until run time. This is easy to achieve using ConfigR since the configuration script is executed at runtime and allows any C# you like, as long as it can be executed by scriptcs\**.
 
 First, let's see what the application has to do to retrieve one of the configuration values:
 
