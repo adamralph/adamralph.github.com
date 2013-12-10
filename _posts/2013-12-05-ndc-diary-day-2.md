@@ -17,7 +17,7 @@ Azure is an interesting one for me. Whilst I can see that cool stuff is being do
 
 ### Battle of the Mocking Frameworks with [Dror Helper](https://twitter.com/dhelper)
 
-As an owner of [FakeItEasy](http://fakeiteasy.github.io/), how could I not attend this talk? Dror prepared a thorough examination of most of the popular mocking frameworks including comparisons on aspects which I never would have thought of myself, such as deployment. I didn't realised deployment has such an impact with the commercial offerings. The API and test fragility comparisons were mostly familiar to me, with the exception of a brief shock at seeing the MS Fakes syntax. The conclusion of the battle was, as I expected, 'it depends' but I'm glad to report that FakeItEasy did very well indeed and scored highly in all aspects. There was one clear loser however, and I'm afraid to say it was MS Fakes.
+As an owner of [FakeItEasy](http://fakeiteasy.github.io/), how could I not attend this talk? Dror prepared a thorough examination of most of the popular mocking frameworks including comparisons on aspects which I never would have thought of myself, such as deployment. I didn't realise deployment has such an impact with the commercial offerings. The API and test fragility comparisons were mostly familiar to me, with the exception of a brief shock at seeing the MS Fakes syntax. The conclusion of the battle was, as I expected, 'it depends' but I'm glad to report that FakeItEasy did very well indeed and scored highly in all aspects. There was one clear loser however, and I'm afraid to say it was MS Fakes.
 
 ### Functional programming with [Uncle Bob](https://twitter.com/unclebobmartin)
 
