@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decoupling Apps and Config with ConfigR
+title: Decoupling Apps from Config with ConfigR
 location: Zurich
 tags:
 - ConfigR
