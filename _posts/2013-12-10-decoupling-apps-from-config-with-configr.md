@@ -68,7 +68,7 @@ Let's see how the application code has to change in order to support this:
 ```C#
 var uri = Configurator.Get<Uri>("Uri");
 ```
-The application code hasn't changed at all. This because our choice of configuration strategy is completely *decoupled* from the application.
+The application code hasn't changed at all. This because the application is completely *decoupled* from the choice of configuration strategy.
 
 Later, we may wish to fetch our configuration from the file system or from an HTTP endpoint, perhaps based not only on the machine name but the current application version, or the current user. We may invent other weird and wonderful configuration strategies.
 
