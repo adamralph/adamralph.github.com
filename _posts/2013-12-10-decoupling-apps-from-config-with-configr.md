@@ -76,9 +76,7 @@ Later, we may wish to fetch our configuration from the file system or from an HT
 
 By implementing your configuration strategy in a ConfigR configuration script, *the application code never needs to change.*
 
-### Get ConfigR
-
-ConfigR is available at [NuGet](https://www.nuget.org/packages/ConfigR/). For more information see the [quickstart](https://github.com/config-r/config-r/wiki/Quickstart), [samples](https://github.com/config-r/config-r-samples) and [wiki](https://github.com/config-r/config-r/wiki). Fork ConfigR at [GitHub](https://github.com/config-r/config-r).
+Among other features, ConfigR allows loading of config scripts from custom file locations or over HTTP and nested loading of scripts from within scripts. The project is under active development and plenty more features are planned. For more information see the [quickstart](https://github.com/config-r/config-r/wiki/Quickstart), [samples](https://github.com/config-r/config-r-samples), [wiki](https://github.com/config-r/config-r/wiki) and [issues](https://github.com/config-r/config-r/issues?direction=desc&sort=updated&state=open). Keep an eye out for further ConfigR blog posts by subscribing to the [feed](/feed/). ConfigR is available at [NuGet](https://www.nuget.org/packages/ConfigR/) and can be forked at [GitHub](https://github.com/config-r/config-r).
 
 \* Humble, J. & Farley D. (2011). *Continuous Delivery.* Boston: Pearson Education, Inc.
 
