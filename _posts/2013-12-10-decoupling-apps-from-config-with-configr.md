@@ -34,7 +34,7 @@ In the real world configuration is often more complex than this, e.g. multiple d
 
 <!--excerpt-->
 
-In their great book, *[Continuous Delivery](http://www.amazon.co.uk/gp/product/0321601912/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0321601912&linkCode=as2&tag=adamralphcom-21)*\*, Jez Humble and David Farley describe how such configuration can be injected into your application at the **build time**, **packaging time**, **deployment time** and **run time**.
+In their great book, *[Continuous Delivery](http://www.amazon.co.uk/gp/product/0321601912/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0321601912&linkCode=as2&tag=adamralphcom-21)*\*, Jez Humble and David Farley describe how such configuration can be injected into your application at **build time**, **packaging time**, **deployment time** and **run time**.
 
 ### Run Time Configuration
 
