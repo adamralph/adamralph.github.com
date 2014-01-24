@@ -17,6 +17,8 @@ tags:
 
 This has been driving me nuts recently. On my two Windows 8.1 machines, I'll be happily using the internet. You know browsing, pushing to GitHub, Tweeting, that kind of thing. Then all of a sudden everything would blow up. Browser tabs would hang trying to load pages. JabbR would go red. GitHub fetches would fail. On my one remaining Windows 7 machine all was good.
 
+<!--excerpt-->
+
 I found that I could fix the problem by disconnecting  and reconnecting my WiFi connection. After a while later it would happen again. Worst of all, it's been happening at just that frequency which is not quite enough for me to stop what I'm doing and sort out the problem once and for all, but just enough to very slowly accumulate a snowball of anger and hate which has been welling inside me for the past couple of weeks.
 
 Today it was finally too much so after a disconnect/reconnect I decided to sort out the problem once and for all. First of all, I found a thread telling me I should I should switch off 'Allow the computer to turn off this device to save power' for the network adapter. I tried that and everything looked fine for around 15 minutes until I lost my connectivity yet again. A deep breath and back to the drawing board.
