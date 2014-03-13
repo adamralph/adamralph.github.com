@@ -17,6 +17,9 @@ layout: default
 <div style="display:inline-block;vertical-align:top">
     <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
 </div>
+<div style="display:inline-block;vertical-align:top">
+    <div class="g-plusone" data-size="medium" data-annotation="none"></div>
+</div>
 {{ content }}
 <div style="display:inline-block;vertical-align:top">
     <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-count="none">Tweet</a>
@@ -27,9 +30,15 @@ layout: default
 <div style="display:inline-block;vertical-align:top">
     <a href="http://news.ycombinator.com/submit" class="hn-share-button">Vote on HN</a>
 </div>
+<div style="display:inline-block;vertical-align:top">
+    <div class="g-plusone" data-size="medium" data-annotation="none"></div>
+</div>
 <div id="disqus_thread"></div>
+<!--twitter-->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!--pocket-->
 <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+<!--hn-->
 <script>
     (function(d, t) {
         var g = d.createElement(t),
@@ -38,6 +47,17 @@ layout: default
         s.parentNode.insertBefore(g, s);
     }(document, 'script'));
 </script>
+<!--g+-->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!--disqus-->
 <script type="text/javascript">
     var disqus_shortname = 'adamralph';
     var disqus_url = "http://www.adamralph.com{{ page.url }}";
