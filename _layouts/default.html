@@ -38,13 +38,12 @@
         -ms-touch-action: double-tap-zoom;
       }
 
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
+      .container {
+        max-width: 80em;
       }
 
-      .container-narrow > hr {
-        margin: 30px 0;
+      .container-fluid > hr {
+        margin: 3em 0em;
       }
 
       .badge {
@@ -53,7 +52,7 @@
       }
 
       .sidebar-nav {
-        padding: 9px 0;
+        padding: .75em 0;
       }
 
       .post-meta {
@@ -84,104 +83,123 @@
         margin-bottom: 2em;
       }
 
-      #site-description p {
-        max-width: 161px;
-      }
+      /*#site-description p {
+        max-width: 12em;
+      }*/
 
       #tags {
         margin-bottom: 2em;
+        text-align: center;
       }
 
       #side {
-        max-width: 160.5px;
+        margin: 0em;
+      }
+
+      #side .nav-list {
+        padding-left: 0em;
+        padding-right: 0em;
       }
 
       #content {
-        padding-left: 2em;
-        max-width: 521.5px;
+        padding-left: 3em;
+        padding-right: 3em;
+        margin: 0em;
+      }
+
+      #side2 {
+        margin: 0em;
       }
     </style>
   </head>
   <body>
-    <div class="container-narrow">
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/archive/">Archive</a>
-          </li>
-          <li>
-            <a href="/about/">About</a>
-          </li>
-        </ul>
-        <a href="/" title="Home"><h3 class="muted">Adam Ralph</h3></a>
-      </div>
-      <hr />
-      <div class="row-fluid">
-        <div id="side" class="span3">
-          <div id="logo-panel">
-            <a href="/about/" title="About me">
-              <img id="logo" src="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce?s=100" alt="Adam Ralph" width="100" height="100" />
-            </a>
+    <div class="container">
+      <div class="container-fluid">
+        <div class="masthead">
+          <ul class="nav nav-pills pull-right">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/archive/">Archive</a>
+            </li>
+            <li>
+              <a href="/about/">About</a>
+            </li>
+          </ul>
+          <a href="/" title="Home"><h3 class="muted">Adam Ralph</h3></a>
+        </div>
+        <hr />
+        <div class="row-fluid">
+          <div id="side" class="span2">
+            <div id="logo-panel">
+              <a href="/about/" title="About me">
+                <img id="logo" src="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce?s=100" alt="Adam Ralph" width="100" height="100" />
+              </a>
+            </div>
+            <div id="site-description">
+              <p>A blog about software development</p>
+              <p>Mainly .NET flavoured, with a generous sprinkling of other technologies</p>
+            </div>
+            <div class="sidebar-nav">
+              <ul class="nav nav-list">
+                <li class="nav-header">Follow</li>
+                <li>
+                  <a href="http://twitter.com/adamralph">Twitter</a>
+                </li>
+                <li>
+                  <a href="http://github.com/adamralph/">Github</a>
+                </li>
+                <li>
+                  <a href="/feed/">Feed</a>
+                </li>
+                <li class="nav-header">Projects</li>
+                <li>
+                  <a href="https://fakeiteasy.github.io/">FakeItEasy</a>
+                </li>
+                <li>
+                  <a href="http://xbehave.github.io/">xBehave.net</a>
+                </li>
+                <li>
+                  <a href="http://bitbucket.org/adamralph/stylecop-msbuild/">StyleCop.MSBuild</a>
+                </li>
+                <li>
+                  <a href="https://github.com/config-r/config-r/">ConfigR</a>
+                </li>
+                <li>
+                  <a href="https://github.com/adamralph/scriptcs-nancy/">ScriptCs.Nancy</a>
+                </li>
+                <li>
+                  <a href="https://github.com/liteguard/liteguard/">LiteGuard</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div id="site-description">
-            <p>A blog about software development</p>
-            <p>Mainly .NET flavoured, with a generous sprinkling of other technologies</p>
+          <div id="content" class="span8">
+  {{ content }}
           </div>
-          <div id="tags">
-            {% for tag in site.tags %}
-            <a href="/tags/#{{ tag[0] }}"><span class="badge" style="margin-top:2px;font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px">{{ tag[0] }}<span class="tag-count" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 | times:0.6  }}px;"> {{ tag[1] | size }}</span></span></a><span> </span>
-            {% endfor %}
-          </div>
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Follow</li>
-              <li>
-                <a href="http://twitter.com/adamralph">Twitter</a>
-              </li>
-              <li>
-                <a href="http://github.com/adamralph/">Github</a>
-              </li>
-              <li>
-                <a href="/feed/">Feed</a>
-              </li>
-              <li class="nav-header">Projects</li>
-              <li>
-                <a href="https://fakeiteasy.github.io/">FakeItEasy</a>
-              </li>
-              <li>
-                <a href="http://xbehave.github.io/">xBehave.net</a>
-              </li>
-              <li>
-                <a href="http://bitbucket.org/adamralph/stylecop-msbuild/">StyleCop.MSBuild</a>
-              </li>
-              <li>
-                <a href="https://github.com/config-r/config-r/">ConfigR</a>
-              </li>
-              <li>
-                <a href="https://github.com/adamralph/scriptcs-nancy/">ScriptCs.Nancy</a>
-              </li>
-              <li>
-                <a href="https://github.com/liteguard/liteguard/">LiteGuard</a>
-              </li>
-            </ul>
+          <div id="side2" class="span2">
+            <div id="tags">
+              {% for tag in site.tags %}
+              <a href="/tags/#{{ tag[0] }}"><span class="badge" style="margin-top:2px;font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px">{{ tag[0] }}<span class="tag-count" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 | times:0.6  }}px;"> {{ tag[1] | size }}</span></span></a><span> </span>
+              {% endfor %}
+            </div>
+            <div id="tweets">
+              <a class="twitter-timeline" href="https://twitter.com/adamralph" data-widget-id="296522059847172096">Tweets by @adamralph</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
           </div>
         </div>
-        <div id="content" class="span9">
-{{ content }}
+        <hr />
+        <div class="footer">
+          <p>These are my own twisted, narrow-minded views and have nothing to do with those of past, present or future employers</p>
+          <p>Any offence caused may even be intentional and intended to spark useful debate</p>
+          <p>Powered by <a href="http://pages.github.com/">GitHub Pages</a> and <a href="http://jekyllrb.com/">jekyll</a>. <a href="http://bootswatch.com/cosmo/">Cosmo</a> theme by <a href="http://bootswatch.com/">Bootswatch</a>.
+          </p>
+          <p>
+            <a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.
+          </p>
         </div>
-      </div>
-      <hr />
-      <div class="footer">
-        <p>These are my own twisted, narrow-minded views and have nothing to do with those of past, present or future employers</p>
-        <p>Any offence caused may even be intentional and intended to spark useful debate</p>
-        <p>Powered by <a href="http://pages.github.com/">GitHub Pages</a> and <a href="http://jekyllrb.com/">jekyll</a>. <a href="http://bootswatch.com/cosmo/">Cosmo</a> theme by <a href="http://bootswatch.com/">Bootswatch</a>.
-        </p>
-        <p>
-          <a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.
-        </p>
       </div>
     </div>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
