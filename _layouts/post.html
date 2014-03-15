@@ -5,7 +5,7 @@ layout: default
 <p class="post-meta">
 {{ page.date | date_to_string }} {{ page.location }}
 {% for tag in page.tags %}
-<a href="/tags/#{{ tag }}"><span class="badge">{{ tag }}</span></a>
+<a href="/tags/#{{ tag | replace:' ','%20' }}"><span class="badge">{{ tag }}</span></a>
 {% endfor %}
 </p>
 <div style="display:inline-block;vertical-align:top">

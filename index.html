@@ -7,7 +7,7 @@ title: Adam Ralph
 <p class="post-meta">
   {{ post.date | date_to_string }} {{ post.location }}
   {% for tag in post.tags %}
-<a href="/tags/#{{ tag }}"><span class="badge">{{ tag }}</span></a>
+<a href="/tags/#{{ tag | replace:' ','%20' }}"><span class="badge">{{ tag }}</span></a>
   {% endfor %}
 </p>
 <div style="display:inline-block;vertical-align:top">
