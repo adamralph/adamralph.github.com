@@ -11,16 +11,16 @@ title: Adam Ralph
   {% endfor %}
 </p>
 <div style="display:inline-block;vertical-align:top">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-count="none" data-text="{{ post.title }}" data-url="http://{{ site.host }}{{ post.url | remove:'.html' }}">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-count="none" data-text="{{ post.title }}" data-url="http://{{ site.host_name }}{{ post.url | remove:'.html' }}">Tweet</a>
 </div>
 <div style="display:inline-block;vertical-align:top">
-    <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en" data-save-url="http://{{ site.host }}{{ post.url | remove:'.html' }}"></a>
+    <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en" data-save-url="http://{{ site.host_name }}{{ post.url | remove:'.html' }}"></a>
 </div>
 <div style="display:inline-block;vertical-align:top">
-    <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="{{ post.title }}" data-url="http://{{ site.host }}{{ post.url | remove:'.html' }}">Vote on HN</a>
+    <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="{{ post.title }}" data-url="http://{{ site.host_name }}{{ post.url | remove:'.html' }}">Vote on HN</a>
 </div>
 <div style="display:inline-block;vertical-align:top">
-    <div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://{{ site.host }}{{ post.url | remove:'.html' }}"></div>
+    <div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://{{ site.host_name }}{{ post.url | remove:'.html' }}"></div>
 </div>
   {{ post.content | split:'<!--excerpt-->' | first }}
 <p><a href="{{ post.url | remove:'.html' | append:'#more' }}">Read more...</a></p>
