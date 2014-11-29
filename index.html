@@ -24,10 +24,9 @@ title: Adam Ralph
 </div>
   {{ post.content | split:'<!--excerpt-->' | first }}
 <p><a href="{{ post.url | remove:'.html' | append:'#more' }}">Read more...</a></p>
-{% unless forloop.last %}
 <hr />
-{% endunless %}
 {% endfor %}
+<a href="/archive/">More posts...</a>
 <!--twitter-->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <!--pocket-->
