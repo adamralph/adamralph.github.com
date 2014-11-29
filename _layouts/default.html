@@ -18,6 +18,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
     <link href="/css/code.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 20px;
@@ -117,13 +118,34 @@
         <div class="masthead">
           <ul class="nav nav-pills pull-right">
             <li>
-              <a href="/">Home</a>
+              <a href="/">
+                <i class="fa fa-home fa-lg"></i>
+              </a>
             </li>
             <li>
-              <a href="/archive/">Archive</a>
+              <a href="http://twitter.com/adamralph">
+                <i class="fa fa-twitter fa-lg"></i>
+              </a>
             </li>
             <li>
-              <a href="/about/">About</a>
+              <a href="http://github.com/adamralph/">
+                <i class="fa fa-github fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/archive/">
+                <i class="fa fa-list fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/feed">
+                <i class="fa fa-rss fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/about/">
+                <i class="fa fa-info fa-lg"></i>
+              </a>
             </li>
           </ul>
           <a href="/" title="Home"><h1>Adam Ralph</h1></a>
@@ -141,17 +163,13 @@
             </div>
             <div class="sidebar-nav">
               <ul class="nav nav-list">
-                <li class="nav-header">Follow</li>
+                <li class="nav-header">Open Source</li>
                 <li>
-                  <a href="http://twitter.com/adamralph">Twitter</a>
+                  <a href="http://scriptcs.net/">scriptcs</a>
                 </li>
                 <li>
-                  <a href="http://github.com/adamralph/">Github</a>
+                  <a href="https://github.com/bau-build/bau/">Bau</a>
                 </li>
-                <li>
-                  <a href="/feed/">Feed</a>
-                </li>
-                <li class="nav-header">Projects</li>
                 <li>
                   <a href="https://fakeiteasy.github.io/">FakeItEasy</a>
                 </li>
@@ -179,7 +197,7 @@
           <div id="side2" class="span2">
             <div id="tags">
               {% for tag in site.tags %}
-              <a href="/tags/#{{ tag[0] | replace:' ','%20' }}"><span class="badge" style="margin-top:2px;font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px">{{ tag[0] }}<span class="tag-count" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 | times:0.6  }}px;"> {{ tag[1] | size }}</span></span></a><span> </span>
+              <a href="/tags/#{{ tag[0] | replace:' ','%20' }}"><span style="margin-top:2px;font-size: {{ tag[1] | size | minus:1 | times:2 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:2 | times:14 | divided_by:12 | plus:14 }}px">{{ tag[0] }}</span></a><span> </span>
               {% endfor %}
             </div>
             <div id="tweets">
