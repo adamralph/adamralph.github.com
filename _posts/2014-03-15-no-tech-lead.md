@@ -29,15 +29,23 @@ Compensation justification can often be a major factor and indeed I used my tech
 
 One of the major obstacles is the traditional company hierarchy. Most companies are still formed as vertically oriented hierarchies and people have to be seen to be progressing up org charts in order to justify better compensation. Some companies, such as GitHub, have demonstrated that there is no need for this. However, in most companies, there is still a need for line managers but that is a separate discussion and the reasons are highly removed from anything technical. When this notion of hierarchy leaks down to the technical level, the practices of a team are skewed inappropriately and the effect is counter-productive.
 
-I will now follow the structure of Jason's post and address each of his sections in turn from my 'no tech lead' view.
+<a id="criticism"></a>I will now criticise each section of Jason's post from my 'no tech lead' view.
 
 ### Teamwork
+
+> Good tech leads act as a member of the team, and consider themselves successful when the team is successful. They take their share of unsexy grungy work and clear roadblocks so their team can operate at 100%. They work to broaden the technical capabilities of their team, making sure knowledge of critical systems is not concentrated in one or two minds.
+
+> Bad tech leads take the high-profile tasks for themselves and are motivated by being able to take credit for doing the work. They optimize locally, keeping team members working on projects that benefit the team at the expense of the engineering organization at large.
 
 Everything listed in 'good' is what *every* member of the team should be doing.
 
 Everything listed in 'bad' outlines some typical problems of *having* a tech lead.
 
 ### Technical vision
+
+> Good tech leads have an overall vision for the technical direction of the product and make sure the team understands it. They delegate feature areas to other team members and let them own their decisions. They recognize that their team members are smart, trust them, and rely on them to handle significant pieces of the project.
+
+> Bad tech leads resist explaining or clarifying the technical direction and dictate decisions instead. They keep critical institutional knowledge in their heads, failing to multiply their effectiveness by creating and disseminating helpful documentation.
 
 If the team understand the technical vision then they share it. Why should one person be responsible for it rather than the whole team?
 
@@ -51,11 +59,19 @@ Technical direction and institutional knowledge are things that the team needs t
 
 ### Discussion and debate
 
+> Good tech leads listen and encourage debate. When the team is unable to resolve a debate, they describe a process or framework of thinking that would help them resolve it. They don’t enter discussions with foregone conclusions, and always allow themselves to be persuaded by great ideas.
+
+> Bad tech leads allow debates to go on for too long without resolution, hampering the productivity of the team. Others cut off debate prematurely, dismissing new discussions by saying the matter is “already settled.” Bad tech leads believe it is more important that they win the argument than that the team reaches the right decision.
+
 All members of the team need to be doing the things in 'good'.
 
 In my team we have heated debates and we always manage to settle them somehow. Sometimes, a team member takes the position of mediator and suggests a resolution to a particularly difficult conflict of views. This role emerges organically during the debate and is usually the best person to have taken that role for that given debate. This is better than appointing one person to always mediate regardless and avoids the problems listed in 'bad'.
 
 ### Project management
+
+> Good tech leads are proactive. They make sure technical progress is on track. They work with team members to come up with estimates and to establish intermediate milestones. They anticipate areas of concern and make sure they are addressed before they become a problem. They identify technical roadblocks and help the team get around them. They identify areas of overlap where work can be shared, and conversely, find areas that are not getting enough attention and direct resources toward it.
+
+> Bad tech leads are reactive. They may delegate, but do not follow up to make sure progress is being made. They don’t set intermediate goals and hope that everything just comes together in the end. They wait until just before launch to do end-to-end tests of complex systems. They allow team members to waste time on interesting but unimportant work.
 
 The team should be addressing the things listed in 'good' together.
 
@@ -69,6 +85,10 @@ Backlog prioritisation and grooming will highlight areas which are not getting e
 
 ### Pragmatism
 
+> Good tech leads are pragmatic and find a balance between doing it right and getting it done. They cut corners when it’s expedient but never out of laziness. They encourage their team to find temporary shortcuts or workarounds to problems that are blocking overall progress, and to build minimum viable infrastructure for launch. To good tech leads, details matter. Code quality, code reviews, and testing are just as important as shipping on time.
+
+> Bad tech leads take shortcuts that save time in the short term but cost more in the long term, and let technical debt pile up. They cannot distinguish between situations that call for expediency and those that call for perfection.
+
 The team should be collectively pragmatic.
 
 The team should identify and agree pragmatic paths to progress during backlog grooming and whilst work is being done through continuous communication, reinforced with code reviews.
@@ -79,11 +99,19 @@ Management of technical debt and the balance between expediency and perfection a
 
 ### Communication
 
+> Good tech leads know that their role is much more than writing code, that effective communication is a vital part of their job, and that time spent making their team more efficient is time well spent. They acknowledge that some communication overhead is necessary when working on a team, and they sacrifice some personal productivity for overall team productivity.
+
+> Bad tech leads believe that they are most productive when they are writing code, and think communication is a distraction. They do not optimize for overall team productivity, but rather for what works best for themselves. They get frustrated when they have to take time to lead.
+
 Communication is not an overhead. It is the lifeblood of a team.
 
 A team which does not have enough communication is dysfunctional. The things listed in 'good' and 'bad' apply to a team, not an individual.
 
 ### Relationship with Product
+
+> Good tech leads are in a conversation with product managers and designers about how the product should work. They are not afraid to push back on decisions they disagree with, but keep the product goals in mind and know when to accommodate them. They find creative workarounds to technical constraints by suggesting alternative product formulations that are less technically demanding, and help PMs and designers understand technical challenges so that they make informed trade-offs themselves.
+
+> Bad tech leads throw product decisions “over the wall” and do not take ownership of the product. They push back due to technical constraints but do not offer alternatives or explanations.
 
 I would simply replace the term 'tech lead' with 'team' in this entire section.
 
@@ -93,11 +121,19 @@ During backlog grooming, when a story is identified as requiring more in depth c
 
 ### Resiliency
 
+> Good tech leads are resilient to changes to the product specification and react calmly to surprises. They anticipate where changes might take place and design their code to handle them.
+
+> Bad tech leads are upset when the specification changes, or prematurely generalize their design in areas where changes are unlikely to occur.
+
 The team should be displaying all the qualities listed.
 
 Software architecture is not an up-front exercise but is an evolution. The team should own the architecture collectively and evolve it together during backlog grooming, whiteboards sessions, spikes and continuous communication.
 
 ## Personality
+
+> Good tech leads are easy-going but assertive. Bad tech leads are confrontational and aggressive. Good tech leads emerge naturally and earn respect through technical competence and experience. Bad tech leads think their title confers respect and authority. Good tech leads are always looking for ways to improve.
+
+> Bad tech leads get defensive when given feedback. Good tech leads are humble and boost the confidence of everyone else on the team. Bad tech leads are arrogant and take pleasure in making their teammates feel inferior.
 
 The 'good' and 'bad' personality traits apply to all team members.
 
