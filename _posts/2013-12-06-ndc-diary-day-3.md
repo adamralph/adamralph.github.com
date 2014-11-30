@@ -30,7 +30,7 @@ Unfortunately I was too caught up in the excitement to note everything down but 
 * static type using statements - `using System.Math;`
 * property expressions - `public double Distance => Sqrt(X * X + Y * Y);`
 * method expressions - `public Point Move(int dx, int dy) => new Point(X + dx, Y + dy);`
-* params for enumerables - `public Point Average(params IEnumerable<Point> points) { }`
+* params for enumerable types - `public Point Average(params IEnumerable<Point> points) { }`
 * monadic null checking - `if (points?.FirstOrDefault()?.X ?? -1) { }`
 * constructor type parameter inference - `var t = new Tuple(1,2); // infers Tuple<T1, T2>`
 * inline declarations for out params - `public void Foo(out var x, out var y) { }`

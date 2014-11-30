@@ -7,7 +7,7 @@ tags:
 ---
 Today sees the release of [xBehave.net](https://bitbucket.org/adamralph/xbehave.net) version [0.11.0](https://nuget.org/packages/Xbehave/0.11.0).
 
-Unfortunately, 0.11.0 contains breaking changes to the API. It was a difficult decision but, after a week or two of agonizing, I decided to jump over the cliff to avoid the tiger*.
+Unfortunately, 0.11.0 contains breaking changes to the API. It was a difficult decision but, after a week or two of agonising, I decided to jump over the cliff to avoid the tiger*.
 
 ##Teh Original Codez
 
@@ -104,7 +104,7 @@ This is ridiculous. No-one wants to write this code. For this reason I have remo
 
     Given(() => foo = new SomeDisposable())                      // 1
 
-Even though the expression returns an object, the compiler knows it can ignore this and chooses overload 1. The big problem now is, because there is no registration of the object, it will not be disposed. This was the source of all my agonizing. If the change caused compilation errors, developers would be forced to revisit, and fix, the call sites. However, in this case, the code will still compile and execute but the returned object will no longer be disposed. In order to fix this, we need to add a call to `Using()`...
+Even though the expression returns an object, the compiler knows it can ignore this and chooses overload 1. The big problem now is, because there is no registration of the object, it will not be disposed. This was the source of all my agonising. If the change caused compilation errors, developers would be forced to revisit, and fix, the call sites. However, in this case, the code will still compile and execute but the returned object will no longer be disposed. In order to fix this, we need to add a call to `Using()`...
 
     Given(() => foo = new SomeDisposable().Using())              // 1
 
@@ -121,7 +121,7 @@ Overload 4 was introduced to allow execution of teardown which is not encapsulat
 	    },
 	    () => foo.Teardown())
 
-Similarly to disposal, the teardown is guaranteed to execute at the end of the scenario. This overload was actually OK but, whilst scrutinizing this part of the API, I realised that the intent could be more clearly communicated with a fluent method...
+Similarly to disposal, the teardown is guaranteed to execute at the end of the scenario. This overload was actually OK but, whilst scrutinising this part of the API, I realised that the intent could be more clearly communicated with a fluent method...
 
 	Given(() =>    // 1
 	    {

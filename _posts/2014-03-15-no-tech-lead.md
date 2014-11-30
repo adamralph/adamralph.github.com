@@ -137,7 +137,7 @@ Software architecture is not an up-front exercise but is an evolution. The team 
 
 The 'good' and 'bad' personality traits apply to all team members.
 
-Every team has members with (sometimes widly) varying skills and levels of experience and these should be embraced as the team self organises rather than elevating an individual to a special status.
+Every team has members with (sometimes wildly) varying skills and levels of experience and these should be embraced as the team self organises rather than elevating an individual to a special status.
 
 Team members earn respect *from one another* through technical competence and experience.
 
