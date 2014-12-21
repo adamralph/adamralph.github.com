@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guard clause abuse
+title: Guard Clause Abuse
 location: Sandhurst
 tags:
 - DDD
