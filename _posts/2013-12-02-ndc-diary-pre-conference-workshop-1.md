@@ -5,7 +5,7 @@ title: NDC Diary - Pre-Conference Workshop Day 1
 location: London
 tags:
 - NDC
-- javascript
+- JavaScript
 ---
 
 The [NDC London](http://ndc-london.com/) pre-conference workshops kicked off today. After being recognised as [NDC's first ever London delegate](https://twitter.com/NDC_Conferences/status/407540261774831617), I headed over to ['JavaScript: Getting your feet wet'](http://ndc-london.com/pre-conference-workshop/javascript-getting-your-feet-wet-venkat-subramaniam-2-dec/1281) with [Venkat Subramaniam](https://twitter.com/venkat_s). 

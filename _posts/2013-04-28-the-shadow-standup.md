@@ -4,7 +4,7 @@ title: Shadow Stand-ups
 location: Zurich
 tags:
 - agile
-- scrum
+- Scrum
 ---
 
 If you're doing agile, you're probably doing daily stand-ups. A good stand-up is useful. A bad stand-up is a waste of time.

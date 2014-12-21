@@ -4,7 +4,7 @@ layout: post
 title: Announcing xBehave.net 1.0
 location: Zurich
 tags:
-- xbehave.net
+- xBehave.net
 ---
 
 ![](https://raw.github.com/xbehave/xbehave.net/master/assets/xbehave_128x128.png)

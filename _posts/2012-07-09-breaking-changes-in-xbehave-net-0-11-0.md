@@ -3,7 +3,7 @@ layout: post
 title: Breaking changes in xBehave.net 0.11.0
 location: Zurich
 tags:
-- xbehave.net
+- xBehave.net
 ---
 Today sees the release of [xBehave.net](https://bitbucket.org/adamralph/xbehave.net) version [0.11.0](https://nuget.org/packages/Xbehave/0.11.0).
 

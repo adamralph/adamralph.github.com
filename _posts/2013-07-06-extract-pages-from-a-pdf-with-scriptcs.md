@@ -4,7 +4,7 @@ title: Extract Pages from a PDF Using Scriptcs
 location: Zurich
 tags:
 - scriptcs
-- pdf
+- PDF
 ---
 
 Today I needed to extract some pages from a large PDF file. One way of doing this would be to pay for a commercial PDF app (free versions don't have this feature).

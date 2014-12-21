@@ -4,7 +4,7 @@ title: Blog Post Excerpts - A New Solution
 location: Zurich
 tags:
 - meta
-- liquid
+- Liquid
 ---
 Something weird happened in the last few days with the Liquid template engine used for GitHub pages.
 
