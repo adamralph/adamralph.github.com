@@ -53,4 +53,4 @@ The above code should not be using a guard clause and should not raise an `Argum
         }
     }
 
-\* *Feel free to substitute the word 'model' for 'business', according to taste :wink:*.
+\* *Feel free to substitute the word 'model' for 'business', according to taste* :wink:.
