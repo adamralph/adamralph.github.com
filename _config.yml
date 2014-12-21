@@ -7,6 +7,9 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 
+gems:
+  - jemoji
+
 future:      true
 lsi:         false
 highlighter: null
