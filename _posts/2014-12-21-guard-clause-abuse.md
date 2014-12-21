@@ -41,7 +41,7 @@ The above code should not be using a guard clause and should not raise an `Argum
         {
             if (numberPlate == null)
             {
-                throw new UsedCarDealershipException("The numberPlate is missing.");
+                throw new UsedCarDealershipException("The number plate is missing.");
             }
             
             this.numberPlate = numberPlate;
