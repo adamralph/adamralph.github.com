@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/adamralph
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://adamralph.com
+  * I am adamralph (https://keybase.io/adamralph) on keybase.
+  * I have a public key with fingerprint BBD9 E810 1318 94AF DB41  884C A13C 4EC3 43B4 4212
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "bbd9e810131894afdb41884ca13c4ec343b44212",
+            "host": "keybase.io",
+            "key_id": "a13c4ec343b44212",
+            "kid": "0101202e71a2cc7a0157b7fa9ca347993f237baa43cd1d5c0215f292b184c9d07aba0a",
+            "uid": "c1e8860ed1092b94f10a62c811af8000",
+            "username": "adamralph"
+        },
+        "service": {
+            "hostname": "adamralph.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1420939297,
+    "expire_in": 157680000,
+    "prev": "af1a417e7d00e88b65d958816dead6d453f32fea4d53b5f634c10a7259a48b46",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIYAnicbVJbSBVRFL2+Kg3TCMGwDxs0g256zsyZ18UILSRTiKAPP6LLmTlndFLv
+XOeOppmFfVVihGUaRCKafYQ9FLU+elhdqHxQKSlZaEURgRWCJCjZGamf6Otw9l5r
+7bU2+0l8lCcuIuXp0Pau3bg7Ymgwt9Jz4PaLzbWcZpEazlfLldKVxzADxdQO2mbA
+4XycphGVKhBAASoqwgbREFQUpGMo6IjqAhI0hHjIc16uxAq5DCaj4RDNNC1WYx+/
+SVj1P/jSlQZg2jzgqQwxr+syBlCUNdnAqo4FJKuqYPCCrGGMBJ1AIuqAh6LBq7wG
+mQuVABlrGGAmV7kip0OqKBKgBAKGUZEBAZZ4XYEQGwoAwAWGqB3A5dR1RXC5jcuC
+JVydl2PlKlOn7g7cKP9CMnWrnLGDtuVYulXGWiWOE/S5TKcm6EKPUM3/R8SvmQHC
+FskIVdQOmVaA80GG1B3TVYWIB6qg8qrs5Wh10LSp33QRoiy5JoE7hla50w2IEZSp
+TABgwTRJJKqoKFAiFBOJIFEwBN6gGBFR0ERDEpDOAsu8qGKkaEji3FgVAYvzCcwm
+LmaSIbM4gJ1Km3J1jx4ejPZExHlWxUS6p+CJi038eyANyurlwtL1UXWnZwozJ3KE
+rG5x+JByod7fP93UFs4+ejx+z1hiZZrvxpWG5Pn5j40FGiiaMl9+vVm7L7Q8GuWM
+dKW+fTDeptRmLPfcWw6+n2nsfdb5JmF0bLFrXVpKa9HGnrm+WWfmZ0VT98LShzUt
+6U1jzRPXPJPe9k+Fw0sL4R1d+auepxcMnC/K/x5z/1fvnDJnd24L54xHvopN/ZL1
+Yzh3lssmd52kevXOltCl8MznDYMlUvhqwfR13+tTkY9H8nxrO441l51siTh77lb1
+zrmpuqlv/eVnWrdmUR1vOrG/PZTXP5CRvCs92rM4nt02cnlvQtJkSl9HUce7mqbZ
+wxfzAn2/ASWjLzo=
+=Gqdk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adamralph
+
+==================================================================
