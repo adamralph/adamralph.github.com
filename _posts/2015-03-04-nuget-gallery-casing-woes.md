@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NuGet Gallery Casing Woes
+title: NuGet Gallery Casing Woes Have (Temporarily) Killed Bau.Xunit
 location: Flims
 tags:
 - NuGet
