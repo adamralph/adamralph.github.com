@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NuGet Gallery Casing Woes Have (Temporarily) Killed Bau.Xunit
+title: How To Kill Your NuGet Package Through Casing
 location: Flims
 tags:
 - NuGet
