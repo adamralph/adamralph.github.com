@@ -14,7 +14,7 @@ This caused problems in Linux, since the folder on disk was created using the ga
 
 <!--excerpt-->
 
-The natural thing to do was to fix the ID in the gallery, since `Bau.Xunit` is the desired casing. The NuGet support staff where very helpful and, on my request, removed all the versions of the package from the gallery. I then re-uploaded all the correctly ID'd versions of the package and, hey presto, the casing was fixed and the ID if the package was `Bau.Xunit`. This is proven since the URL for the package, in search results, etc. was now "https://www.nuget.org/packages/Bau.Xunit/" instead of "https://www.nuget.org/packages/Bau.XUnit/". All good.
+The natural thing to do was to fix the ID in the gallery, since `Bau.Xunit` is the desired casing. The NuGet support staff where very helpful and, on my request, removed all the versions of the package from the gallery. I then re-uploaded all the correctly ID'd versions of the package and, hey presto, the casing was fixed and the ID of the package was `Bau.Xunit`. This is proven since the URL for the package, in search results, etc. was now "https://www.nuget.org/packages/Bau.Xunit/" instead of "https://www.nuget.org/packages/Bau.XUnit/". All good.
 
 That is, until I tried to consume the package using the NuGet client. I received an error telling me
 
