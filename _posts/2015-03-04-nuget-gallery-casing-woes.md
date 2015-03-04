@@ -66,4 +66,4 @@ Note that in the response, the package is referred to as `Bau.XUnit` which means
 
 So it seems like some parts of the system are referring to the package as `Bau.Xunit` (correct) and others are still referring to it as `Bau.XUnit` (incorrect). I suspect this is the root of the problem.
 
-I've asked NuGet support to look into the problem since, as it stands, the Bau.Xunit package is completely out of action ;-(.
+I've asked NuGet support to look into the problem since, as it stands, the Bau.Xunit package is completely out of action :scream:.
