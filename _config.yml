@@ -12,7 +12,7 @@ gems:
 
 future:      true
 lsi:         false
-highlighter: null
+highlighter: pygments
 markdown:    rdiscount
 permalink:   pretty
 
