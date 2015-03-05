@@ -79,4 +79,5 @@ I've [raised a bug](https://github.com/NuGet/NuGetGallery/issues/2379) on the Nu
 ### Update
 
 *05 Mar 2015*
+
 Until the issue has been resolved, I've uploaded a temporary stand in package named [Bau.Xunit.Temp](https://www.nuget.org/packages/Bau.Xunit.Temp). You can switch your project to using this package whilst the saga continues.
