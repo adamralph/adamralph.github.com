@@ -73,4 +73,4 @@ I've asked NuGet support to look into the problem since, as it stands, the Bau.X
 
 *05 Mar 2015*
 
-I've [raised a bug](https://github.com/NuGet/NuGetGallery/issues/2379) on the NuGet Gallery GitHub repo to try and get some eyes on this. Ultimately this ought to be fixed, but in the meantime I'm hoping some keen eyed developers can spot a workaround that could be done by the support team.
+I've [raised a bug](https://github.com/NuGet/NuGetGallery/issues/2379) on the NuGet Gallery GitHub repo to try and get some more eyes on this. Ultimately this ought to be fixed, but in the meantime I'm hoping some keen eyed developers can spot a workaround that could be done by the support team.
