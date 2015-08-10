@@ -20,7 +20,7 @@ After a long JS drought, I recently had my first adventure using [AngularJS](htt
 
 Today the curtain was lifted. At times it certainly felt like Venkat was guiding us down the rabbit hole and after one day I'm sure I still have no idea how deep that rabbit hole goes. JS is in some ways incredibly clever, powerful and elegant, but in other ways it's horribly ugly, dangerous and mind bending.
 
-The first parts of the workshop were largely re-treading old ground for me with few surprises along the way (except a few minor shocks regarding scoping!) but the latter content surrounding classes and prototypes was mostly news to me. I had no idea JS held so much power (and danger!) in it's protoypal inheritance system. Coming from C# I was quite astonished to discover what can be done at runtime in JS and my high regard for testing was solidly re-enforced!
+The first parts of the workshop were largely re-treading old ground for me with few surprises along the way (except a few minor shocks regarding scoping!) but the latter content surrounding classes and prototypes was mostly news to me. I had no idea JS held so much power (and danger!) in it's prototypal inheritance system. Coming from C# I was quite astonished to discover what can be done at runtime in JS and my high regard for testing was solidly re-enforced!
 
 I'm glad I attended the workshop and I now feel far more confident and enthusiastic about using JS in anger. I feel myself itching to implement an application using [NodeJS](http://nodejs.org/), which we used for the workshop exercises.
 

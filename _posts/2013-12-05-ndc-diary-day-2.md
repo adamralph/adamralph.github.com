@@ -29,7 +29,7 @@ So, I left Uncle Bob's talk wanting to learn a functional language, and as I wal
 
 ### F# and DDD with [Scott Wlaschin](https://twitter.com/ScottWlaschin)
 
-Continuing my new found determinism to learn a functional language I headed over to learn how to use F# in DDD. After a few DDD basics which I was largely familiar with, my illusions about the F# type system were completely blown away. I had naively assumed that F# types were largely equivalent to C# classes but that couldn't be further from the truth. My criticism of the talk is that the examples shown were somewhat anemic in terms of DDD. They were more about data structure than behaviour. However, I'm now intrigued as to how I might implement a domain in one of my real projects in F#, in combination with things like CQRS and event sourcing. To be continued...
+Continuing my new found determinism to learn a functional language I headed over to learn how to use F# in DDD. After a few DDD basics which I was largely familiar with, my illusions about the F# type system were completely blown away. I had naively assumed that F# types were largely equivalent to C# classes but that couldn't be further from the truth. My criticism of the talk is that the examples shown were somewhat anaemic in terms of DDD. They were more about data structure than behaviour. However, I'm now intrigued as to how I might implement a domain in one of my real projects in F#, in combination with things like CQRS and event sourcing. To be continued...
  
 **Tomorrow:** Recording a show about scriptcs for DotNetRocks with [@gblock](https://twitter.com/gblock) and [@jrusbatch](https://twitter.com/jrusbatch)
 
