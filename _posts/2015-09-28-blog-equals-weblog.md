@@ -17,6 +17,8 @@ More than once, I've found myself asking:
 
 > When did my blog stop being a weblog?
 
+<!--excerpt-->
+
 Indeed, was it ever a weblog? Why can it not just *be* a weblog? There's no good answer. I've made it as easy as possible to write posts. My blog uses GitHub pages and Jekyll and I can write posts directly in the GitHub UI using Markdown. It is my personal blog. I am not using it to sell services or convey a corporate message. It *should* be personal, even if it does have a general theme, such as software development. There's no reason I can't write posts in an informal or conversational style. There is no reason that a post can't be short. A few mistakes here and there? Who cares? Let the spelling and grammar police do their worst!
 
 So this evening, as I stepped past my office door, I decided to pop in and try and reclaim my **weblog**. I went to GitHub, clicked on the create file icon and started writing some Markdown. This post is the result.
