@@ -11,7 +11,7 @@ The word 'blog' is a truncation of the expression 'weblog'. Google defines the w
 
 The key expression here is *regularly updated*. The key facilitator is *written in an informal or conversational style*.
 
-At some point, I believe myself and at least a few other blog authors forgot this. Instead of blogging, i.e. regularly logging our activities, observations, general thoughts, etc. on the web in an informal style, we started producing polished articles, written with a beginning, a middle and an end. We started to plan blog posts way in advance, to craft them over days, weeks or more, to keep a backlog of blog post ideas "for the future". Whilst these approaches may work for some, evidence has shown that has not worked for me. Whatever the reasons are, be they a lack of ability, time or motiviation, the end result is that my blog is *not* regularly updated.
+At some point, I believe myself and at least a few other blog authors forgot this. Instead of blogging, i.e. regularly logging our activities, observations, general thoughts, etc. on the web in an informal style, we started producing polished articles, written with a beginning, a middle and an end. We started to plan blog posts way in advance, to craft them over days, weeks or more, to keep a backlog of blog post ideas "for the future". Whilst these approaches may work for some, evidence has shown that has not worked for me. Whatever the reasons are, be they a lack of ability, time or motivation, the end result is that my blog is *not* regularly updated.
 
 More than once, I've found myself asking:
 
