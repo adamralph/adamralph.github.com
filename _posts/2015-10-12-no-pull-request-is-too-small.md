@@ -9,7 +9,7 @@ This is a message I try and convey as often as possible to people starting out i
 
 And this is not something I do just for show. If you were to follow my activity on GitHub you'd see that I [do this for real](https://github.com/damianh/LibLog/pull/86/files) too. If I'm browsing some source code and I see a typo, why not just fix it there and then? Project maintainers (myself included) appreciate these little fixes and polishes. Every little bit helps.
 
-It was heart warming for me to learn that [Justin Nel](https://twitter.com/Cyberlane) and [Paweł Grudzień](https://twitter.com/BleedingNEdge) were inspired by watching me do this in my talks and proceeded to send their own small improvements to [DNX](https://github.com/aspnet/dnx/pull/2936) and [NancyFX](https://github.com/NancyFx/Nancy.Demo.Samples/pull/3).
+It was heart warming for me to learn that [Justin Nel](https://twitter.com/Cyberlane) and [Paweł Grudzień](https://twitter.com/BleedingNEdge) were inspired by watching me do this in my talks and proceeded to send their own small improvements to [NancyFX](https://github.com/NancyFx/Nancy.Demo.Samples/pull/3) and [DNX](https://github.com/aspnet/dnx/pull/2936).
 
 <!--excerpt-->
 
