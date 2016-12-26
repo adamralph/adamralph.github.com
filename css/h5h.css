@@ -1,0 +1,130 @@
+/*! h5h v1.0.0 | Apache License | github.com/adamralph/h5h */
+
+body {
+  margin-left: 15px;
+}
+
+header, main, footer, nav, section, article, aside {
+  padding-left: 15px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-top: 15px;
+}
+
+header:before, main:before, footer:before, nav:before, section:before, article:before, aside:before {
+  display: block;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+header:before, main:before, footer:before, nav:before, section:before, article:before, aside:before, h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+  color: white;
+  font-size: 0.8em;
+  padding: .1em .3em .1em .3em;
+  border-radius: .4em;
+}
+
+header > *:first-child, main > *:first-child, footer > *:first-child, nav > *:first-child, section > *:first-child, article > *:first-child, aside > *:first-child {
+  margin-top: 15px;
+}
+
+header {
+  border-left-color: darkgoldenrod;
+}
+
+body header:before {
+  background: darkgoldenrod;
+  content: "<header> (introductory content and/or a set of navigational links)";
+}
+
+main {
+  border-left-color:cornflowerblue;
+}
+
+body main:before {
+  content: "<main> (the main, unique content of this page)";
+  background: cornflowerblue;
+}
+
+footer {
+  border-left-color: darkgoldenrod;
+}
+
+body footer:before {
+  content: "<footer> (metadata about the containing element)";
+  background: darkgoldenrod;
+}
+
+nav {
+  border-left-color: darkorange;
+}
+
+nav:before {
+  content: "<nav> (a set of major/primary navigation links)";
+  background: darkorange;
+}
+
+section {
+  border-left-color: lightslategray;
+}
+
+section:before {
+  content: "<section> (a thematic grouping of content)";
+  background: lightslategray;
+}
+
+article {
+  border-left-color: mediumpurple;
+}
+
+article:before {
+  content: "<article> (independent, self-contained content)";
+  background: mediumpurple;
+}
+
+aside {
+  border-left-color: indianred;
+}
+
+aside:before {
+  content: "<aside> (content aside from, but related to, the surrounding content)";
+  background: indianred;
+}
+
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+  margin-right: .4em;
+  background: mediumseagreen;
+}
+
+h1:before {
+  content: "<h1>";
+}
+
+h2:before {
+  content: "<h2>"
+}
+
+h3:before {
+  content: "<h3>"
+}
+
+h4:before {
+  content: "<h4>"
+}
+
+h5:before {
+  content: "<h5>"
+}
+
+h6:before {
+  content: "<h6>"
+}
+
+p {
+  max-width: 40em;
+}
+
+img {
+  max-width: 120px;
+  max-height: 120px;
+}

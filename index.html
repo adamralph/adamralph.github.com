@@ -10,16 +10,16 @@ title: Adam Ralph
 <a href="/tags/#{{ tag | replace:' ','%20' }}"><span class="badge">{{ tag }}</span></a>
   {% endfor %}
 </p>
-<div style="display:inline-block;vertical-align:top">
+<div>
     <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-count="none" data-text="{{ post.title }}" data-url="http://{{ site.host_name }}{{ post.url | remove:'.html' }}">Tweet</a>
 </div>
-<div style="display:inline-block;vertical-align:top">
+<div>
     <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en" data-save-url="http://{{ site.host_name }}{{ post.url | remove:'.html' }}"></a>
 </div>
-<div style="display:inline-block;vertical-align:top">
+<div>
     <a href="https://news.ycombinator.com/submit" class="hn-button" data-count="horizontal" data-title="{{ post.title }}" data-url="http://{{ site.host_name }}{{ post.url | remove:'.html' }}">Vote on Hacker News</a>
 </div>
-<div style="display:inline-block;vertical-align:top">
+<div>
     <div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://{{ site.host_name }}{{ post.url | remove:'.html' }}"></div>
 </div>
   {{ post.content | split:'<!--excerpt-->' | first }}
