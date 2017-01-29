@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body > * {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body > header {
+    background: #222;
+    color: #fff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+body > header > div#div-header-left {
+    float: left;
+}
+
+body > header > div#div-header-right {
+    float: right;
+}
+
+body > header h1 {
+    font-size: 2.2em;
+    margin-top: 0.33em;
+    margin-bottom: 0em;
+}
+
+body > header h1 a {
+    text-decoration: none;
+}
+
+body > header p {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 0em;
+    margin-bottom: 4.5em;
+    letter-spacing: 0.075em;
+}
+
+body > header nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 1.33em;
+}
+
+body > header nav#nav-pages ul li {
+    float: left;
+    text-transform: lowercase;
+}
+
+body > header nav#nav-pages ul li:not(:last-child) {
+    margin-right: 2em;
+}
+
+body > header nav#nav-pages ul li a {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+body > header nav#nav-pages ul li a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #fff;
+}
+
+body > header nav#nav-links ul {
+    list-style-type: none;
+    margin-top: 1.33em;
+}
+
+body > header nav#nav-links ul li:not(:last-child) {
+    margin-bottom: 1.33em;
+}
+
+body > footer {
+    background: #eee;
+    color: #555;
+    font-size: 0.8em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+main p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: inherit;
+}

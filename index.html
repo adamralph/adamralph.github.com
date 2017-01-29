@@ -2,6 +2,26 @@
 layout: default
 title: Adam Ralph
 ---
+<aside>
+  <h2>Open source</h2>
+  <ul>
+    <li><a href="https://github.com/colored-console/colored-console/">ColoredConsole</a></li>
+    <li><a href="https://fakeiteasy.github.io/">FakeItEasy</a></li>
+    <li><a href="https://github.com/liteguard/liteguard/">LiteGuard</a></li>
+    <li><a href="http://xbehave.github.io/">xBehave.net</a></li>
+  </ul>
+</aside>
+<div id="side2" class="span2">
+  <div id="tags">
+    {% for tag in site.tags %}
+    <a href="/tags/#{{ tag[0] | replace:' ','%20' }}">{{ tag[0] }}</a><span> </span>
+    {% endfor %}
+  </div>
+  <div id="tweets">
+    <a class="twitter-timeline" href="https://twitter.com/adamralph" data-widget-id="296522059847172096">Tweets by @adamralph</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+</div>
 {% for post in site.posts limit:5 %}
 <h1><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h1>
 <p class="post-meta">

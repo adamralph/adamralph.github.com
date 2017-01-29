@@ -1,153 +1,87 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="{% for tag in page.tags %}{{ tag }} {% endfor %}.net software development blog" />
-    <meta name="description" content="{{ page.title }}" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
-    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192" />
-    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-    <meta name="msapplication-TileColor" content="#0066cc" />
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@adamralph" />
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.description }}" />
-    <meta name="twitter:image:src" content="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce" />
-    <title>{{ page.title }} &#8211; adamralph.com</title>
-    <link rel="alternate" type="application/atom+xml" title="adamralph.com atom feed" href="/feed/" />
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <!--<link rel="stylesheet" href="/css/h5h-n.css" />-->
-  </head>
-  <body>
-    <div class="container">
-      <div class="container-fluid">
-        <div class="masthead">
-          <ul class="nav nav-pills pull-right">
-            <li>
-              <a href="/" title="home">
-                <i class="fa fa-home fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://twitter.com/adamralph" title="follow me on Twitter">
-                <i class="fa fa-twitter fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://mastodon.network/web/accounts/25045" title="follow me on Mastodon">
-                <i class="fa fa-circle-o fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://github.com/adamralph/" title="follow me on GitHub">
-                <i class="fa fa-github fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="/archive/" title="archive">
-                <i class="fa fa-list fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="/feed" title="feed">
-                <i class="fa fa-rss fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="/about/" title="about me">
-                <i class="fa fa-info fa-lg"></i>
-              </a>
-            </li>
-          </ul>
-          <a href="/" title="Home"><h1>Adam Ralph</h1></a>
-          <div id="site-description">
-            <p>A blog about how software development fills in the gaps between snowboarding</p>
-          </div>
-        </div>
-        <hr />
-        <div class="row-fluid">
-          <div id="side" class="span2">
-            <div id="logo-panel">
-              <a href="/about/" title="About me">
-                <img id="logo" src="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce?s=150" alt="Adam Ralph" width="150" height="150" />
-              </a>
-            </div>
-            <div class="sidebar-nav">
-              <ul class="nav nav-list">
-                <li class="nav-header">Open Source</li>
-                <li>
-                  <a href="https://fakeiteasy.github.io/">FakeItEasy</a>
-                </li>
-                <li>
-                  <a href="https://github.com/liteguard/liteguard/">LiteGuard</a>
-                </li>
-                <li>
-                  <a href="https://github.com/Particular/NServiceBus/">NServiceBus</a>
-                </li>
-                <li>
-                  <a href="https://github.com/adamralph/simple-targets-csx/">simple-targets-csx</a>
-                </li>
-                <li>
-                  <a href="http://xbehave.github.io/">xBehave.net</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div id="content" class="span8">
-  {{ content }}
-          </div>
-          <div id="side2" class="span2">
-            <div id="tags">
-              {% for tag in site.tags %}
-              <a href="/tags/#{{ tag[0] | replace:' ','%20' }}">{{ tag[0] }}</a><span> </span>
-              {% endfor %}
-            </div>
-            <div id="tweets">
-              <a class="twitter-timeline" href="https://twitter.com/adamralph" data-widget-id="296522059847172096">Tweets by @adamralph</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="footer">
-          <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Adam Ralph Blog posts by Adam Ralph are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>          
-          <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.</p>
-          <p>Powered by <a href="http://pages.github.com/">GitHub Pages</a> and <a href="http://jekyllrb.com/">jekyll</a>.
-          </p>
-          <p>
-            <a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="{% for tag in page.tags %}{{ tag }} {% endfor %}.net software development blog" />
+  <meta name="description" content="{{ page.title }}" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+  <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192" />
+  <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+  <meta name="msapplication-TileColor" content="#0066cc" />
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@adamralph" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:image:src" content="http://www.gravatar.com/avatar/78e6cdb8bf24413c4576e496e4d05fce" />
+  <title>{{ page.title }} &#8211; adamralph.com</title>
+  <link rel="alternate" type="application/atom+xml" title="adamralph.com atom feed" href="/feed/" />
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/default.css" />
+  <!--<link rel="stylesheet" href="/css/h5h-n.css" />-->
+</head>
+
+<body>
+  <header class="clearfix">
+    <div id="div-header-left">
+      <h1><a href="/" title="Home">Adam Ralph</a></h1>
+      <p>Code, tea, and snowboarding</p>
+      <nav id="nav-pages">
+        <h2 class="visuallyhidden">Pages</h2>
+        <ul class="clearfix">
+          <li><a href="/about/" title="about me">About</a></li>
+          <li><a href="/archive/" title="blog">Blog</a></li>
+          <li><a href="/tags/" title="articles">Articles</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="div-header-right">
+      <nav id="nav-links">
+        <h2 class="visuallyhidden">Links</h2>
+        <ul>
+          <li><a id="twitter" href="http://twitter.com/adamralph" title="follow me on Twitter"><img src="/img/twitter-cccccc-32.png" width="16" alt="Twitter" /></a></li>
+          <li><a id="github" href="http://github.com/adamralph/" title="follow me on GitHub"><img src="/img/github-6-cccccc-32.png" width="16" alt="GitHub" /></a></li>
+          <li><a id="feed" href="/feed" title="feed"><img src="/img/rss-cccccc-32.png" width="16" alt="Feed" /></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+{{content}}  </main>
+  <footer>
+    <p>All content licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+    <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.</p>
+    <p>Powered by <a href="http://pages.github.com/">GitHub Pages</a> and <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+    <p><a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.</p>
+  </footer>
+  <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-9261591-1']);
       _gaq.push(['_setDomainName', 'adamralph.com']);
       _gaq.push(['_setAllowLinker', true]);
       _gaq.push(['_trackPageview']);
 
-      (function() {
+      (function () {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
-  </body>
+</body>
+
 </html>
