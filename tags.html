@@ -2,11 +2,29 @@
 layout: default
 title: Tags
 ---
-<h1>Tags</h1>
+<h2>Tags</h2>
 {% for tag in site.tags %}
-<a name="{{ tag[0] }}"></a>
-<h2>{{ tag[0] }}</h2>
+<section>
+<a id="{{ tag[0] | slugify }}"></a>
+<h3>{{ tag[0] }}</h3>
+  {% assign previousmonth = "" %}
   {% for post in tag[1] %}
-<li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+    {% capture month %}{{ post.date | date: "%b-%Y" }}{% endcapture %}
+    {% if month != previousmonth %}
+        {% if forloop.first %}
+        {% else %}
+</ul>
+</section>
+        {% endif %}
+<section>
+<a id="{{ tag[0] | slugify }}-{{ month }}"></a>
+<h4>{{ post.date | date: '%B %Y' }}</h4>
+<ul>
+        {% assign previousmonth = month %}
+    {% endif %}
+  <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
   {% endfor %}
+</ul>
+</section>
+</section>
 {% endfor %}
