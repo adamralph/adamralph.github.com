@@ -9,7 +9,7 @@ This is a message I try and convey as often as possible to people starting out i
 
 And this is not something I do only for show. If you were to follow my activity on GitHub you'd see that I [do this for real](https://github.com/damianh/LibLog/pull/86/files) too. If I'm browsing some source code and I see a typo, why not fix it there and then? Project maintainers (myself included) appreciate these little fixes and polishes. Every little bit helps.
 
-It was heart warming for me to learn that I inspired [Justin Nel](https://twitter.com/Cyberlane) and [Paweł Grudzień](https://twitter.com/BleedingNEdge) when they watched me do this in my talks and proceeded to send their own small improvements to [NancyFX](https://github.com/NancyFx/Nancy.Demo.Samples/pull/3) and [DNX](https://github.com/aspnet/dnx/pull/2936).
+It was heart warming for me to learn that I inspired [Justin Nel](https://twitter.com/Cyberlane) and [Paweł Grudzień](https://twitter.com/BleedingNEdge) when they watched me do this in my talks. They went on to send their own small improvements to [NancyFX](https://github.com/NancyFx/Nancy.Demo.Samples/pull/3) and [DNX](https://github.com/aspnet/dnx/pull/2936).
 
 Indeed, this is something *all* OSS contributors should bear in mind. Beginners, journeymen and masters alike.
 
