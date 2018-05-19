@@ -2,22 +2,13 @@
 layout: default
 title: Archive
 ---
-<h2>Archive</h2>
-{% for post in site.posts %}
-    {% capture month %}{{ post.date | date: "%b-%Y" }}{% endcapture %}
-    {% if month != previousmonth %}
-        {% if forloop.first %}
-        {% else %}
-</ul>
-</section>
-        {% endif %}
-<section>
-<a id="{{ month }}"></a>
-<h3>{{ post.date | date: '%B %Y' }}</h3>
-<ul>
-        {% assign previousmonth = month %}
-    {% endif %}
-  <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-</section>
+    <h2>Archive</h2>{% for post in site.posts %}{% capture month %}{{ post.date | date: "%b-%Y" }}{% endcapture %}{% if month != previousmonth %}{% if forloop.first %}{% else %}
+      </ul>
+    </section>{% endif %}
+    <section>
+      <a id="{{ month }}"></a>
+      <h3>{{ post.date | date: '%B %Y' }}</h3>
+      <ul>{% assign previousmonth = month %}{% endif %}
+        <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>{% endfor %}
+      </ul>
+    </section>

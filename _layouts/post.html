@@ -2,54 +2,14 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="post-meta">
-{{ page.date | date_to_string }} {{ page.location }}
-{% for tag in page.tags %}
-<a href="/tags/#{{ tag | replace:' ','%20' }}"><span class="badge">{{ tag }}</span></a>
-{% endfor %}
-</p>
-<div>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-count="none">Tweet</a>
-</div>
-<div>
-    <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en"></a>
-</div>
-<div>
-    <a href="https://news.ycombinator.com/submit" class="hn-button" data-count="horizontal">Vote on Hacker News</a>
-</div>
-<div>
-    <div class="g-plusone" data-size="medium" data-annotation="none"></div>
-</div>
+<p class="post-meta">{{ page.date | date_to_string }} {{ page.location }}</p>
 {{ content }}
 <div>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-count="none">Tweet</a>
-</div>
-<div>
-    <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en"></a>
-</div>
-<div>
-    <a href="https://news.ycombinator.com/submit" class="hn-button" data-count="horizontal">Vote on Hacker News</a>
-</div>
-<div>
-    <div class="g-plusone" data-size="medium" data-annotation="none"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-text="{{ page.title }}" data-size="small", data-dnt="true">Tweet</a>
 </div>
 <div id="disqus_thread"></div>
 <!--twitter-->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<!--pocket-->
-<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
-<!--hn-->
-<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
-<!--g+-->
-<script type="text/javascript">
-  window.___gcfg = {lang: 'en-GB'};
-
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
 <!--disqus-->
 <script type="text/javascript">
     var disqus_shortname = 'adamralph';
