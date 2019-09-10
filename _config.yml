@@ -7,7 +7,7 @@ source:       .
 destination:  ./_site
 plugins_dir:  ./_plugins
 
-gems:
+plugins:
   - jemoji
 
 future:       true
