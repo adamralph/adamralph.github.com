@@ -86,12 +86,3 @@ p.post-meta {
 h1 {
     margin-bottom: 0em;
 }
-
-span.badge {
-    font-style: normal;
-    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
-    font-size: 0.6em;
-    background: gray;
-    color: white;
-    padding: 0.2em;
-}
