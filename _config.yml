@@ -9,6 +9,7 @@ plugins_dir:  ./_plugins
 
 plugins:
   - jemoji
+  - jekyll-feed
 
 future:       true
 lsi:          false
