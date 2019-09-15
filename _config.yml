@@ -11,6 +11,12 @@ plugins:
   - jemoji
   - jekyll-feed
 
+title: Adam Ralph
+description: Software, tea, and snowboarding
+url: https://adamralph.com
+author:
+  twitter: adamralph
+
 future:       true
 lsi:          false
 highlighter:  rouge
