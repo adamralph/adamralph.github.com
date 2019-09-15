@@ -28,10 +28,6 @@ body > header h1 {
     margin-bottom: 0em;
 }
 
-body > header h1 a {
-    text-decoration: none;
-}
-
 body > header p {
     font-size: 0.8em;
     margin-top: 0em;
@@ -85,4 +81,8 @@ p.post-meta {
 
 h1 {
     margin-bottom: 0em;
+}
+
+h1 a {
+    text-decoration: none;
 }
