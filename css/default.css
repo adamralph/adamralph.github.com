@@ -16,6 +16,7 @@ body > * {
 
 body > header {
     background: #222;
+    background-image: url("/img/banner.jpg");
     color: #fff;
     padding-top: 1px;
     padding-bottom: 1px;
