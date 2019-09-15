@@ -7,6 +7,8 @@ Yesterday, PowerPoint and Word suddenly started to refuse to open. I'd get the s
 
 First I searched to see if anyone else was suffering a similar problem. The recent [Windows 10 version 1803 update](/2018/05/15/windows-10-version-1803-broke-my-git-ssh/) was one of my prime suspects. I couldn't find anything so I decided to take matters into my own hands.
 
+<!--excerpt-->
+
 I went to "Settings -> Apps -> Apps & Features -> Microsoft Office Professional Plus 2016 -> Modify". That gave me two options: "Quick repair" and "Online repair". I tried both, and they made no difference. I then did a full un-install and re-install of Office. Again, no joy. The threat of a full machine rebuild started to loom over me. I went to bed and attempted to get some sleep.
 
 After lying awake for several hours I sneaked into my office at a ridiculous hour. I managed to find [an interesting Microsoft support article](https://support.microsoft.com/en-gb/help/921541/how-to-troubleshoot-problems-that-occur-when-you-start-or-use-word). It describes the removal of some registry keys as a possible solution for start up problems with Word. I guess my search-fu is better at five in the morning.
@@ -14,8 +16,6 @@ After lying awake for several hours I sneaked into my office at a ridiculous hou
 Sure enough, when I removed the `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Word` and `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\PowerPoint` keys, both the apps opened without problem!
 
 Of course, I couldn't stop there. Those registry keys have a lot of nested content, and I wanted to find out exactly what was causing the problem.
-
-<!--excerpt-->
 
 Before deleting the keys, I exported them to disk. To narrow down the problem, I re-imported them, deleted half the sub-keys, and tried to open the apps again. A typical "bisect" style problem investigation. Many tedious rounds of this commenced. I identified problematic sub-keys, repeated the bisection inside them, and so forth. Eventually, I managed to identify exactly which values were problematic:
 
