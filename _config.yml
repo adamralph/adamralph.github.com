@@ -13,8 +13,7 @@ plugins:
 title: Adam Ralph
 description: Software, tea, and snowboarding
 url: https://adamralph.com
-author:
-  twitter: adamralph
+author: Adam Ralph
 
 future:       true
 lsi:          false
