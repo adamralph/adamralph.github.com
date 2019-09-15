@@ -5,7 +5,7 @@ title: Adam Ralph
 {% for post in site.posts limit:3 %}    <article>
       <h1><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h1>
       <p class="post-meta">{{ post.date | date_to_string }} {{ post.location }}</p>
-{{ post.excerpt }}<a href="{{ post.url | remove:'.html' }}">[Read more...]</a>
+{{ post.excerpt }}<a class="read-more" href="{{ post.url | remove:'.html' }}">Read more...</a>
       <hr />
     </article>
 {% endfor %}
