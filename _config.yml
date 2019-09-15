@@ -14,6 +14,7 @@ title: Adam Ralph
 description: Software, tea, and snowboarding
 url: https://adamralph.com
 author: Adam Ralph
+excerpt_separator: <!--excerpt-->
 
 future:       true
 lsi:          false
