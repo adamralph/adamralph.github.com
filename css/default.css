@@ -75,16 +75,17 @@ a {
     color: inherit;
 }
 
-a.read-more {
-    color: gray;
-    font-size: 0.8em;
-    text-decoration: none;
-}
-
 p.post-meta {
     color: gray;
     font-size: 0.8em;
     margin-top: 0em;
+}
+
+p.read-more {
+    color: gray;
+    font-size: 0.8em;
+    margin-top: 0.8em;
+    text-decoration: none;
 }
 
 h1 {
