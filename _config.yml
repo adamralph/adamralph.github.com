@@ -1,4 +1,4 @@
-safe:         true
+safe:         false
 port:         4000
 host_name:    adamralph.com
 
