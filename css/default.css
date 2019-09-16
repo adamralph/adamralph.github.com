@@ -69,6 +69,11 @@ body > footer {
     padding-bottom: 1px;
 }
 
+main {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 main p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -94,4 +99,9 @@ h1 {
 
 h1 a {
     text-decoration: none;
+}
+
+article {
+    margin-top: 3em;
+    margin-bottom: 3em;
 }

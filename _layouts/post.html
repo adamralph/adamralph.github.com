@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<span class="post-meta">{{ page.date | date_to_string }} {{ page.location }}</span>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <span class="post-meta">{{ page.date | date_to_string }} {{ page.location }}</span>
 {{ content }}
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-text="{{ page.title }}" data-size="small" data-dnt="true">Tweet</a>
-<!--twitter-->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-text="{{ page.title }}" data-size="small" data-dnt="true">Tweet</a>
+      <!--twitter-->
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </article>
