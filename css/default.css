@@ -78,23 +78,23 @@ main p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-article {
+section.post-preview {
     margin-top: 3em;
     margin-bottom: 3em;
 }
 
-h1 a {
+section.post-preview h1 a {
+    text-decoration: none;
+}
+
+section.post-preview a.read-more {
+    color: gray;
+    font-size: 0.8em;
     text-decoration: none;
 }
 
 a {
     color: inherit;
-}
-
-a.read-more {
-    color: gray;
-    font-size: 0.8em;
-    text-decoration: none;
 }
 
 span.post-meta {
