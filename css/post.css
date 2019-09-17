@@ -4,8 +4,8 @@ section.related-posts {
 
 section.related-posts > h1 {
     color: gray;
-    font-size: 1em;
-    font-weight: normal;
+    font-size: 1.17em;
+    /* font-weight: normal; */
 }
 
 section.related-posts > section.post-preview {
