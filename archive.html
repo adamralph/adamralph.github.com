@@ -9,11 +9,6 @@ title: Archive
       <a id="{{ month }}"></a>
       <h3>{{ post.date | date: '%B %Y' }}</h3>
       <ul>{% assign previousmonth = month %}{% endif %}
-        <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a><span class="post-meta"> &mdash; {% assign words = post.content | number_of_words %}
-            {% if words < 180 %}
-                {{ words | divided_by:3 }} sec read time
-            {% else %}
-                {{ words | divided_by:180 }} min read time
-            {% endif %}</span></li>{% endfor %}
+        <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a><span class="post-meta"> &mdash; {{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read time</span></li>{% endfor %}
       </ul>
     </section>

@@ -4,12 +4,7 @@ title: Adam Ralph
 ---
 {% for post in site.posts limit:3 %}    <article>
       <h1><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h1>
-      <span class="post-meta">{{ post.date | date_to_string }} {{ post.location }} &mdash; {% assign words = post.content | number_of_words %}
-{% if words < 180 %}
-    {{ words | divided_by:3 }} sec read time
-{% else %}
-    {{ words | divided_by:180 }} min read time
-{% endif %}</span>
+      <span class="post-meta">{{ post.date | date_to_string }} {{ post.location }} &mdash; {{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read time</span>
 {{ post.excerpt }}<a class="read-more" href="{{ post.url | remove:'.html' }}">Read more...</a>
     </article>
 {% endfor %}

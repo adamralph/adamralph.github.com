@@ -3,12 +3,7 @@ layout: default
 ---
     <article>
       <h1>{{ page.title }}</h1>
-      <span class="post-meta">{{ page.date | date_to_string }} {{ page.location }} &mdash; {% assign words = content | number_of_words %}
-{% if words < 180 %}
-    {{ words | divided_by:3 }} sec read time
-{% else %}
-    {{ words | divided_by:180 }} min read time
-{% endif %}</span>
+      <span class="post-meta">{{ page.date | date_to_string }} {{ page.location }} &mdash; {{ content | number_of_words | divided_by:180 | at_least:1 }} min read time</span>
 {{ content }}
       <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-text="{{ page.title }}" data-size="small" data-dnt="true">Tweet</a>
       <!--twitter-->
