@@ -1,11 +1,3 @@
-safe:         false
-port:         4000
-host_name:    adamralph.com
-
-source:       .
-destination:  ./_site
-plugins_dir:  ./_plugins
-
 plugins:
   - jemoji
   - jekyll-feed
@@ -15,15 +7,3 @@ description: Software, tea, and snowboarding
 url: https://adamralph.com
 author: Adam Ralph
 excerpt_separator: <!--excerpt-->
-
-future:       true
-lsi:          false
-highlighter:  rouge
-permalink:    pretty
-
-kramdown:
-  auto_ids:       true,
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  enable_coderay: false
