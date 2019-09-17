@@ -1,0 +1,10 @@
+section.post-preview {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+section.post-preview > a.read-more {
+    color: gray;
+    font-size: 0.8em;
+    text-decoration: none;
+}

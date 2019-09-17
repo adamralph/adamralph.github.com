@@ -1,0 +1,18 @@
+section.related-posts {
+    margin-top: 2em;
+}
+
+section.related-posts > h1 {
+    color: gray;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+section.related-posts > section.post-preview {
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+
+section.related-posts > section.post-preview > h1.h-post-title {
+    font-size: 1.5em;
+}

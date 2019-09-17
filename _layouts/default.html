@@ -31,8 +31,10 @@
   {% feed_meta %}
   <link rel="stylesheet" href="/css/normalize.css" />
   <link rel="stylesheet" href="/css/main.css" />
-  <link rel="stylesheet" href="/css/default.css" />
-  <!--<link rel="stylesheet" href="/css/h5h-n.css" />-->
+  <link rel="stylesheet" href="/css/default.css" />{% if layout.stylesheet %}
+  <link rel="stylesheet" href="{{ layout.stylesheet }}" />{% endif %}{% if page.stylesheet %}
+  <link rel="stylesheet" href="{{ page.stylesheet }}" />{% endif %}
+  <!-- <link rel="stylesheet" href="/css/h5h.css" /> -->
 </head>
 
 <body>
