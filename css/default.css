@@ -70,8 +70,21 @@ main {
     margin-bottom: 4em;
 }
 
+main h1 {
+    margin-bottom: 0em;
+}
+
 main p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+article {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+h1 a {
+    text-decoration: none;
 }
 
 a {
@@ -87,17 +100,4 @@ a.read-more {
 span.post-meta {
     color: gray;
     font-size: 0.8em;
-}
-
-h1 {
-    margin-bottom: 0em;
-}
-
-h1 a {
-    text-decoration: none;
-}
-
-article {
-    margin-top: 3em;
-    margin-bottom: 3em;
 }
