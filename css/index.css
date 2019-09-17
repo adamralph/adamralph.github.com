@@ -6,6 +6,7 @@ section.post-preview {
 section.post-preview > a.read-more {
     color: gray;
     display: block;
+    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
     font-size: 0.8em;
     margin-top: -0.25em;
     text-decoration: none;

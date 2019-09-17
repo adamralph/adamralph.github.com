@@ -6,8 +6,6 @@ stylesheet: '/css/index.css'
 {% for post in site.posts limit:3 %}    <section class="post-preview">
       <span class="post-meta">{{ post.date | date_to_string }} &middot; {{ post.location }} &middot; {{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read</span>
       <h1 class="h-post-title"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h1>
-      <div class="post-content">
-{{ post.excerpt }}    </div>
-      <a class="read-more" href="{{ post.url | remove:'.html' }}">Read more...</a>
+{{ post.excerpt }}      <a class="read-more" href="{{ post.url | remove:'.html' }}">Read more...</a>
     </section>
 {% endfor %}

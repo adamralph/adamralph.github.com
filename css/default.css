@@ -4,6 +4,10 @@
 
 html {
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
 }
 
@@ -24,6 +28,7 @@ body > header {
     background-position: center;
     background-size: 768px 256px;
     color: #fff;
+    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
     height: 256px;
     margin-bottom: 4em;
     padding-top: 1px;
@@ -73,16 +78,14 @@ body > header > nav > ul > li > a {
 
 span.post-meta {
     color: gray;
+    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
     font-size: 0.8em;
-}
-
-div.post-content {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body > footer {
     background: #eee;
     color: #555;
+    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
     margin-top: 4em;
     padding-top: 1px;
     padding-bottom: 1px;
