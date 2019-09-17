@@ -3,7 +3,8 @@ layout: post
 title: Guard Clause Abuse
 location: Sandhurst
 tags:
-- DDD
+- SOA
+- testing
 ---
 
 Today sees the release of version 0.10 of the mighty [LiteGuard](https://www.nuget.org/packages?q=liteguard) library.

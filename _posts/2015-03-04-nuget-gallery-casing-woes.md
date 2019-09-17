@@ -4,8 +4,7 @@ title: How To Kill Your NuGet Package Through Casing
 location: Flims
 tags:
 - NuGet
-- Bau
-- xUnit.net
+- OSS
 ---
 
 When the initial placeholder for the [Bau.Xunit](https://www.nuget.org/packages/Bau.Xunit/) package was uploaded, the ID was cased `Bau.XUnit`. Later, when the first real package was uploaded, the ID was cased `Bau.Xunit`. Since the NuGet gallery compares IDs without case sensitivity, these ID were matched and hence the later package became a newer version of the older, but the original ID `Bau.XUnit` remained.

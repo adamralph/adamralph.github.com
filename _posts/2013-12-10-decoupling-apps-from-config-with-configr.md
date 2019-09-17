@@ -3,8 +3,7 @@ layout: post
 title: Decoupling Apps from Config with ConfigR
 location: Zurich
 tags:
-- ConfigR
-- configuration
+- scripting
 ---
 
 ConfigR is a [NuGet](https://www.nuget.org/packages/ConfigR/) package based on [scriptcs](http://scriptcs.net/) and [Roslyn](http://msdn.microsoft.com/en-us/vstudio/roslyn.aspx) which allows writing configuration files in C# instead of XML.

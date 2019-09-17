@@ -4,7 +4,9 @@ layout: post
 title: Announcing xBehave.net 2.0
 location: Zurich
 tags:
+- testing
 - xBehave.net
+- releases
 ---
 
 I'm enormously happy to announce that [xBehave.net 2.0](http://xbehave.github.io/) (based on [xUnit.net 2.0](http://xunit.github.io/)) is now live and available on [NuGet](https://www.nuget.org/packages/Xbehave/2.0.0). Work on xBehave.net 2.0 began in April 2014, shortly after the first beta release of xUnit.net 2.0, and continued on and off for the next 16 months with the first xBehave.net 2.0 beta release in December. 

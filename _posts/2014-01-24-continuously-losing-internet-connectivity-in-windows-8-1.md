@@ -4,9 +4,7 @@ title: Continuously Losing Internet Connectivity in Windows 8.1
 description: This has been driving me nuts recently. On my two Windows 8.1 machines, I'll be happily using the internet. You know browsing, pushing to GitHub, Tweeting, that kind of thing. Then all of a sudden everything would blow up. Browser tabs would hang trying to load pages. JabbR would go red. GitHub fetches would fail. On my one remaining Windows 7 machine all was good.
 location: Flims
 tags:
-- Windows 8.1
-- DNS
-- netsh
+- sysadmin
 ---
 
 ### TL;DR

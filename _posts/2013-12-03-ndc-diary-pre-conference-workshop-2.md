@@ -5,7 +5,6 @@ title: NDC Diary - Pre-Conference Workshop Day 2
 location: London
 tags:
 - NDC
-- continuous delivery
 ---
 
 Yesterday I attended the [NDC London](http://ndc-london.com/) ['Continuous Delivery'](http://www.ndc-london.com/pre-conference-workshop/continuous-delivery-workshop/1043) workshop with [Jez Humble](https://twitter.com/jezhumble). Continuous delivery is a stated goal for my team so this workshop was an obvious choice for me.

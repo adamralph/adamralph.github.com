@@ -3,8 +3,7 @@ layout: post
 title: Blog Post Excerpts - A New Solution
 location: Zurich
 tags:
-- meta
-- Liquid
+- blogging
 ---
 Something weird happened in the last few days with the Liquid template engine used for GitHub pages.
 

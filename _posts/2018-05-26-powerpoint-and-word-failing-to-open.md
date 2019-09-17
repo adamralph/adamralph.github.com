@@ -2,6 +2,8 @@
 layout: post
 title: PowerPoint and Word failing to open
 location: Flims
+tags:
+- sysadmin
 ---
 Yesterday, PowerPoint and Word suddenly started to refuse to open. I'd get the splash screens saying "Starting..." but then they would disappear and... nothing. (I'm using Windows 10 version 1803 and Office Professional Plus 2016.)
 

@@ -3,6 +3,7 @@ layout: post
 title: Windows 10 version 1803 broke my git SSH
 location: Copenhagen
 tags:
+- sysadmin
 ---
 I'm presenting a workshop tomorrow here at [MicroCPH](https://microcph.dk/). Windows has a way of knowing the best times to apply major updates. Sure enough, Windows 10 version 1803 (April 2018 Update) appeared on my laptop yesterday. All seemed fine until I tried to do some work with git.
 

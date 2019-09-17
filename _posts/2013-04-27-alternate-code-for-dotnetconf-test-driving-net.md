@@ -3,9 +3,7 @@ layout: post
 title: Alternate Code for dotnetConf Test Driving .NET
 location: Zurich
 tags:
-- dotnetConf
-- TDD
-- FakeItEasy
+- testing
 - xBehave.net
 ---
 

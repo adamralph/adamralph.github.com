@@ -3,7 +3,7 @@ layout: post
 title: Blog = Weblog
 location: Zurich
 tags:
-- meta
+- blogging
 ---
 The word 'blog' is a truncation of the expression 'weblog'. Google defines the word as follows:
 

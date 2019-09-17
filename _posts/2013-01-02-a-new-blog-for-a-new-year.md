@@ -3,8 +3,7 @@ layout: post
 title: A New Blog for a New Year
 location: London Heathrow Terminal 1
 tags:
-- meta
-- Jekyll
+- blogging
 ---
 What better way to start the new year then to rid myself of Blogger and move onto a better blogging platform? I toyed with the idea of using Azure + Wordpress but eventually settled on a platform which is much closer to my preferred way of doing things - Github pages + Jekyll. I got the idea from [Buildstarted](http://buildstarted.com) who converted his blog a while back and I was prompted into action by [Phillip Haydon](http://www.philliphaydon.com), who also decided that Github pages + Jekyll would server him better than Wordpress and also set about converting his blog during the Christmas period.
 
