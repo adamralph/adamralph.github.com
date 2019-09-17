@@ -6,6 +6,10 @@ description: I've had many discussions about the notion of a 'tech lead' in a te
 location: Flims
 tags:
 - teamwork
+redirect_from:
+- /2041/03/15/no-tech-lead/
+- /2041/03/14/no-tech-lead/
+- /2014/03/14/no-tech-lead/
 ---
 
 I've had many discussions about the notion of a 'tech lead' in a team of developers. It's something I feel passionate about as it affects both me personally and the entire software development industry.
