@@ -4,7 +4,7 @@ stylesheet: '/css/post.css'
 ---
     <article>
       <h1 class="h-post-title">{{ page.title }}</h1>
-      <span class="post-meta">{{ page.date | date_to_string }} {{ page.location }} &mdash; {{ content | number_of_words | divided_by:180 | at_least:1 }} min read time</span>
+      <span class="post-meta">{{ page.date | date_to_string }} &middot; {{ page.location }} &middot; {{ content | number_of_words | divided_by:180 | at_least:1 }} min read</span>
       <div class="post-content">
 {{ content }}    </div>
       <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-text="{{ page.title }}" data-size="small" data-dnt="true">Tweet</a>
@@ -15,6 +15,6 @@ stylesheet: '/css/post.css'
       <h1>More...</h1>{% assign header_written = true %}{% endif %}
       <section class="post-preview">
         <h1 class="h-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <span class="post-meta">{{ post.date | date_to_string }} &mdash; {{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read time</span>
+        <span class="post-meta">{{ post.date | date_to_string }} &middot; {{ post.location}} &middot; {{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read</span>
       </section>{% endfor %}{% if header_written == true %}
     </section>{% endif %}
