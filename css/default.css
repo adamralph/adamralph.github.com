@@ -85,19 +85,19 @@ main > section.post-preview {
 }
 
 main > section.related-posts {
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 
 main > section.related-posts > h1 {
     color: gray;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: normal;
 }
 
 main > section.related-posts > section.post-preview {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
 }
 
 main > section.related-posts > section.post-preview > h1 {
