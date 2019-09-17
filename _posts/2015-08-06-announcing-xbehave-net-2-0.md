@@ -19,7 +19,7 @@ Linking against xUnit.net 2.0 is not the only change in xBehave.net 2.0. Several
 
 ## Thanks ##
 
-[As I've said before](http://adamralph.com/2013/10/09/announcing-xbehave-net-1-0/), by far the most important aspect of xBehave.net is **you**, the community. In particular, I'd like to call out the following people for their invaluable help in getting xBehave.net 2.0 out of the door:
+[As I've said before](/2013/10/09/announcing-xbehave-net-1-0/), by far the most important aspect of xBehave.net is **you**, the community. In particular, I'd like to call out the following people for their invaluable help in getting xBehave.net 2.0 out of the door:
 
 ### [Brad Wilson](https://github.com/bradwilson)
 
