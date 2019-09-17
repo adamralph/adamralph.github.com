@@ -57,10 +57,6 @@ body > header nav ul li {
     margin-right: 1em;
 }
 
-body > header nav ul li:not(:last-child) {
-    /* margin-right: 2em; */
-}
-
 body > footer {
     background: #eee;
     color: #555;
