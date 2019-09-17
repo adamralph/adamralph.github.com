@@ -9,8 +9,4 @@
 
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "ruby --version",
-
-	"extensions": [
-		"rebornix.Ruby"
-	]
 }
