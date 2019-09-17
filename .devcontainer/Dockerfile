@@ -9,6 +9,8 @@ ARG USER_GID=$USER_UID
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
     && apt-get -y install git procps lsb-release \
+    && gem update --system \
+    && gem update bundler \
     && groupadd --gid $USER_GID $USERNAME \
     && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
     && apt-get autoremove -y \
