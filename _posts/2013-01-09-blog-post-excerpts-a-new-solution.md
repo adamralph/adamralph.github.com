@@ -50,3 +50,8 @@ And the template code is changed to the following ([source](https://github.com/a
     {{ "{{ post.content | split:'<!--excerpt-->' | first " }}}}
 
 Thanks very much to [David Graham from GitHub](https://github.com/dgraham).
+
+<a name="update2"></a>
+**Update** 21 Sep 2019
+
+Jekyll now has [built-in support for excerpts](https://jekyllrb.com/docs/posts/#post-excerpts).
