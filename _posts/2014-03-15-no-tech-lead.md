@@ -14,12 +14,9 @@ redirect_from:
 
 I've had many discussions about the notion of a 'tech lead' in a team of developers. It's something I feel passionate about as it affects both me personally and the entire software development industry.
 
-Yesterday, I read the blog post [Good Tech Lead, Bad Tech Lead](https://medium.com/p/948b2b806d86) by [Jason Liszka](https://medium.com/@jliszka). Jason's post offers me an ideal reference to argue my views and has prompted me to write this post, for which I'm grateful. This post is at least partially formed as a reaction to Jason's post, which I think is very good and highlights some very important points for a tech lead, *assuming a tech lead exists*.
-
+Yesterday, I read the blog post [Good Tech Lead, Bad Tech Lead](https://medium.com/p/948b2b806d86) by [Jason Liszka](https://medium.com/@jliszka). Jason's post offers me an ideal reference to argue my views and has prompted me to write this post, for which I'm grateful. This post is at least partially formed as a reaction to Jason's post, which I think is very good and highlights some very important points for a tech lead, *assuming a tech lead exists*.<!--excerpt-->
 
 I challenge the 'tech lead' model and propose that a 'no tech lead' model with a complete focus on teams opposed to individuals is way more productive and a lot more rewarding not just for team members who would otherwise be followers, but for the team member who would otherwise be leading.
-
-<!--excerpt-->
 
 I was a tech lead for a number of years. During that time I believed that the model of a more qualified individual leading with less qualified developers following was a natural method of organisation and I felt qualified to be the tech lead. It was an informal position since I had no official 'lead' title nor subordinates in the org chart but it felt productive and I certainly used it when it came to compensation negotiation.
 

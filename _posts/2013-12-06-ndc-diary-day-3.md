@@ -7,7 +7,7 @@ tags:
 - NDC
 ---
 
-The incrementation of hangover severity continued this morning after [@stack72](https://twitter.com/stack72) dragged everyone to Shoreditch last night and [@JakeGinnivan](https://twitter.com/JakeGinnivan) introduced me to 35% beer. A great night all round.
+The incrementation of hangover severity continued this morning after [@stack72](https://twitter.com/stack72) dragged everyone to Shoreditch last night and [@JakeGinnivan](https://twitter.com/JakeGinnivan) introduced me to 35% beer. A great night all round.<!--excerpt-->
 
 ![Nancy stickers... everywhere](/img/nancy-stickers-everywhere.jpg)
 
@@ -15,9 +15,7 @@ The prize for sticker bombing goes to [@randompunter](https://twitter.com/random
 
 ### Recording a .NET Rocks! show with [Glenn Block](https://twitter.com/gblock) and [Justin Rusbatch](https://twitter.com/jrusbatch)
 
-Glenn and Justin were kind enough to invite me to join them this morning in recording a show about [scriptcs](http://scriptcs.net/) for [.NET Rocks!](http://www.dotnetrocks.com/) with [Richard Campbell](https://twitter.com/richcampbell) and [Carl Franklin](https://twitter.com/carlfranklin). We had a lot of fun recording the show and I hope I managed to add something useful. Look out for the show at [.NET Rocks!](http://www.dotnetrocks.com/) in early January.  
-
-<!--excerpt-->
+Glenn and Justin were kind enough to invite me to join them this morning in recording a show about [scriptcs](http://scriptcs.net/) for [.NET Rocks!](http://www.dotnetrocks.com/) with [Richard Campbell](https://twitter.com/richcampbell) and [Carl Franklin](https://twitter.com/carlfranklin). We had a lot of fun recording the show and I hope I managed to add something useful. Look out for the show at [.NET Rocks!](http://www.dotnetrocks.com/) in early January.
 
 ### The Future of C# with Mads Torgersen
 

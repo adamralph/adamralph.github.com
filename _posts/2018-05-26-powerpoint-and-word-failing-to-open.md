@@ -7,9 +7,7 @@ tags:
 ---
 Yesterday, PowerPoint and Word suddenly started to refuse to open. I'd get the splash screens saying "Starting..." but then they would disappear and... nothing. (I'm using Windows 10 version 1803 and Office Professional Plus 2016.)
 
-First I searched to see if anyone else was suffering a similar problem. The recent [Windows 10 version 1803 update](/2018/05/15/windows-10-version-1803-broke-my-git-ssh/) was one of my prime suspects. I couldn't find anything so I decided to take matters into my own hands.
-
-<!--excerpt-->
+First I searched to see if anyone else was suffering a similar problem. The recent [Windows 10 version 1803 update](/2018/05/15/windows-10-version-1803-broke-my-git-ssh/) was one of my prime suspects. I couldn't find anything so I decided to take matters into my own hands.<!--excerpt-->
 
 I went to "Settings -> Apps -> Apps & Features -> Microsoft Office Professional Plus 2016 -> Modify". That gave me two options: "Quick repair" and "Online repair". I tried both, and they made no difference. I then did a full un-install and re-install of Office. Again, no joy. The threat of a full machine rebuild started to loom over me. I went to bed and attempted to get some sleep.
 

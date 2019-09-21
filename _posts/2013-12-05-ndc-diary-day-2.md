@@ -7,13 +7,11 @@ tags:
 - NDC
 ---
 
-I woke up this morning with a slightly larger hangover than yesterday and a nasty lack of sleep but it was offset with the fond memory of pwning [@DamianEdwards](https://twitter.com/DamianEdwards) and [@davidfowl](https://twitter.com/davidfowl) on the pool table.
+I woke up this morning with a slightly larger hangover than yesterday and a nasty lack of sleep but it was offset with the fond memory of pwning [@DamianEdwards](https://twitter.com/DamianEdwards) and [@davidfowl](https://twitter.com/davidfowl) on the pool table.<!--excerpt-->
 
 ### Cloud Apps on Azure with [Scott Guthrie](https://twitter.com/scottgu)
 
 Azure is an interesting one for me. Whilst I can see that cool stuff is being done on Azure, I'm still reluctant to treat Azure as anything other than 'yet another service provider'. The reason for this is the maintenance of portability and, ultimately, choice. I use an Azure VM as a build server. I might use one to host a blog. I might use one to host some windows services. I might use Azure websites to host an IIS website. All of these things I could potentially pick up and move elsewhere should I become dissatisfied with Azure for some reason. If I wrote my code against Azure specific SDK's then I would lose this portability. I'd be locking myself into Azure. Somehow this just doesn't sit right with me and I can't bring myself to do it. This is a shame, because there's so much cool stuff in Azure and I'd like to be able to use it. But the platform and vendor lock in just scares me off. The awesome content which the red-shirted maestro presented today makes the two opposing considerations pull at me even harder.
-
-<!--excerpt-->
 
 ### Battle of the Mocking Frameworks with [Dror Helper](https://twitter.com/dhelper)
 

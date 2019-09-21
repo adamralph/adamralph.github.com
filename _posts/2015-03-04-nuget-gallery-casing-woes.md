@@ -7,11 +7,9 @@ tags:
 - OSS
 ---
 
-When the initial placeholder for the [Bau.Xunit](https://www.nuget.org/packages/Bau.Xunit/) package was uploaded, the ID was cased `Bau.XUnit`. Later, when the first real package was uploaded, the ID was cased `Bau.Xunit`. Since the NuGet gallery compares IDs without case sensitivity, these ID were matched and hence the later package became a newer version of the older, but the original ID `Bau.XUnit` remained.
+When the initial placeholder for the [Bau.Xunit](https://www.nuget.org/packages/Bau.Xunit/) package was uploaded, the ID was cased `Bau.XUnit`. Later, when the first real package was uploaded, the ID was cased `Bau.Xunit`. Since the NuGet gallery compares IDs without case sensitivity, these ID were matched and hence the later package became a newer version of the older, but the original ID `Bau.XUnit` remained.<!--excerpt-->
 
 This caused problems in Linux, since the folder on disk was created using the gallery ID `Bau.XUnit`, but the .csproj reference was added using the ID in the package version that has been downloaded, `Bau.Xunit`. Now, because Linux has a case sensitive file system, the reference did not point to the package on disk, and everything blew up when trying to compile the project. This is a bug in itself, but getting a NuGet client patch pushed out wasn't something I fancied pursuing at the time. This lead to some [horrible build hacks](https://github.com/bau-build/bau/blob/780bb643bd8ec16aab1daa7cc3f1add31084ef3f/bau.sh#L22-L26). So, I decided it was time to fix things once and for all, in the NuGet gallery...
-
-<!--excerpt-->
 
 The natural thing to do was to fix the ID in the gallery, since `Bau.Xunit` is the desired casing. The NuGet support staff where very helpful and, on my request, removed all the versions of the package from the gallery. I then re-uploaded all the correctly ID'd versions of the package and, hey presto, the casing was fixed and the ID of the package was `Bau.Xunit`. This is proven since the URL for the package, in search results, etc. was now "https://www.nuget.org/packages/Bau.Xunit/" instead of "https://www.nuget.org/packages/Bau.XUnit/". All good.
 

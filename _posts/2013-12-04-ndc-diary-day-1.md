@@ -7,13 +7,11 @@ tags:
 - NDC
 ---
 
-After nursing a slight hangover inflicted by [@serialseb](https://twitter.com/serialseb)'s drinks night in Soho, I somehow managed to drag myself in well before 09:00 to finish off and push yesterday's diary entry before proceedings began.
+After nursing a slight hangover inflicted by [@serialseb](https://twitter.com/serialseb)'s drinks night in Soho, I somehow managed to drag myself in well before 09:00 to finish off and push yesterday's diary entry before proceedings began.<!--excerpt-->
 
 ### Keynote - Jackstones: the Journey to Mastery with [Dan North](https://twitter.com/tastapod)
 
 I really enjoyed Dan's talk. Although I'd commonly heard the term 'journeyman' before I'd never really known what it meant and today I found out. I also found out that the vast majority of people I deal with in the software development world (including myself), are themselves journeymen with, thankfully, a few apprentices thrown in here and there. I'd like to think I work with some masters too but my suspicion is that they are very few and far between. A really well delivered talk from Dan.
-
-<!--excerpt-->
 
 ### GetEventStore with [Liam Westley](https://twitter.com/westleyl)
 

@@ -13,9 +13,7 @@ tags:
 
 It gives me great pleasure to announce the release of [xBehave.net](http://xbehave.github.io/) [1.0](https://www.nuget.org/packages/Xbehave/1.0.0).
 
-This is the first stable release of xBehave.net after more than 18 months of (sporadic) initial development. Extensive documentation is also now available on the xBehave.net [wiki](https://github.com/xbehave/xbehave.net/wiki).
-
-<!--excerpt-->
+This is the first stable release of xBehave.net after more than 18 months of (sporadic) initial development. Extensive documentation is also now available on the xBehave.net [wiki](https://github.com/xbehave/xbehave.net/wiki).<!--excerpt-->
 
 ### Thanks
 

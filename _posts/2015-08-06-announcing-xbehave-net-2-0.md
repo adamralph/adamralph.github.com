@@ -9,15 +9,13 @@ tags:
 - releases
 ---
 
-I'm enormously happy to announce that [xBehave.net 2.0](http://xbehave.github.io/) (based on [xUnit.net 2.0](http://xunit.github.io/)) is now live and available on [NuGet](https://www.nuget.org/packages/Xbehave/2.0.0). Work on xBehave.net 2.0 began in April 2014, shortly after the first beta release of xUnit.net 2.0, and continued on and off for the next 16 months with the first xBehave.net 2.0 beta release in December. 
+I'm enormously happy to announce that [xBehave.net 2.0](http://xbehave.github.io/) (based on [xUnit.net 2.0](http://xunit.github.io/)) is now live and available on [NuGet](https://www.nuget.org/packages/Xbehave/2.0.0). Work on xBehave.net 2.0 began in April 2014, shortly after the first beta release of xUnit.net 2.0, and continued on and off for the next 16 months with the first xBehave.net 2.0 beta release in December.<!--excerpt-->
 
 ![](https://raw.github.com/xbehave/xbehave.net/master/assets/xbehave_128x128.png)
 
 Just like xUnit.net 2.0, xBehave.net 2.0 is a complete re-write from scratch, with only the public API type names and method signatures remaining relatively unchanged. However, only 'half' of the code base was in fact re-written. xBehave.net has dogfooded itself for it's own acceptance tests since pre-1.0, and those acceptance tests have remained largely as is and only added to, throughout the whole exercise. This meant that xBehave.net 2.0 was developed almost entirely in true TDD style. The suite of 1.x acceptance tests already existed. All that needed to be done was to create a project linked against xUnit.net 2.0 which made those tests green!
 
 Linking against xUnit.net 2.0 is not the only change in xBehave.net 2.0. Several new features have been added (and, of course accompanying acceptance tests), some changed and some taken away. For full details, see the [Wiki](https://github.com/xbehave/xbehave.net/wiki/Changes-in-version-2.0).
-
-<!--excerpt-->
 
 ### Thanks ##
 

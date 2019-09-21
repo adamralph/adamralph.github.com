@@ -4,11 +4,9 @@ title: Packaging a package-specific Roslyn analyzer
 location: Flims
 tags: NuGet
 ---
-Some [Roslyn-based analyzers for .NET](https://docs.microsoft.com/en-us/dotnet/standard/analyzers/) are general in nature. They tend to focus on coding style, language use, or platform APIs. Others may be specific to a NuGet package. A package-specific analyzer provides messages and fixes tailored to use of that package. This is a great way for package authors to help improve your code or avoid even nasty bugs in production. Many popular open source packages are now shipping with a complementary analyzer. Today, I'm going to take a look at how we can package these package-specific analyzers.
+Some [Roslyn-based analyzers for .NET](https://docs.microsoft.com/en-us/dotnet/standard/analyzers/) are general in nature. They tend to focus on coding style, language use, or platform APIs. Others may be specific to a NuGet package. A package-specific analyzer provides messages and fixes tailored to use of that package. This is a great way for package authors to help improve your code or avoid even nasty bugs in production. Many popular open source packages are now shipping with a complementary analyzer. Today, I'm going to take a look at how we can package these package-specific analyzers.<!--excerpt-->
 
 I've seen three methods in use:
-
-<!--excerpt-->
 
 ### Method 1: a separate package
 

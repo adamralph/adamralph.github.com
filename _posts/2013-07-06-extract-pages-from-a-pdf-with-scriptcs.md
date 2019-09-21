@@ -8,9 +8,7 @@ tags:
 
 Today I needed to extract some pages from a large PDF file. One way of doing this would be to pay for a commercial PDF app (free versions don't have this feature).
 
-I discovered a much nicer way.
-
-<!--excerpt-->
+I discovered a much nicer way.<!--excerpt-->
 
 1. `scriptcs -install iTextSharp`
 1. Save [this method](http://www.jamesewelch.com/2008/11/14/how-to-extract-pages-from-a-pdf-document/) in `ExtractPages.csx` (shown at the bottom of this post)

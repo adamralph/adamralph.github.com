@@ -7,11 +7,9 @@ tags:
 - NDC
 ---
 
-The [NDC London](http://ndc-london.com/) pre-conference workshops kicked off today. After being recognised as [NDC's first ever London delegate](https://twitter.com/NDC_Conferences/status/407540261774831617), I headed over to ['JavaScript: Getting your feet wet'](http://ndc-london.com/pre-conference-workshop/javascript-getting-your-feet-wet-venkat-subramaniam-2-dec/1281) with [Venkat Subramaniam](https://twitter.com/venkat_s). 
+The [NDC London](http://ndc-london.com/) pre-conference workshops kicked off today. After being recognised as [NDC's first ever London delegate](https://twitter.com/NDC_Conferences/status/407540261774831617), I headed over to ['JavaScript: Getting your feet wet'](http://ndc-london.com/pre-conference-workshop/javascript-getting-your-feet-wet-venkat-subramaniam-2-dec/1281) with [Venkat Subramaniam](https://twitter.com/venkat_s).<!--excerpt-->
 
 Although I've necessarily tinkered with JavaScript over the years, my focus has been on .NET and C# for a while and I've let my JS fundamentals get rusty, to put it mildly. Venkat's workshop was exactly what I needed to give my JS knowledge a badly needed refresher and teach me a few things I'd never known. We covered everything from syntax basics and quirks through to functions, functional composition, classes and prototypal inheritance. The assumed level of knowledge and pace of learning was just right.
-
-<!--excerpt-->
 
 ### The Red Pill
 

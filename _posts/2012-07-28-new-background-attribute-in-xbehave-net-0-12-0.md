@@ -5,7 +5,7 @@ location: Zurich
 tags:
 - xBehave.net
 ---
-With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) version [0.12.0](https://nuget.org/packages/Xbehave/0.12.0), it is now possible to add background steps to features using the new [Background] attribute. E.g.
+With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) version [0.12.0](https://nuget.org/packages/Xbehave/0.12.0), it is now possible to add background steps to features using the new [Background] attribute.<!--excerpt--> E.g.
 
 <a name="more"></a>
 
@@ -23,8 +23,6 @@ With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) versio
 	                Owner = Users.Get("Dr. Bill") }))
 	        .Teardown(() => Blogs.Remove("Expensive Therapy"));
 	}
-
-<!--excerpt-->
 
 Where a typical scenario may look something like:-
 

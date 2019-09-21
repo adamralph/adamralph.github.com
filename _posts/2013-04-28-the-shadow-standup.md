@@ -8,9 +8,7 @@ tags:
 
 If you're doing agile, you're probably doing daily stand-ups. A good stand-up is useful. A bad stand-up is a waste of time.
 
-My current team needed some time to make our stand-ups good and there was one symptom in particular which took us a while to recognise.
-
-<!--excerpt-->
+My current team needed some time to make our stand-ups good and there was one symptom in particular which took us a while to recognise.<!--excerpt-->
 
 Things happened like this:
 

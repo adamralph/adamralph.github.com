@@ -7,7 +7,7 @@ tags:
 - NDC
 ---
 
-Yesterday I attended the [NDC London](http://ndc-london.com/) ['Continuous Delivery'](http://www.ndc-london.com/pre-conference-workshop/continuous-delivery-workshop/1043) workshop with [Jez Humble](https://twitter.com/jezhumble). Continuous delivery is a stated goal for my team so this workshop was an obvious choice for me.
+Yesterday I attended the [NDC London](http://ndc-london.com/) ['Continuous Delivery'](http://www.ndc-london.com/pre-conference-workshop/continuous-delivery-workshop/1043) workshop with [Jez Humble](https://twitter.com/jezhumble). Continuous delivery is a stated goal for my team so this workshop was an obvious choice for me.<!--excerpt-->
 
 To kick off, Jez asked us to write what we wanted to get from the day on post-it notes. My three notes were:
 
@@ -16,8 +16,6 @@ To kick off, Jez asked us to write what we wanted to get from the day on post-it
 1. How do I make the transition to CD with a project with a huge cycle time?
  
 The first two questions are particularly relevant to my current job since these are real challenges we face. The last question was also applicable, even though our current cycle time isn't huge. We want to shrink our 2 week cycle time down to days or even hours and I'm quite sure I'll face projects with bigger cycle times in the future.
-
-<!--excerpt-->
 
 ### The Answers
 

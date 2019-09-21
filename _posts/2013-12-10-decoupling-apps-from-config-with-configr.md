@@ -6,7 +6,7 @@ tags:
 - scripting
 ---
 
-ConfigR is a [NuGet](https://www.nuget.org/packages/ConfigR/) package based on [scriptcs](http://scriptcs.net/) and [Roslyn](http://msdn.microsoft.com/en-us/vstudio/roslyn.aspx) which allows writing configuration files in C# instead of XML.
+ConfigR is a [NuGet](https://www.nuget.org/packages/ConfigR/) package based on [scriptcs](http://scriptcs.net/) and [Roslyn](http://msdn.microsoft.com/en-us/vstudio/roslyn.aspx) which allows writing configuration files in C# instead of XML.<!--excerpt-->
 
 For example, the stringy XML soup:
 
@@ -30,8 +30,6 @@ Add("Timeout", 10000);
 ```
 
 In the real world configuration is often more complex than this, e.g. multiple dev, test and production environments, per machine configuration, etc.
-
-<!--excerpt-->
 
 In their great book, *[Continuous Delivery](http://www.amazon.co.uk/gp/product/0321601912/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0321601912&linkCode=as2&tag=adamralphcom-21)*\*, Jez Humble and David Farley describe how such configuration can be injected into your application at **build time**, **packaging time**, **deployment time** and **run time**.
 

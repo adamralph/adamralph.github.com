@@ -7,11 +7,9 @@ tags:
 - testing
 ---
 
-Today sees the release of version 0.10 of the mighty [LiteGuard](https://www.nuget.org/packages?q=liteguard) library.
+Today sees the release of version 0.10 of the mighty [LiteGuard](https://www.nuget.org/packages?q=liteguard) library.<!--excerpt-->
 
 After announcing the release on [JabbR](https://jabbr.net/#/rooms/general-chat), I found myself considering and commenting on the common abuse of guard clauses that I see so very often:
-
-<!--excerpt-->
 
     public class Car
     {

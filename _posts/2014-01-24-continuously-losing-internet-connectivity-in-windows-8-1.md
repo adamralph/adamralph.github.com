@@ -14,9 +14,7 @@ tags:
 
 ### The excruciating story behind this
 
-This has been driving me nuts recently. On my two Windows 8.1 machines, I'll be happily using the internet. You know browsing, pushing to GitHub, Tweeting, that kind of thing. Then all of a sudden everything would blow up. Browser tabs would hang trying to load pages. JabbR would go red. GitHub fetches would fail. On my one remaining Windows 7 machine all was good.
-
-<!--excerpt-->
+This has been driving me nuts recently. On my two Windows 8.1 machines, I'll be happily using the internet. You know browsing, pushing to GitHub, Tweeting, that kind of thing. Then all of a sudden everything would blow up. Browser tabs would hang trying to load pages. JabbR would go red. GitHub fetches would fail. On my one remaining Windows 7 machine all was good.<!--excerpt-->
 
 I found I could fix the problem by disconnecting  and reconnecting my WiFi connection. After a while it would happen again. Worst of all, it's been happening at just that frequency which is not quite enough for me to stop what I'm doing and sort out the problem once and for all, but just enough to very slowly accumulate a snowball of anger and hate which has been welling inside me for the past couple of weeks.
 

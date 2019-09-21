@@ -7,7 +7,7 @@ tags:
 ---
 For me, StyleCop is a valuable element in the C# toolchain. It helps to maintain a consistent coding style within a given context, be it a single file, project, solution, a dev team, an entire organisation or, potentially, even the entire C# industry.
 
-Until now, StyleCop has been made available principally as a Visual Studio add-in which can be invoked on demand by a developer - see [the documentation](https://stylecop.codeplex.com/documentation) for more details.
+Until now, StyleCop has been made available principally as a Visual Studio add-in which can be invoked on demand by a developer - see [the documentation](https://stylecop.codeplex.com/documentation) for more details.<!--excerpt-->
 
 It is also possible to run StyleCop as part of the build process - see ['Setting Up StyleCop MSBuild Integration'](https://stylecop.codeplex.com/wikipage?title=Setting%20Up%20StyleCop%20MSBuild%20Integration). As the documentation shows, it is even possible to add the StyleCop binaries to a source code repository and have the analysis run whenever and wherever the assemblies are built. The advantage of this approach is that StyleCop does not need to be installed on every machine where the assemblies are built and is therefore guaranteed to run during every build.
 
@@ -22,8 +22,6 @@ To set this up, a number of manual steps are involved:-
 <a name="more"></a>
 
 As I'm sure the astute reader is already asking, wouldn't it be good if all this were automated?
-
-<!--excerpt-->
 
 ##Enter StyleCop.MSBuild
 

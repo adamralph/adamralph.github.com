@@ -14,9 +14,7 @@ I also write some very good code. Or at least I hope I do. My OSS (open source s
 
 The point is, I'm not ashamed to admit it that I write bad code. Every programmer writes bad code sometimes and it doesn't matter whether they are a complete beginner or an old hand. Any programmer who claims they *never* write bad code is either deluded or a liar.
 
-The attitude of programmers to bad code becomes particularly relevant with regard to OSS.
-
-<!--excerpt-->
+The attitude of programmers to bad code becomes particularly relevant with regard to OSS.<!--excerpt-->
 
 ![WHAT IF OSS IT... AND NO-ONE LIKES IT](/img/what-if-i-oss-it.jpg)
 
