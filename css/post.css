@@ -1,8 +1,12 @@
+article > h2 {
+    font-size: 2em;
+}
+
 section.related-posts {
     margin-top: 3em;
 }
 
-section.related-posts > h1 {
+section.related-posts > h2 {
     color: gray;
     font-size: 1.17em;
 }
@@ -11,6 +15,6 @@ section.related-posts > section.post-preview {
     margin-top: 2em;
 }
 
-section.related-posts > section.post-preview > h1.h-post-title {
+section.related-posts > section.post-preview > h3.h-post-title {
     font-size: 1.5em;
 }
