@@ -115,15 +115,14 @@ body > header > nav > ul > li > a {
     text-decoration: none;
 }
 
-.h-post-title {
-    margin-top: 0em;
-    margin-bottom: 0em;
-}
-
 span.post-meta {
     color: gray;
     font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
     font-size: 0.8em;
+}
+
+h2.h-post-title, h3.h-post-title {
+    margin-top: 0em;
 }
 
 body > footer {

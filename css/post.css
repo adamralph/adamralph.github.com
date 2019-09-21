@@ -1,5 +1,5 @@
-section.related-posts {
-    margin-top: 3em;
+article {
+    margin-bottom: 3em;
 }
 
 section.related-posts > h2 {
@@ -8,5 +8,5 @@ section.related-posts > h2 {
 }
 
 section.related-posts > section.post-preview {
-    margin-top: 2em;
+    margin-bottom: 2em;
 }

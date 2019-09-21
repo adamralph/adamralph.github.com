@@ -1,5 +1,5 @@
-section.post-preview:not(:first-child) {
-    margin-top: 4em;
+section.post-preview {
+    margin-bottom: 4em;
 }
 
 section.post-preview > a.read-more {
