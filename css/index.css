@@ -2,10 +2,6 @@ section.post-preview:not(:first-child) {
     margin-top: 4em;
 }
 
-section.post-preview > h2 {
-    font-size: 2em;
-}
-
 section.post-preview > a.read-more {
     color: gray;
     display: block;
