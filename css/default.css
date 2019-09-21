@@ -47,6 +47,19 @@ img {
     max-width: 100%;
 }
 
+blockquote:before {
+	color: #efefef;
+	content: "“";
+    display: block;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6em;
+    font-style: italic;
+    height: 0;
+    margin-left: -.5em;
+    position: relative;
+    top: -.15em;
+}
+
 body > * {
     padding-left: 15px;
     padding-right: 15px;
