@@ -3,5 +3,6 @@
 {
 	"name": "Ruby 2",
 	"dockerFile": "Dockerfile",
+	"appPort": [ 4000 ],
 	"postCreateCommand": "bundle install"
 }
