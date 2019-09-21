@@ -133,7 +133,7 @@ The team should be displaying all the qualities listed.
 
 Software architecture is not an up-front exercise but is an evolution. The team should own the architecture collectively and evolve it together during backlog grooming, whiteboards sessions, spikes and continuous communication.
 
-## Personality
+### Personality
 
 > Good tech leads are easy-going but assertive. Bad tech leads are confrontational and aggressive. Good tech leads emerge naturally and earn respect through technical competence and experience. Bad tech leads think their title confers respect and authority. Good tech leads are always looking for ways to improve.
 
