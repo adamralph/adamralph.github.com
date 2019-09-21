@@ -55,9 +55,13 @@ blockquote:before {
     font-size: 6em;
     font-style: italic;
     height: 0;
-    margin-left: -.5em;
+    margin-left: -.65em;
     position: relative;
     top: -.15em;
+}
+
+blockquote {
+    margin-left: 4em;
 }
 
 body > * {
