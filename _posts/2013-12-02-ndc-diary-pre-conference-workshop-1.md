@@ -13,7 +13,7 @@ Although I've necessarily tinkered with JavaScript over the years, my focus has 
 
 <!--excerpt-->
 
-## The Red Pill ##
+### The Red Pill
 
 After a long JS drought, I recently had my first adventure using [AngularJS](http://angularjs.org/). The application was rather simple and I found little need to write any bare metal JS. I was quite amazed how much AngularJS did for me and I knew it was protecting me from a lot of complexity but little did I know just how much.
 
@@ -25,6 +25,6 @@ I'm glad I attended the workshop and I now feel far more confident and enthusias
 
 **Tommorrow:** ['Continuous Delivery'](http://www.ndc-london.com/pre-conference-workshop/continuous-delivery-workshop/1043) with [Jez Humble](https://twitter.com/jezhumble)...
 
-## Names to faces checklist
+### Names to faces checklist
 
 [@mat_mcloughlin](https://twitter.com/mat_mcloughlin) [@venkat_s](https://twitter.com/venkat_s)

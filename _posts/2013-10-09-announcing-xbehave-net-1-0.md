@@ -17,7 +17,7 @@ This is the first stable release of xBehave.net after more than 18 months of (sp
 
 <!--excerpt-->
 
-## Thanks ##
+### Thanks
 
 By far the most important aspect of xBehave.net is **you**, the community. Thank you for all the contribution, usage, suggestion, bug discovery, criticism and discussion. It has made xBehave.net what it is today. Please continue so xBehave.net can continue to evolve as we do.
 
@@ -28,7 +28,7 @@ In particular, I'd like to thank the following developers for their contribution
 - [robi-y](https://github.com/robi-y)
 - [Manoj](https://github.com/manojlds)
 
-## History ##
+### History
 
 The roots of xBehave.net go back to August 2008 in a spike by [Phil Haack](http://haacked.com/) and [Brad Wilson](http://bradwilson.typepad.com/) named [SubSpec](http://haacked.com/archive/2008/08/23/introducing-subspec.aspx), aimed at showcasing the extensibility of [xUnit.net](https://xunit.codeplex.com/).
 
@@ -44,7 +44,7 @@ Over the next 18 months the library became richer and more polished and gained a
 
 After a little [tweeting](https://twitter.com/gblock/status/338899543821262849) in May 2013 [Glenn Block](https://twitter.com/gblock) decided to use xBehave.net for acceptance test examples in his forthcoming book ['Designing Evolvable Web APIs with ASP.NET'](http://shop.oreilly.com/product/0636920026617.do).
 
-## Future ##
+### Future
 
 The next planned version is 2.0 which will see a transition from xUnit.net 1.9 to xUnit.net 2.0 (currently in alpha).
 

@@ -19,7 +19,7 @@ The first two questions are particularly relevant to my current job since these 
 
 <!--excerpt-->
 
-## The Answers ##
+### The Answers
 
 After we all posted our questions on the whiteboard, Jez walked through them and gave a brief initial answer, indicating what he would expand on during they day. The summary answers to my questions were:
 
@@ -33,6 +33,6 @@ I also recommend Jez's [Continuous Delivery book](http://www.amazon.co.uk/Contin
 
 **Today:** Keynote with [Dan North](https://twitter.com/tastapod) and more...
 
-## Names to faces checklist
+### Names to faces checklist
 
 [@jezhumble](https://twitter.com/jezhumble) [@randompunter](https://twitter.com/randompunter) [@jrusbatch](https://twitter.com/jrusbatch) [@roysvork](https://twitter.com/roysvork) [@stevensanderson](https://twitter.com/stevensanderson) [@serialseb](https://twitter.com/serialseb) [@darrel_miller](https://twitter.com/darrel_miller) [@shiftkey](https://twitter.com/shiftkey) [@JakeGinnivan](https://twitter.com/JakeGinnivan) [@Ben_Hall](https://twitter.com/Ben_Hall) [@chrissie1](https://twitter.com/chrissie1)

@@ -19,27 +19,27 @@ Linking against xUnit.net 2.0 is not the only change in xBehave.net 2.0. Several
 
 <!--excerpt-->
 
-## Thanks ##
+### Thanks ##
 
 [As I've said before](/2013/10/09/announcing-xbehave-net-1-0/), by far the most important aspect of xBehave.net is **you**, the community. In particular, I'd like to call out the following people for their invaluable help in getting xBehave.net 2.0 out of the door:
 
-### [Brad Wilson](https://github.com/bradwilson)
+#### [Brad Wilson](https://github.com/bradwilson)
 
 Brad gave me a horde of advice and assistance over at the [xUnit.net chat room](https://xunit.slack.com/messages/general/details/) and made a slew of changes to xUnit.net 2.0 during the beta phase which allowed xBehave.net 2.0 to come into existence. Not least, the split of the component packages into meta packages and \*.extensibility.\* packages. Thank you Brad for embracing the community during the development of xUnit.net 2.0 and for one of the most elegantly designed extensibility API's this developer has ever had the pleasure to use!
 
-### [Matt Ellis](https://github.com/citizenmatt)
+#### [Matt Ellis](https://github.com/citizenmatt)
 
 During smoke testing with the [ReSharper](https://www.jetbrains.com/resharper/) xUnit.net plug-in, I discovered some problems in the beta versions of both xBehave.net and the ReSharper plug-in. I was lucky enough to able to collaborate closely with Matt in the xUnit.net chat room, resulting in a cross-pollination of improvement and fixes to both products.
 
-### [Remco Mulder](https://github.com/remcomulder)
+#### [Remco Mulder](https://github.com/remcomulder)
 
 During smoke testing with a pre-release version of [NCrunch](http://www.ncrunch.net/) linked against the xUnit.net 2.0 betas, I discovered some problems in both NCrunch and xBehave.net. Remco spent a large amount of time with me in the xUnit.net chat room reproducing and identifying these problems and, together, we fixed the problems on either side of the integration until we got to a point where xBehave.net was crunching along nicely with NCrunch.
 
-### [Urs Enzler](https://github.com/ursenzler)
+#### [Urs Enzler](https://github.com/ursenzler)
 
 Urs gave me some enormously valuable feedback as a user of xBehave.net during the release candidate phase. Not least, he drove the split of the package into a meta package plus a core implementation package, to allow developers who do not want to take a dependency on xunit.assert to install the Xbehave.Core package instead of Xbehave, similarly to the xunit and xunit.core packages. Urs also presented the ideas which inspired the creation of the [continuing on failure](https://github.com/xbehave/xbehave.net/wiki/Continuing-on-failure) and [step filters](https://github.com/xbehave/xbehave.net/wiki/Step-filters) features. BTW, if you're interested in generating Markdown output from your xBehave.net tests, check out his [xBehaveMarkdownReport ](https://github.com/ursenzler/xBehaveMarkdownReport) tool.
 
-## Future ##
+### Future
 
 The next planned version of xBehave.net is 2.1, which will be linked against xUnit.net 2.1 (currently in beta), and will add support for the 'dotnet' (vNext, DNX, .NET Core, etc.) NuGet TFN.
 

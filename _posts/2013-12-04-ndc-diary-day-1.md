@@ -65,5 +65,5 @@ I was also glad to help out on the static side when Jon managed to crash scriptc
 
 **Tomorrow:** [@scottgu](https://twitter.com/scottgu), [FakeItEasy](http://fakeiteasy.github.io/) on stage and more...
 
-## Names to faces checklist
+### Names to faces checklist
 [@jchannon](https://twitter.com/jchannon) [@Cranialstrain](https://twitter.com/Cranialstrain) [@gblock](https://twitter.com/gblock) [@jonskeet](https://twitter.com/jonskeet) [@dhelper](https://twitter.com/dhelper) [@stack72](https://twitter.com/stack72) [@paulcbetts](https://twitter.com/paulcbetts) [@davidfowl](https://twitter.com/davidfowl) [@DamianEdwards](https://twitter.com/DamianEdwards) [Mads Torgensen](https://www.google.co.uk/search?q=mads+torgensen)
