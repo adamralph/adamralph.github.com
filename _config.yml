@@ -11,3 +11,8 @@ author: Adam Ralph
 excerpt_separator: <!--excerpt-->
 
 permalink: pretty
+
+exclude:
+- LICENSE.txt
+- README.md
+- serve.sh
