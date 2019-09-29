@@ -1,0 +1,36 @@
+---
+layout: default
+title: Adam Ralph
+stylesheet: '/css/videos.css'
+videos:
+  - url: "https://www.youtube.com/watch?v=XOvojmeT0Xk"
+    imgUrl: "https://img.youtube.com/vi/XOvojmeT0Xk/hqdefault.jpg"
+    title: "Code the future, now"
+    date: June 2019
+    duration: 55 minutes
+  - url: "https://www.youtube.com/watch?v=jdliXz70NtM"
+    imgUrl: "https://img.youtube.com/vi/jdliXz70NtM/hqdefault.jpg"
+    title: "Finding your service boundaries: a practical guide"
+    date: February 2019
+    duration: 58 minutes
+  - url: "https://www.youtube.com/watch?v=axbCtXG3awA"
+    imgUrl: "https://img.youtube.com/vi/axbCtXG3awA/hqdefault.jpg"
+    title: "Getting the first PR into .NET and other tales from an OSS contributor"
+    date: September 2018
+    duration: 57 minutes
+  - url: "https://www.youtube.com/watch?v=d4Sy6ycGHn4"
+    imgUrl: "https://img.youtube.com/vi/d4Sy6ycGHn4/hqdefault.jpg"
+    title: "What is .NET Standard?"
+    date: April 2018
+    duration: 41 minutes
+---
+{% for video in page.videos %}    <section class="video">
+      <a href="{{ video.url }}">
+        <span class="post-meta">{{ video.date }} &middot; {{ video.duration }}</span>
+        <div>
+          <img src="{{ video.imgUrl }}" />
+        </div>
+        <h2 class="h-post-title">{{ video.title }}</h2>
+      </a>
+    </section>
+{% endfor %}

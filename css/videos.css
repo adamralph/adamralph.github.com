@@ -1,0 +1,21 @@
+section.video {
+    margin-bottom: 4em;
+}
+
+section.video a {
+    display: block;
+    text-decoration: none;
+}
+
+section.video a div {
+    position: relative;
+    display: block;
+    padding-bottom: 56.25%;
+}
+
+section.video img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
