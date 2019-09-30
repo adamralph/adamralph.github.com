@@ -4,5 +4,17 @@
 	"name": "Ruby 2",
 	"dockerFile": "Dockerfile",
 	"appPort": [ 4000 ],
-	"postCreateCommand": "bundle install"
+	"postCreateCommand": "bundle install",
+	"extensions": [
+		"aeschli.vscode-css-formatter",
+		"bierner.markdown-preview-github-styles",
+		"christian-kohler.path-intellisense",
+		"davidanson.vscode-markdownlint",
+		"editorconfig.editorconfig",
+		"formulahendry.auto-rename-tag",
+		"sohamkamani.code-eol",
+		"streetsidesoftware.code-spell-checker",
+		"tyriar.sort-lines",
+		"wmaurer.vscode-jumpy"
+	]
 }
