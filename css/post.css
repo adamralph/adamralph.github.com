@@ -3,8 +3,8 @@ article {
 }
 
 section.related-posts > h2 {
-    color: gray;
-    font-size: 1.17em;
+    color: rgb(70%, 70%, 70%);
+    font-size: 1em;
 }
 
 section.related-posts > section.post-preview {
