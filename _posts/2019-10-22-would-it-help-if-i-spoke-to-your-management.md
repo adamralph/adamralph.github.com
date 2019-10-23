@@ -52,7 +52,7 @@ The alarm bell was now deafening.
   <p>Exactly i understand that as a developer. 🙂</p>
 </blockquote>
 
-The alarm bell was now deafening.  At this point, I started to feel sorry for this person. They understand why a goal of 100% test coverage is usually a bad idea, but their hands are tied by management. I cut to the chase:
+At this point, I started to feel sorry for this person. They understand why a goal of 100% test coverage is usually a bad idea, but their hands are tied by management. I cut to the chase:
 
 **Me:**
 
