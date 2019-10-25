@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Would it help if I spoke to your management?
+description: An important responsibility we have as software developers is to identify the root problem.
+image: /img/manager.jpg
 location: Flims
 tags:
 - teamwork
