@@ -1,8 +1,8 @@
 plugins:
-- jemoji
-- jekyll-feed
-- jekyll-redirect-from
-- jekyll-sitemap
+  - jemoji
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 title: Adam Ralph
 description: Software, tea, and snowboarding
@@ -13,6 +13,6 @@ excerpt_separator: <!--excerpt-->
 permalink: pretty
 
 exclude:
-- LICENSE.txt
-- README.md
-- serve.sh
+  - LICENSE.txt
+  - README.md
+  - serve.sh
