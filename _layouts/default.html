@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="en-GB">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag }} {% endfor %}.net software development blog" />
-  <meta name="description" content="{{ page.description }}" />
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <meta name="theme-color" content="#0b0d11" />
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
@@ -25,7 +26,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@adamralph" />
   <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
   <meta name="twitter:image:src" content="{{ page.image }}" />
   <title>{{ page.title }} &#8211; adamralph.com</title>
   {% feed_meta %}
@@ -34,53 +35,39 @@
   <link rel="stylesheet" href="/css/default.css" />{% if layout.stylesheet %}
   <link rel="stylesheet" href="{{ layout.stylesheet }}" />{% endif %}{% if page.stylesheet %}
   <link rel="stylesheet" href="{{ page.stylesheet }}" />{% endif %}
-  <!-- <link rel="stylesheet" href="/css/h5h.css" /> -->
 </head>
 
 <body>
-  <header class="clearfix">
-    <h1><a href="/" title="Home">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
-    <nav id="nav-links">
-      <h2 class="sr-only">Links</h2>
-      <ul>
-        <li><a id="mastodon" rel="me" href="https://hachyderm.io/@adamralph"><img src="/img/mastodon-cccccc-32.png" width="16" alt="Mastodon" /></a></li>
-        <li><a id="twitter" rel="me" href="https://twitter.com/adamralph" title="follow me on Twitter"><img src="/img/twitter-cccccc-32.png" width="16" alt="Twitter" /></a></li>
-        <li><a id="github" rel="me" href="https://github.com/adamralph/" title="follow me on GitHub"><img src="/img/github-6-cccccc-32.png" width="16" alt="GitHub" /></a></li>
-        <li><a id="feed" href="/feed.xml" title="subscribe to my feed"><img src="/img/rss-cccccc-32.png" width="16" alt="Feed" /></a></li>
-      </ul>
-    </nav>
-    <nav id="nav-pages">
-      <h2 class="sr-only">Pages</h2>
-      <ul class="clearfix">
-        <li><a href="/about/" title="about me">About</a></li>
-        <li><a href="/archive/" title="blog">Archive</a></li>
-        <li><a href="/open-source/" title="blog">Open source</a></li>
-      </ul>
-    </nav>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="site-title"><a href="/" title="Home">{{ site.title }}</a></p>
+      <p class="tagline">{{ site.description }}</p>
+      <nav class="site-nav" aria-label="Site">
+        <ul class="nav-pages">
+          <li><a href="/about/" title="About me"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a></li>
+          <li><a href="/archive/" title="All posts"{% if page.url == '/archive/' %} aria-current="page"{% endif %}>Archive</a></li>
+          <li><a href="/open-source/" title="Open source projects"{% if page.url == '/open-source/' %} aria-current="page"{% endif %}>Open source</a></li>
+        </ul>
+        <ul class="nav-social">
+          <li><a rel="me" href="https://hachyderm.io/@adamralph" aria-label="Mastodon" title="Mastodon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753.02-.013.023-.03.023-.043v-1.809c0-.017-.007-.032-.02-.041a.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg></a></li>
+          <li><a rel="me" href="https://twitter.com/adamralph" aria-label="Twitter" title="Twitter"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg></a></li>
+          <li><a rel="me" href="https://github.com/adamralph/" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a></li>
+          <li><a href="/feed.xml" aria-label="RSS feed" title="RSS feed"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.18 17.82a2.18 2.18 0 1 1-4.36 0 2.18 2.18 0 0 1 4.36 0zM1.82 8.55v3.05a10.4 10.4 0 0 1 10.4 10.4h3.05c0-7.44-6.01-13.45-13.45-13.45zm0-6.55v3.05c9.06 0 16.4 7.34 16.4 16.4h3.05C21.27 11.29 12.26 2 1.82 2z"/></svg></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <main>
+  <main id="content" class="wrap">
 {{content}}  </main>
-  <footer>
-    <p>All content licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
-    <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.</p>
-    <p>Powered by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://jekyllrb.com/">Jekyll</a>.</p>
-    <p><a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.</p>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>All content licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+      <p class="footer-badge"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" width="88" height="31" /></a></p>
+      <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.</p>
+      <p>Powered by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://jekyllrb.com/">Jekyll</a>. <a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.</p>
+    </div>
   </footer>
-  <script>
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-9261591-1']);
-    _gaq.push(['_setDomainName', 'adamralph.com']);
-    _gaq.push(['_setAllowLinker', true]);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
 </body>
 
 </html>

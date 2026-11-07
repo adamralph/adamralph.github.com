@@ -2,16 +2,17 @@
 layout: default
 stylesheet: '/css/post.css'
 ---
-    <article>
-      <span class="post-meta">{{ page.date | date_to_string }} &middot; {{ page.location }} &middot; {{ content | number_of_words | divided_by:180 | at_least:1 }} min read</span>
-      <h2 class="h-post-title">{{ page.title }}</h2>
-{{ content }}      <a href="https://twitter.com/share" class="twitter-share-button" data-via="adamralph" data-related="adamralph" data-text="{{ page.title }}" data-size="small" data-dnt="true">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <article class="post">
+      <header class="post-header">
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>{% if page.location %} &middot; {{ page.location }}{% endif %} &middot; {{ content | number_of_words | divided_by:180 | at_least:1 }} min read</p>
+        <h1 class="h-post-title">{{ page.title }}</h1>
+      </header>
+{{ content }}      <p class="share"><a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ page.url | absolute_url | uri_escape }}&amp;via=adamralph">Share on Twitter</a></p>
     </article>{% assign header_written = false %}{% for post in site.posts %}{% assign is_related = false %}{% for tag in post.tags %}{% if post.url != page.url and page.tags contains tag %}{% assign is_related = true %}{% break %}{% endif %}{% endfor %}{% if is_related == false %}{% continue %}{% endif %}{% if header_written == false %}
     <section class="related-posts">
       <h2>Related posts</h2>{% assign header_written = true %}{% endif %}
       <section class="post-preview">
-        <span class="post-meta">{{ post.date | date_to_string }} &middot; {{ post.location}} &middot; {{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read</span>
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>{% if post.location %} &middot; {{ post.location }}{% endif %} &middot; {{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read</p>
         <h3 class="h-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       </section>{% endfor %}{% if header_written == true %}
     </section>{% endif %}

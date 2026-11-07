@@ -1,12 +1,9 @@
-section.post-preview {
-    margin-bottom: 4em;
+/* Home page */
+
+main > .post-preview:first-child {
+    padding-top: 0;
 }
 
-section.post-preview > a.read-more {
-    color: gray;
-    display: block;
-    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
-    font-size: 0.8em;
-    margin-top: -0.25em;
-    text-decoration: none;
+main > .post-preview:last-child {
+    margin-bottom: 0;
 }

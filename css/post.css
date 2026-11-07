@@ -1,12 +1,23 @@
-article {
-    margin-bottom: 3em;
+/* Post page */
+
+article.post {
+    margin-bottom: 4rem;
+}
+
+section.related-posts {
+    border-top: 1px solid var(--rule);
+    padding-top: 2rem;
 }
 
 section.related-posts > h2 {
-    color: gray;
-    font-size: 1.17em;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    margin: 0 0 1.75rem;
+    text-transform: uppercase;
 }
 
-section.related-posts > section.post-preview {
-    margin-bottom: 2em;
+section.related-posts > .post-preview {
+    margin-bottom: 2rem;
 }

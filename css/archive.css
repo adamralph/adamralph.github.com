@@ -1,0 +1,30 @@
+/* Archive page */
+
+.archive-month > h2 {
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    margin: 2.5rem 0 0.75rem;
+    text-transform: uppercase;
+}
+
+.archive-month > ul {
+    border-top: 1px solid var(--rule);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.archive-month > ul > li {
+    border-bottom: 1px solid var(--rule);
+    margin: 0;
+    padding: 0.7rem 0;
+}
+
+.archive-month .post-meta {
+    display: inline;
+    font-size: 0.72rem;
+    margin-left: 0.6rem;
+    text-transform: none;
+}
