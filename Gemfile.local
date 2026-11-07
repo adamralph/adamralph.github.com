@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+# Local previews only. GitHub Pages builds with its own pinned gems, so it reads Gemfile, not this file.
+gem 'jekyll', '~> 4.4'
+gem 'jemoji'
+gem 'jekyll-feed'
+gem 'jekyll-redirect-from'
+gem 'jekyll-sitemap'
