@@ -1,7 +1,28 @@
 /* About page */
 
+.about-portrait {
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    float: right;
+    height: auto;
+    margin: 0.35rem 0 1.5rem 1.75rem;
+    max-width: 15rem;
+    width: 38%;
+}
+
+@media (max-width: 40rem) {
+    .about-portrait {
+        display: block;
+        float: none;
+        margin: 0 auto 1.75rem;
+        max-width: 16rem;
+        width: 100%;
+    }
+}
+
 section#recommendations {
     border-top: 1px solid var(--rule);
+    clear: both;
     margin-top: 3rem;
     padding-top: 2rem;
 }
