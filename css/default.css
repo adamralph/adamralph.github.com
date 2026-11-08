@@ -466,11 +466,9 @@ article blockquote cite {
 }
 
 .share {
-    border-top: 1px solid var(--rule);
     font-family: var(--font-sans);
     font-size: 0.9rem;
     margin-top: 2.5rem;
-    padding-top: 1.5rem;
 }
 
 .share a {
