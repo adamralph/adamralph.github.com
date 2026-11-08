@@ -4,7 +4,7 @@ title: Mono for Android for a Toy App
 location: Zurich
 tags:
 ---
-Today I created a Hello World app using Mono for Android. I must say, Xamarin have this nicely packaged up. I followed both the [installation instructions](http://docs.xamarin.com/android/guides/getting_started/installation) and the ["Hello, Android"](http://docs.xamarin.com/Android/Guides/Getting_Started/Hello%2C_World) walk-through and everything worked like a charm. In no time at all I had my emulator running and my app deployed.<!--excerpt-->
+Today I created a Hello World app using Mono for Android. I must say, Xamarin have this nicely packaged up. I followed both the [installation instructions](https://learn.microsoft.com/en-us/xamarin/android/get-started/installation/) and the ["Hello, Android"](https://web.archive.org/web/2013/http://docs.xamarin.com/Android/Guides/Getting_Started/Hello%2C_World) walk-through and everything worked like a charm. In no time at all I had my emulator running and my app deployed.<!--excerpt-->
 
 So where do I go from here? If I want to put the app on my phone then I need to buy a $399 license. Hmmm, not sure I'm ready to do that yet. When will I be ready to do that? I guess I'd need to be sure that either a) my app is really useful to me ($399 useful) or b) that it would make enough revenue to cover the $399 investment.
 
@@ -14,7 +14,7 @@ So, what I'd like to see is the ability to deploy to at least **one device** usi
 
 At the moment I don't see a path to me paying for the $399 license. With the ability to deploy to one device for free, I can see a path to me paying the $399.
 
-If you want to add your voice to the argument then pay a visit to Xamarin's uservoice ([More affordable personal license](http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2709419-more-affordable-personal-license) and [free license for open source project](http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2640864-free-license-for-open-source-project)). Thanks to @ermau on [Jabbr](http://jabbr.net) for the feedback - apparently Xamarin have acknowledged the need for a lower barrier to entry for the indie developer and are working on a solution.
+If you want to add your voice to the argument then pay a visit to Xamarin's uservoice ([More affordable personal license](https://web.archive.org/web/2014/http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2709419-more-affordable-personal-license) and [free license for open source project](https://web.archive.org/web/2014/http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2640864-free-license-for-open-source-project)). Thanks to @ermau on [Jabbr](http://jabbr.net) for the feedback - apparently Xamarin have acknowledged the need for a lower barrier to entry for the indie developer and are working on a solution.
 
 <a name="update1"></a>
 **Update** 23 Feb 2013

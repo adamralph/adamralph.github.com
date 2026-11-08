@@ -5,7 +5,7 @@ location: Copenhagen
 tags:
 - sysadmin
 ---
-I'm presenting a workshop tomorrow here at [MicroCPH](https://microcph.dk/). Windows has a way of knowing the best times to apply major updates. Sure enough, Windows 10 version 1803 (April 2018 Update) appeared on my laptop yesterday. All seemed fine until I tried to do some work with git.<!--excerpt-->
+I'm presenting a workshop tomorrow here at [MicroCPH](https://web.archive.org/web/2018/https://microcph.dk/). Windows has a way of knowing the best times to apply major updates. Sure enough, Windows 10 version 1803 (April 2018 Update) appeared on my laptop yesterday. All seemed fine until I tried to do some work with git.<!--excerpt-->
 
 I use SSH rather than HTTPS to talk to git remotes. The SSH agent was up and running, with my SSH key added to it. Business as usual. The problems started when I ran `git remote update`. I was prompted for the password for my SSH key. Then I tried `git push`. Again I was prompted for my password. Git and the SSH agent were no longer friends.
 

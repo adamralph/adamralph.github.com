@@ -9,7 +9,7 @@ tags:
 
 After nursing a slight hangover inflicted by [@serialseb](https://twitter.com/serialseb)'s drinks night in Soho, I somehow managed to drag myself in well before 09:00 to finish off and push yesterday's diary entry before proceedings began.<!--excerpt-->
 
-### Keynote - Jackstones: the Journey to Mastery with [Dan North](https://twitter.com/tastapod)
+### Keynote - Jackstones: the Journey to Mastery with Dan North
 
 I really enjoyed Dan's talk. Although I'd commonly heard the term 'journeyman' before I'd never really known what it meant and today I found out. I also found out that the vast majority of people I deal with in the software development world (including myself), are themselves journeymen with, thankfully, a few apprentices thrown in here and there. I'd like to think I work with some masters too but my suspicion is that they are very few and far between. A really well delivered talk from Dan.
 
@@ -37,7 +37,7 @@ A few people seemed to be expecting an explanation of what event sourcing is fro
 
 I've been quite involved in [scriptcs](http://scriptcs.net/), having contributed a little code and a few ideas to the project. I also own some OSS projects which are built over scriptcs ([ConfigR](https://github.com/config-r/config-r), [ScriptCs.Nancy](https://github.com/adamralph/scriptcs-nancy) and in very early stages - [Bau](https://github.com/bau-build/bau)).
 
-Glenn is a confident and entertaining speaker which makes his talks really enjoyable. It was great to hear about scriptcs from another of the founding fathers, after seeing [@filip_woj](https://twitter.com/filip_woj) in action in Zurich earlier this year. After [@jrusbatch](https://twitter.com/jrusbatch)'s talk on Friday that will make a complete set. Unfortunately a nasty bite was taken out of Glen's talk with an internet connection problem, which Glen's talk relied on, so a bit of content had to be skipped and the demos were thrown a little off tack as a result but Glen dealt with it well and didn't let it spoil the talk.
+Glenn is a confident and entertaining speaker which makes his talks really enjoyable. It was great to hear about scriptcs from another of the founding fathers, after seeing @filip_woj in action in Zurich earlier this year. After [@jrusbatch](https://twitter.com/jrusbatch)'s talk on Friday that will make a complete set. Unfortunately a nasty bite was taken out of Glen's talk with an internet connection problem, which Glen's talk relied on, so a bit of content had to be skipped and the demos were thrown a little off tack as a result but Glen dealt with it well and didn't let it spoil the talk.
 
 ### Hypermedia with [Darrel Miller](https://twitter.com/darrel_miller)
 
@@ -64,4 +64,4 @@ I was also glad to help out on the static side when Jon managed to crash scriptc
 **Tomorrow:** [@scottgu](https://twitter.com/scottgu), [FakeItEasy](http://fakeiteasy.github.io/) on stage and more...
 
 ### Names to faces checklist
-[@jchannon](https://twitter.com/jchannon) [@Cranialstrain](https://twitter.com/Cranialstrain) [@gblock](https://twitter.com/gblock) [@jonskeet](https://twitter.com/jonskeet) [@dhelper](https://twitter.com/dhelper) [@stack72](https://twitter.com/stack72) [@paulcbetts](https://twitter.com/paulcbetts) [@davidfowl](https://twitter.com/davidfowl) [@DamianEdwards](https://twitter.com/DamianEdwards) [Mads Torgensen](https://www.google.co.uk/search?q=mads+torgensen)
+[@jchannon](https://twitter.com/jchannon) [@Cranialstrain](https://twitter.com/Cranialstrain) [@gblock](https://twitter.com/gblock) [@jonskeet](https://twitter.com/jonskeet) [@dhelper](https://twitter.com/dhelper) [@stack72](https://twitter.com/stack72) @paulcbetts [@davidfowl](https://twitter.com/davidfowl) [@DamianEdwards](https://twitter.com/DamianEdwards) [Mads Torgensen](https://www.google.co.uk/search?q=mads+torgensen)

@@ -24,7 +24,7 @@ This morning, after I pushed an unrelated change, this code no longer worked and
 
 *(Brief interlude for day job.)*
 
-After coming home from work this evening and investigating further, I noticed that [Henrik Andersson](http://henri.kandersson.com/) had [changed his code to use truncation instead](https://github.com/alfhenrik/henri.kandersson.com/blob/c129f9f5fbb4b5923c1e9e9523496664178e470d/index.html#L15). This seemed like a viable alternative but I didn't like the way each post was potentially truncated mid-word or mid-sentence depending on its content.
+After coming home from work this evening and investigating further, I noticed that [Henrik Andersson](https://web.archive.org/web/2023/http://henri.kandersson.com/) had [changed his code to use truncation instead](https://github.com/alfhenrik/henri.kandersson.com/blob/c129f9f5fbb4b5923c1e9e9523496664178e470d/index.html#L15). This seemed like a viable alternative but I didn't like the way each post was potentially truncated mid-word or mid-sentence depending on its content.
 
 Then it struck me - why not combine the two approaches, so that each post still has a variable stating how long the excerpt should be but instead of being a paragraph count, make it a character count? So I changed the `excerpt` variables in each post accordingly and changed the template code to the following ([source](https://github.com/adamralph/adamralph.github.com/blob/dcb7d5f9da6e9614c95bef314e5dae3986175972/index.html#L13)).
 
@@ -37,7 +37,7 @@ And normal service resumes...
 <a name="update1"></a>
 **Update** 12 Jan 2013
 
-Yesterday I received a reply from GitHub support with a link to [an alternate solution](http://mikeygee.com/blog/truncate.html) which I think is much nicer (the second solution in the post). With this solution, the `excerpt` YAML variable is no longer needed. Instead, the following comment is inserted into each post to signify the end of the excerpt.
+Yesterday I received a reply from GitHub support with a link to [an alternate solution](https://web.archive.org/web/2013/http://mikeygee.com/blog/truncate.html) which I think is much nicer (the second solution in the post). With this solution, the `excerpt` YAML variable is no longer needed. Instead, the following comment is inserted into each post to signify the end of the excerpt.
 
 	<!--excerpt-->
 

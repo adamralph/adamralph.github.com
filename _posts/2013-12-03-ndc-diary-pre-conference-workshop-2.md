@@ -7,7 +7,7 @@ tags:
 - NDC
 ---
 
-Yesterday I attended the [NDC London](http://ndc-london.com/) ['Continuous Delivery'](http://www.ndc-london.com/pre-conference-workshop/continuous-delivery-workshop/1043) workshop with [Jez Humble](https://twitter.com/jezhumble). Continuous delivery is a stated goal for my team so this workshop was an obvious choice for me.<!--excerpt-->
+Yesterday I attended the [NDC London](https://ndcconferences.com/) ['Continuous Delivery'](https://ndcconferences.com/) workshop with [Jez Humble](https://twitter.com/jezhumble). Continuous delivery is a stated goal for my team so this workshop was an obvious choice for me.<!--excerpt-->
 
 To kick off, Jez asked us to write what we wanted to get from the day on post-it notes. My three notes were:
 
@@ -29,7 +29,7 @@ Throughout the rest of the talk, Jez went into detail on many subjects and demon
 
 I also recommend Jez's [Continuous Delivery book](http://www.amazon.co.uk/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912), which I am currently about half way through. The workshop was the perfect complement to the book to go into some more detail and it's great to have the author standing in front of you to bounce questions off!    
 
-**Today:** Keynote with [Dan North](https://twitter.com/tastapod) and more...
+**Today:** Keynote with Dan North and more...
 
 ### Names to faces checklist
 
