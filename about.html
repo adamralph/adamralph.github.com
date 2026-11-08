@@ -1,19 +1,66 @@
 ---
 layout: default
 title: About
-description: Software, tea, and snowboarding
+description: Adam Ralph is a software developer and consultant working in .NET and Python, with a focus on distributed systems and user authentication. He maintains open source projects and speaks at conferences.
 image: https://adamralph.com/img/portrait-tall.jpg
 stylesheet: '/css/about.css'
 ---
-    <article>
+    <article class="about">
       <h1>About me</h1>
-      <img class="about-portrait" src="/img/portrait-tall.jpg" alt="Adam Ralph" width="800" height="1200" />
-      <p>I'm a software developer and an open source advocate with a keen interest in distributed systems design, <abbr title="Domain Driven Design">DDD</abbr>, <abbr title="Command Query Responsibility Segregation">CQRS</abbr> and event sourcing.</p>
-      <p>I maintain <a href="/open-source/">several open source products</a> and contribute to many more. In 2014 I had my 15 minutes of fame when I became the first community member to have a pull request accepted for the <a href="https://github.com/dotnet/corefx/pull/31">.NET Core Framework.</a></p>
-      <p>I currently work remotely as a Principal Product Software Engineer for <a href="https://duendesoftware.com/">Duende Software</a>, the makers of <a href="https://duendesoftware.com/products/identityserver">IdentityServer</a>. Before that, I spent nearly a decade at <a href="https://particular.net/">Particular Software</a>, the makers of <a href="https://particular.net/nservicebus">NServiceBus</a>. I started writing software for fun and friends in 1983 after my Dad bought me my first computer, an <a href="https://en.wikipedia.org/wiki/Acorn_Electron">Acorn Electron</a>, and I've been delivering commercial software since the mid-'90s.</p>
-      <p>My recent family ancestry is a mix from all over Europe, but is predominantly Polish. Being a born and raised Englishman, I naturally drink a lot of tea. (Milk, no sugar, thanks.) Since moving to <a href="https://en.wikipedia.org/wiki/Flims">Flims, Switzerland</a> in the early '00s, I snowboard <em>a lot</em>. Occasionally, I try surfing and have failed spectacularly in all corners of the globe, from the rivers of Switzerland, to the beaches of England, France, Spain, Portugal, and Morocco, to the distant swells of Brazil, Australia, South Africa, Indonesia and Costa Rica.</p>
+      <div class="about-intro">
+        <img class="about-portrait" src="/img/portrait-tall.jpg" alt="Adam Ralph" width="800" height="1200" />
+        <div class="about-intro-text">
+          <p>I'm a software developer and consultant. I've been delivering commercial software since the mid-'90s, mostly in .NET and Python, and I help teams design systems that stay understandable as they grow.</p>
+          <p><a href="https://en.wikipedia.org/wiki/Blaise_Pascal">Pascal</a> apologised for writing a long letter because he didn't have time to write a short one. Software has the same problem: teams write more code because constraints leave no room to write less. I'm a software simplifier. That usually means fewer moving parts, clearer boundaries, and delivery that stays straightforward.</p>
+          <p>I currently work as a Principal Product Software Engineer at <a href="https://duendesoftware.com/">Duende Software</a>, the makers of <a href="https://duendesoftware.com/products/identityserver">IdentityServer</a>. Before that, I spent nearly a decade at <a href="https://particular.net/">Particular Software</a>, the makers of <a href="https://particular.net/nservicebus">NServiceBus</a>. Before Particular, I spent almost two decades building software in financial services. I'm a recognised speaker at developer conferences around the world.</p>
+        </div>
+      </div>
+
+      <dl class="about-facts">
+        <dt>Based in</dt>
+        <dd><a href="https://en.wikipedia.org/wiki/Flims">Flims, Switzerland</a></dd>
+        <dt>Remote</dt>
+        <dd>Since 2015, and for most of my career</dd>
+        <dt>Focus</dt>
+        <dd>System design, .NET, Python, and authentication</dd>
+        <dt>Recognition</dt>
+        <dd><a href="https://mvp.microsoft.com/en-US/MVP/profile/e657e7da-cacc-e411-92e9-6c3be5a84144">Microsoft MVP</a></dd>
+        <dt>Community</dt>
+        <dd>First community pull request into <a href="https://github.com/dotnet/corefx/pull/31">.NET Core</a>, in 2014</dd>
+      </dl>
+
+      <h2>What I do</h2>
+      <ul class="skills">
+        <li><strong>System design and architecture</strong>: finding service boundaries and keeping systems easy to change.</li>
+        <li><strong>Development</strong>: C#/.NET and Python, including libraries, analyzers, and tooling for other developers.</li>
+        <li><strong>User authentication</strong>: sign-in, user management, and authentication for .NET applications.</li>
+        <li><strong>Build and delivery</strong>: CI/CD, build pipelines, and versioning, with an emphasis on keeping things simple.</li>
+        <li><strong>Training and speaking</strong>: conference talks and workshops, including a two-day Modern SOA workshop.</li>
+      </ul>
+      <p>I've worked with DDD, CQRS, event sourcing, messaging, and microservices, and I've seen what helps and what adds complexity.</p>
+      <p>For consulting, training, or workshop enquiries, get in touch on <a href="https://www.linkedin.com/in/adamralph/">LinkedIn</a>.</p>
+
+      <h2>Open source</h2>
+      <p>My current <a href="/open-source/">open source</a> projects are <a href="https://github.com/adamralph/bullseye/">Bullseye</a>, <a href="https://github.com/adamralph/simple-exec/">SimpleExec</a>, and <a href="https://github.com/adamralph/minver/">MinVer</a>.</p>
+
+      <h2>Speaking</h2>
+      <p>I speak at conferences, usually about distributed systems, service boundaries, and keeping build pipelines simple. Recent talks and workshops include:</p>
+      <ul>
+        <li><strong>Finding your service boundaries</strong>: a practical guide to drawing boundaries in complex business domains.</li>
+        <li><strong>Less is more</strong>: a build pipeline for the modern age.</li>
+        <li><strong>Modern SOA</strong>: a two-day workshop on service-oriented architecture.</li>
+      </ul>
+      <p>Talks and workshops are listed on my <a href="https://sessionize.com/adamralph/">Sessionize profile</a>.</p>
+
+      <h2>Writing</h2>
+      <p>I write here about .NET, distributed systems, and open source. Browse the <a href="/archive/">archive</a>, or <a href="/feed.xml">subscribe to the feed</a>.</p>
+
+      <h2>Away from the keyboard</h2>
+      <p>My family ancestry is mostly Polish, with roots across Europe. As a born-and-raised Englishman, I naturally drink a lot of tea. (Milk, no sugar, thanks.)</p>
+      <p>Since moving to Switzerland in the early '00s, I snowboard <em>a lot</em>, usually on my home mountain. More recently, I've spent at least as much time on a bicycle as on a board, taking part in official races and tours around the world. Occasionally I try surfing, and I've failed spectacularly in all corners of the globe, from the rivers of Switzerland to the beaches of England, France, Spain, Portugal, and Morocco, to the distant swells of Brazil, Australia, South Africa, Indonesia, and Costa Rica.</p>
+
       <section id="recommendations">
-        <h3>Recommendations</h3>
+        <h2>Recommendations</h2>
         <blockquote>
           <p>Adam is one of the greatest system architects I have worked with. His understanding of the systems and future proofing skills are simply matchless!</p>
           <footer>- <cite><a href="https://www.linkedin.com/in/slaturia/">Shreeraj Laturia</a>, Associate Director, UBS Investment Bank</cite></footer>
@@ -40,7 +87,7 @@ stylesheet: '/css/about.css'
         </blockquote>
         <blockquote>
           <p>Adam is a first class business focused programmer. He clearly understands the business side of the industry and is able to translate its needs into quality solutions. He builds strong working relationships with the business to maintain brilliance. I would highly recommend him.</p>
-          <footer>- <cite><a href="https://www.linkedin.com/in/christianne-smart-228379/">Christianne Smart</a>, Head of OECD Product Control, UBS Investment Bank</cite></footer>
+          <footer>- <cite><a href="https://www.linkedin.com/in/christianne-s-228379/">Christianne Smart</a>, Head of OECD Product Control, UBS Investment Bank</cite></footer>
         </blockquote>
         <blockquote>
           <p>Aside from Adam's development skills, his interpersonal &amp; communication skills ensured the various projects we worked on were delivered on-time, especially important, as I was working in the London office while Adam was working the majority of the time in Switzerland.</p>
