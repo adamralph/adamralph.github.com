@@ -64,7 +64,8 @@
       <p>All content licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
       <p class="footer-badge"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" width="88" height="31" /></a></p>
       <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.</p>
-      <p>Powered by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://jekyllrb.com/">Jekyll</a>. <a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.</p>
+      <p>Powered by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://jekyllrb.com/">Jekyll</a>. <a href="https://github.com/adamralph/adamralph.github.com">Fork me on GitHub</a>.</p>{% if site.git_branch %}
+      <p class="footer-branch">Local preview of <code>{{ site.git_branch }}</code>{% if site.git_commit %} at <code>{{ site.git_commit }}</code>{% endif %}.</p>{% endif %}
     </div>
   </footer>
 </body>
