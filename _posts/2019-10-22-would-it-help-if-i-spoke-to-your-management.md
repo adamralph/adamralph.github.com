@@ -8,8 +8,6 @@ tags:
 - teamwork
 ---
 
-<img src="/img/manager.jpg" />
-
 An important responsibility we have as software developers is to identify the root problem. We're often faced with problems which, at first glance, appear technical. When a race condition appears, we start writing code to remove it. When we're told two business operations must be consistent, we find ingenious new ways of implementing distributed transactions.<!--excerpt-->
 
 But when we ask _why?_, the immediate problem so often disappears.

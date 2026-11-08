@@ -337,11 +337,22 @@ article > :first-child {
     padding: 0.45rem;
 }
 
-.site-nav svg {
-    fill: currentColor;
+.site-nav .nav-social a::before {
+    background-color: currentColor;
+    content: "";
+    display: block;
     height: 16px;
     width: 16px;
+    -webkit-mask: var(--social-icon) center / contain no-repeat;
+    mask: var(--social-icon) center / contain no-repeat;
 }
+
+.social-bluesky { --social-icon: url("/img/icons/bluesky.svg"); }
+.social-x { --social-icon: url("/img/icons/x.svg"); }
+.social-github { --social-icon: url("/img/icons/github.svg"); }
+.social-linkedin { --social-icon: url("/img/icons/linkedin.svg"); }
+.social-nuget { --social-icon: url("/img/icons/nuget.svg"); }
+.social-rss { --social-icon: url("/img/icons/rss.svg"); }
 
 @media (max-width: 34rem) {
     .site-nav .nav-social {
@@ -419,9 +430,18 @@ article > :first-child {
     padding-bottom: 1.5rem;
 }
 
+.post-hero {
+    height: auto;
+    width: 100%;
+}
+
 .post-header .h-post-title {
     font-size: clamp(1.8rem, 1.4rem + 1.9vw, 2.45rem);
     margin: 0;
+}
+
+.post-inline {
+    width: auto;
 }
 
 article > img,
@@ -677,11 +697,10 @@ th {
     text-decoration: none;
 }
 
-.link-list > li > span {
+.link-list > li > p {
     color: var(--muted);
-    display: block;
     font-size: 0.95rem;
-    margin-top: 0.15rem;
+    margin: 0.15rem 0 0;
 }
 
 /* ==========================================================================

@@ -8,10 +8,9 @@ stylesheet: '/css/archive.css'
     <h1>Archive</h1>{% for post in site.posts %}{% capture month %}{{ post.date | date: "%b-%Y" }}{% endcapture %}{% if month != previousmonth %}{% if forloop.first %}{% else %}
       </ul>
     </section>{% endif %}
-    <section class="archive-month">
-      <a id="{{ month }}"></a>
+    <section class="archive-month" id="{{ month }}">
       <h2>{{ post.date | date: '%B %Y' }}</h2>
       <ul>{% assign previousmonth = month %}{% endif %}
-        <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a><span class="post-meta">{{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read</span></li>{% endfor %}
+        <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> <small>{{ post.content | number_of_words | divided_by:180 | at_least:1 }} min read</small></li>{% endfor %}
       </ul>
     </section>

@@ -9,7 +9,7 @@ tags:
 
 The incrementation of hangover severity continued this morning after [@stack72](https://twitter.com/stack72) dragged everyone to Shoreditch last night and [@JakeGinnivan](https://twitter.com/JakeGinnivan) introduced me to 35% beer. A great night all round.<!--excerpt-->
 
-![Nancy stickers... everywhere](/img/nancy-stickers-everywhere.jpg)
+![Nancy stickers... everywhere](/img/nancy-stickers-everywhere.jpg){: .post-inline width="360"}
 
 The prize for sticker bombing goes to [@randompunter](https://twitter.com/randompunter) ([@NancyFx](https://twitter.com/NancyFx)) with [@roysvork](https://twitter.com/roysvork) ([Superscribe](https://web.archive.org/web/2023/http://superscribe.org/)) the runner up.
 

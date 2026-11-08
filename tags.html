@@ -8,8 +8,7 @@ stylesheet: '/css/tags.css'
 <section class="tag-index">
   <h1>Tags</h1>
 {% for tag in site.tags %}
-  <section>
-    <a id="{{ tag[0] | slugify }}"></a>
+  <section id="{{ tag[0] | slugify }}">
     <h2>{{ tag[0] }}</h2>
     <ul>
   {% for post in tag[1] %}

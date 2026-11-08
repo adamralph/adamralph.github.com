@@ -13,9 +13,6 @@
     width: 100%;
 }
 
-.post-preview.has-image p:has(> img:only-child) {
-    display: none;
-}
 
 main > .post-preview:first-child {
     padding-top: 0;

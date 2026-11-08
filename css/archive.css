@@ -30,9 +30,10 @@
     padding: 0.55rem 0;
 }
 
-.archive-month .post-meta {
+.archive-month small {
+    color: var(--muted);
     display: inline;
+    font-family: var(--font-sans);
     font-size: 0.72rem;
     margin-left: 0.6rem;
-    text-transform: none;
 }
