@@ -9,7 +9,7 @@ tags:
 - releases
 ---
 
-![](https://raw.github.com/xbehave/xbehave.net/master/assets/xbehave_128x128.png)
+![xBehave.net logo](/img/xbehave-128.png)
 
 It gives me great pleasure to announce the release of [xBehave.net](https://github.com/xbehave/xbehave.net) [1.0](https://www.nuget.org/packages/Xbehave/1.0.0).
 

@@ -8,7 +8,7 @@ tags:
 ---
 Once upon a time my team had all their code all nice and neat and all in one place. It was all conveniently located in one SVN repo in a single solution. This solution contained many apps which were worked on by some people who worked closely together and others only loosely connected in their day to day activities (a shared line manager but little more). I present to you the 'All' solution.<!--excerpt-->
 
-![All.sln](https://raw.github.com/adamralph/adamralph.github.com/master/img/all-solution.png)
+![Visual Studio Solution Explorer showing the All solution with 27 projects](/img/all-solution.png)
 
 What could be better? Less overhead since you don't have to 'maintain' lots of SVN repos. Easier to locate code since it's all in one place. Lots of nice reuse between applications. We know how to organise our code!
 
