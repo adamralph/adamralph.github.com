@@ -1,5 +1,22 @@
 /* Home page */
 
+.post-image {
+    display: block;
+    margin: 0 0 1.4em;
+}
+
+.post-image img {
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.post-preview.has-image p:has(> img:only-child) {
+    display: none;
+}
+
 main > .post-preview:first-child {
     padding-top: 0;
 }
