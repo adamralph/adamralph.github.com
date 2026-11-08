@@ -26,7 +26,7 @@
   <meta name="twitter:site" content="@adamralph" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
-  <meta name="twitter:image:src" content="{{ page.image }}" />
+  <meta name="twitter:image:src" content="{{ page.image | default: site.image | absolute_url }}" />
   <title>{{ page.title }} &#8211; adamralph.com</title>
   {% feed_meta %}
   <link rel="stylesheet" href="/css/normalize.css" />
