@@ -56,7 +56,11 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    min-height: 100vh;
+    min-height: 100svh;
     background: var(--bg);
     color: var(--ink);
     font-family: var(--font-serif);
@@ -225,6 +229,7 @@ abbr[title] {
 }
 
 main {
+    flex: 1 0 auto;
     padding-block: clamp(2.25rem, 5vw, 3.5rem) 0;
 }
 
