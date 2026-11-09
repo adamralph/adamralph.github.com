@@ -432,6 +432,7 @@ article > :first-child {
 
 .post-hero {
     height: auto;
+    margin: 0 0 1.4em;
     width: 100%;
 }
 
