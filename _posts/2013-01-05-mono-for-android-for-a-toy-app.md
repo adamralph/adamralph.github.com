@@ -14,7 +14,7 @@ So, what I'd like to see is the ability to deploy to at least **one device** usi
 
 At the moment I don't see a path to me paying for the $399 license. With the ability to deploy to one device for free, I can see a path to me paying the $399.
 
-If you want to add your voice to the argument then pay a visit to Xamarin's uservoice ([More affordable personal license](https://web.archive.org/web/2014/http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2709419-more-affordable-personal-license) and [free license for open source project](https://web.archive.org/web/2014/http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2640864-free-license-for-open-source-project)). Thanks to @ermau on [Jabbr](http://jabbr.net) for the feedback - apparently Xamarin have acknowledged the need for a lower barrier to entry for the indie developer and are working on a solution.
+If you want to add your voice to the argument then pay a visit to Xamarin's UserVoice ([More affordable personal license](https://web.archive.org/web/2014/http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2709419-more-affordable-personal-license) and [free license for open source project](https://web.archive.org/web/2014/http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2640864-free-license-for-open-source-project)). Thanks to @ermau on [JabbR](http://jabbr.net) for the feedback—apparently Xamarin have acknowledged the need for a lower barrier to entry for the indie developer and are working on a solution.
 
 <a name="update1"></a>
 **Update** 23 Feb 2013

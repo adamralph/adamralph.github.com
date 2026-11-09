@@ -30,7 +30,7 @@ After announcing the release on [JabbR](https://jabbr.net/#/rooms/general-chat),
 
 (I'm using the British English term "number plate", known as "license plate" in the US and some other countries.)
 
-The above code should not be using a guard clause and should not raise an `ArgumentNullException`. It should throw some kind of model* exception, since it is encapsulating a rule which has been identified in the domain of the application. The code is not de-referencing `numberPlate` so it doesn't need a guard clause:
+The above code should not be using a guard clause and should not raise an `ArgumentNullException`. It should throw some kind of model* exception, since it is encapsulating a rule which has been identified in the domain of the application. The code is not dereferencing `numberPlate` so it doesn't need a guard clause:
 
     public class Car
     {
@@ -52,4 +52,4 @@ The above code should not be using a guard clause and should not raise an `Argum
         }
     }
 
-\* *Feel free to substitute the word 'model' for 'business', according to taste* :wink:.
+\* *Feel free to substitute the word 'model' for 'business', according to taste*. :wink:

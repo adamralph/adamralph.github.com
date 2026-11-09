@@ -14,7 +14,7 @@ I discovered a much nicer way.<!--excerpt-->
 1. Save [this method](http://www.jamesewelch.com/2008/11/14/how-to-extract-pages-from-a-pdf-document/) in `ExtractPages.csx` (shown at the bottom of this post)
 1. `scriptcs`
 1. `#load "ExtractPages.csx"`
-1. `ExtractPages(@"C:\big.pdf", @"C:\small.pdf", 1, 3);` (pages 1-3)
+1. `ExtractPages(@"C:\big.pdf", @"C:\small.pdf", 1, 3);` (pages 1–3)
 
 Job done! [scriptcs](http://scriptcs.net/) FTW.
 

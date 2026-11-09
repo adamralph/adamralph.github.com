@@ -24,7 +24,7 @@ With the release of [xBehave.net](https://github.com/xbehave/xbehave.net) versio
 	        .Teardown(() => Blogs.Remove("Expensive Therapy"));
 	}
 
-Where a typical scenario may look something like:-
+Where a typical scenario may look something like:
 
 	[Scenario]
 	public static void DoctorBillPostsToHisOwnBlog()

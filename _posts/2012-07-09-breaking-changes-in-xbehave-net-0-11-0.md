@@ -9,7 +9,7 @@ Today sees the release of [xBehave.net](https://github.com/xbehave/xbehave.net) 
 
 Unfortunately, 0.11.0 contains breaking changes to the API. It was a difficult decision but, after a week or two of agonising, I decided to jump over the cliff to avoid the tiger*.<!--excerpt-->
 
-##Teh Original Codez
+## Teh Original Codez
 
 In 0.10.0, a step definition method had 4 overloads...
 
@@ -33,9 +33,9 @@ Overloads 2 and 3 were added in order to ensure disposal of `IDisposable` object
 	        bar = new SomeDisposable(),
 	    })
 
-Upon execution of a step defined using either of these overloads, the returned `IDisposable` objects are registered for disposal. The disposals are executed in a separate test command which is guaranteed to execute at the end of the scenario, even if exceptions are thrown during execution of the scenario. The intention was to achieve a similar effect as a `using` block. (I'll come to overload 4 shortly.)
+Upon execution of a step defined using either of these overloads, the returned `IDisposable` objects are registered for disposal. The disposals are executed in a separate test command which is guaranteed to execute at the end of the scenario, even if exceptions are thrown during execution of the scenario. The intention was to achieve a similar effect to a `using` block. (I'll come to overload 4 shortly.)
 
-##The API Design Fail
+## The API Design Fail
 
 Unfortunately, overloads 2 and 3 were a mistake. Here's why...
 
@@ -57,7 +57,7 @@ As you've already spotted, this does not ensure disposal of `foo`. If `foo.Bar()
 	        return new[] { foo, baz };
 	    });
 
-##Shiny New Things
+## Shiny New Things
 
 To solve this problem, we need to register `IDisposable` objects immediately after they are created. In 0.11.0, the new `Using()` extension method for `IDisposable` provides this. Here's how you use it...
 
@@ -76,7 +76,7 @@ To solve this problem, we need to register `IDisposable` objects immediately aft
 
 Now, it doesn't matter what happens after the call to `Using()`. The object will be disposed at the end of the scenario. This is much closer to the effect achieved with a `using` block. Of course, if `Using()` throws an exception then we still have the same problem, but this would have to be something like `OutOfMemoryException` so non-disposal of `foo` or `baz` will probably be the least of your worries!
 
-##The Really Tricky Part
+## The Really Tricky Part
 
 OK, this is going to get a little ugly. I can't just deprecate overloads 2 and 3 with `[Obsolete]` because arguments to these methods can be defined as lambda expressions like so...
 
@@ -106,9 +106,9 @@ Even though the expression returns an object, the compiler knows it can ignore t
 
     Given(() => foo = new SomeDisposable().Using())              // 1
 
-This is a very simple change but it could mean revisiting a lot of code. **When upgrading from 0.10.0 to 0.11.0, all step definitions using overloads 2 or 3 need to be revisited and a call to `Using()` needs to be added**. Please accept my sincerest apologies. I'm just glad that I caught this during initial development rather than in the post 1.0.0 era...
+This is a very simple change but it could mean revisiting a lot of code. **When upgrading from 0.10.0 to 0.11.0, all step definitions using overloads 2 or 3 need to be revisited and a call to `Using()` needs to be added**. Please accept my sincerest apologies. I'm just glad that I caught this during initial development rather than in the post-1.0.0 era...
 
-##And Whilst We're At It...
+## And Whilst We're At It...
 
 Overload 4 was introduced to allow execution of teardown which is not encapsulated in an `IDisposable` object...
 

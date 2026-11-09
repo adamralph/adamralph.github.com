@@ -34,7 +34,7 @@ The original code from Keith's talk (using [NUnit](http://www.nunit.org/), [Rhin
 		result.Should().Be(12);
 	}
 
-Here is the test re-written using [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) instead of RhinoMocks:
+Here is the test rewritten using [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) instead of RhinoMocks:
 	
 	[Test]
 	public void Add_ShouldReturn_12_When_Passed_8_And_4()
@@ -56,9 +56,9 @@ Here is the test re-written using [FakeItEasy](https://github.com/FakeItEasy/Fak
 		result.Should().Be(12);
 	}
 
-FakeItEasy requires less ceremony than RhinoMocks (no `MockRepository`), makes no distinction between stubs/mocks and has a fluent, easy to read DSL (a call to X returns Y).
+FakeItEasy requires less ceremony than RhinoMocks (no `MockRepository`), makes no distinction between stubs/mocks and has a fluent, easy-to-read DSL (a call to X returns Y).
 
-And here is the test (now a scenario) re-written using both FakeItEasy and [xBehave.net](https://github.com/xbehave/xbehave.net):
+And here is the test (now a scenario) rewritten using both FakeItEasy and [xBehave.net](https://github.com/xbehave/xbehave.net):
 
 	[Scenario]
 	public void Addition(

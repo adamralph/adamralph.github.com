@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: NDC Diary - Day 3
+title: NDC Diary—Day 3
 location: London
 tags:
 - NDC
@@ -11,7 +11,7 @@ The incrementation of hangover severity continued this morning after [@stack72](
 
 ![Nancy stickers... everywhere](/img/nancy-stickers-everywhere.jpg){: .post-inline width="360"}
 
-The prize for sticker bombing goes to [@randompunter](https://twitter.com/randompunter) ([@NancyFx](https://twitter.com/NancyFx)) with [@roysvork](https://twitter.com/roysvork) ([Superscribe](https://web.archive.org/web/2023/http://superscribe.org/)) the runner up.
+The prize for sticker bombing goes to [@randompunter](https://twitter.com/randompunter) ([@NancyFx](https://twitter.com/NancyFx)) with [@roysvork](https://twitter.com/roysvork) ([Superscribe](https://web.archive.org/web/2023/http://superscribe.org/)) the runner-up.
 
 ### Recording a .NET Rocks! show with [Glenn Block](https://twitter.com/gblock) and [Justin Rusbatch](https://twitter.com/jrusbatch)
 
@@ -23,17 +23,17 @@ The NDC Wi-Fi was put to the test during this talk with the C# Twitter stream se
 
 Unfortunately I was too caught up in the excitement to note everything down but after mining my memory and the Twitter feed, here is the list of implemented/potential language features (I'm sure I'm missing at least one of them):
 
-* primary constructors - `public class Point(int x, int y) { }`
-* read only auto-properties - `public int X { get; } = x;`
-* static type using statements - `using System.Math;`
-* property expressions - `public double Distance => Sqrt(X * X + Y * Y);`
-* method expressions - `public Point Move(int dx, int dy) => new Point(X + dx, Y + dy);`
-* params for enumerable types - `public Point Average(params IEnumerable<Point> points) { }`
-* monadic null checking - `if (points?.FirstOrDefault()?.X ?? -1) { }`
-* constructor type parameter inference - `var t = new Tuple(1,2); // infers Tuple<T1, T2>`
-* inline declarations for out params - `public void Foo(out var x, out var y) { }`
+* primary constructors—`public class Point(int x, int y) { }`
+* read only auto-properties—`public int X { get; } = x;`
+* static type using statements—`using System.Math;`
+* property expressions—`public double Distance => Sqrt(X * X + Y * Y);`
+* method expressions—`public Point Move(int dx, int dy) => new Point(X + dx, Y + dy);`
+* params for enumerable types—`public Point Average(params IEnumerable<Point> points) { }`
+* monadic null checking—`if (points?.FirstOrDefault()?.X ?? -1) { }`
+* constructor type parameter inference—`var t = new Tuple(1,2); // infers Tuple<T1, T2>`
+* inline declarations for out params—`public void Foo(out var x, out var y) { }`
 
-I love all these features perhaps with the exception of the last one. Whist it doesn't negatively effect the language (although some of the audience were concerned about encouraging the use of `out` parameters) it doesn't really do much to achieve the stated goal of improving syntax for multiple return values. I was hoping for something like:
+I love all these features perhaps with the exception of the last one. Whilst it doesn't negatively affect the language (although some of the audience were concerned about encouraging the use of `out` parameters) it doesn't really do much to achieve the stated goal of improving syntax for multiple return values. I was hoping for something like:
 
 ```C#
 public (int x, int y) Foo() { }
@@ -55,7 +55,7 @@ The dynamic duo took centre stage again and didn't fail to impress with another 
 
 And the holy trinity is finally complete. I'm now one of the lucky few that has seen scriptcs presented by all three of the owners independently.
 
-One thing that really stood out in Justin's talk was how *blazingly fast* he had scriptcs running in his demos. I couldn't help asking about this during the talk and it turns out Justin completely threw the rule book out of the window and compiled a custom version of scriptcs right before his talk with some new compiler switches introduced in .NET 4.5. Wow, this is the definition of courage! I can't wait to see those compiler switches make it into the published package.  
+One thing that really stood out in Justin's talk was how *blazingly fast* he had scriptcs running in his demos. I couldn't help asking about this during the talk and it turns out Justin completely threw the rulebook out of the window and compiled a custom version of scriptcs right before his talk with some new compiler switches introduced in .NET 4.5. Wow, this is the definition of courage! I can't wait to see those compiler switches make it into the published package.  
 
 ### NDC London: The Conclusion
 
@@ -65,4 +65,4 @@ Would I recommend it to others? Definitely. Will I be back? Yes. Where and when?
 
 
 Until next time (apologies to anyone I've missed):
-[@mat_mcloughlin](https://twitter.com/mat_mcloughlin) [@venkat_s](https://twitter.com/venkat_s) [@jezhumble](https://twitter.com/jezhumble) [@randompunter](https://twitter.com/randompunter) [@jrusbatch](https://twitter.com/jrusbatch) [@roysvork](https://twitter.com/roysvork) [@stevensanderson](https://twitter.com/stevensanderson) [@serialseb](https://twitter.com/serialseb) [@darrel_miller](https://twitter.com/darrel_miller) [@shiftkey](https://twitter.com/shiftkey) [@JakeGinnivan](https://twitter.com/JakeGinnivan) [@Ben_Hall](https://twitter.com/Ben_Hall) [@chrissie1](https://twitter.com/chrissie1) [@jchannon](https://twitter.com/jchannon) [@Cranialstrain](https://twitter.com/Cranialstrain) [@gblock](https://twitter.com/gblock) [@jonskeet](https://twitter.com/jonskeet) [@dhelper](https://twitter.com/dhelper) [@stack72](https://twitter.com/stack72) @paulcbetts [@davidfowl](https://twitter.com/davidfowl) [@DamianEdwards](https://twitter.com/DamianEdwards) [Mads Torgensen](https://www.google.co.uk/search?q=mads+torgensen) [@scottgu](https://twitter.com/scottgu) [@unclebobmartin](https://twitter.com/unclebobmartin) [@BrockLAllen](https://twitter.com/BrockLAllen) [@citizenmatt](https://twitter.com/citizenmatt) [@RemoGloor](https://twitter.com/RemoGloor) [@richcampbell](https://twitter.com/richcampbell) [@carlfranklin](https://twitter.com/carlfranklin)
+[@mat_mcloughlin](https://twitter.com/mat_mcloughlin) [@venkat_s](https://twitter.com/venkat_s) [@jezhumble](https://twitter.com/jezhumble) [@randompunter](https://twitter.com/randompunter) [@jrusbatch](https://twitter.com/jrusbatch) [@roysvork](https://twitter.com/roysvork) [@stevensanderson](https://twitter.com/stevensanderson) [@serialseb](https://twitter.com/serialseb) [@darrel_miller](https://twitter.com/darrel_miller) [@shiftkey](https://twitter.com/shiftkey) [@JakeGinnivan](https://twitter.com/JakeGinnivan) [@Ben_Hall](https://twitter.com/Ben_Hall) [@chrissie1](https://twitter.com/chrissie1) [@jchannon](https://twitter.com/jchannon) [@Cranialstrain](https://twitter.com/Cranialstrain) [@gblock](https://twitter.com/gblock) [@jonskeet](https://twitter.com/jonskeet) [@dhelper](https://twitter.com/dhelper) [@stack72](https://twitter.com/stack72) @paulcbetts [@davidfowl](https://twitter.com/davidfowl) [@DamianEdwards](https://twitter.com/DamianEdwards) [Mads Torgersen](https://www.google.co.uk/search?q=mads+torgersen) [@scottgu](https://twitter.com/scottgu) [@unclebobmartin](https://twitter.com/unclebobmartin) [@BrockLAllen](https://twitter.com/BrockLAllen) [@citizenmatt](https://twitter.com/citizenmatt) [@RemoGloor](https://twitter.com/RemoGloor) [@richcampbell](https://twitter.com/richcampbell) [@carlfranklin](https://twitter.com/carlfranklin)

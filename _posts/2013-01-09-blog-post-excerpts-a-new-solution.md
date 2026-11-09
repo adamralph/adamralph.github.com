@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Blog Post Excerpts - A New Solution
+title: Blog Post Excerpts—A New Solution
 location: Zurich
 tags:
 - blogging
 ---
-Something weird happened in the last few days with the Liquid template engine used for GitHub pages.<!--excerpt-->
+Something weird happened in the last few days with the Liquid template engine used for GitHub Pages.<!--excerpt-->
 
 Previously (last push on 06 Jan), I was using the following code to generate excerpts of each post on the home page ([source](https://github.com/adamralph/adamralph.github.com/blob/142bf461c601dd9bd147d981eb7dd40d45575f70/index.html#L8)).
 
@@ -26,11 +26,11 @@ This morning, after I pushed an unrelated change, this code no longer worked and
 
 After coming home from work this evening and investigating further, I noticed that [Henrik Andersson](https://web.archive.org/web/2023/http://henri.kandersson.com/) had [changed his code to use truncation instead](https://github.com/alfhenrik/henri.kandersson.com/blob/c129f9f5fbb4b5923c1e9e9523496664178e470d/index.html#L15). This seemed like a viable alternative but I didn't like the way each post was potentially truncated mid-word or mid-sentence depending on its content.
 
-Then it struck me - why not combine the two approaches, so that each post still has a variable stating how long the excerpt should be but instead of being a paragraph count, make it a character count? So I changed the `excerpt` variables in each post accordingly and changed the template code to the following ([source](https://github.com/adamralph/adamralph.github.com/blob/dcb7d5f9da6e9614c95bef314e5dae3986175972/index.html#L13)).
+Then it struck me—why not combine the two approaches, so that each post still has a variable stating how long the excerpt should be but instead of being a paragraph count, make it a character count? So I changed the `excerpt` variables in each post accordingly and changed the template code to the following ([source](https://github.com/adamralph/adamralph.github.com/blob/dcb7d5f9da6e9614c95bef314e5dae3986175972/index.html#L13)).
 
 	{{ "{{ post.content | truncate: post.excerpt, '' " }}}}
 
-Not only much simpler, but immune to the recent changes made to the GitHub pages Liquid engine! (In case you're wondering, the second `truncate` parameter controls the suffix, which defaults to '...'.)
+Not only is it much simpler, but it is immune to the recent changes made to the GitHub Pages Liquid engine! (In case you're wondering, the second `truncate` parameter controls the suffix, which defaults to '...'.)
 
 And normal service resumes...
 

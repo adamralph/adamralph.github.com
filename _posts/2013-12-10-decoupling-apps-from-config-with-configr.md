@@ -29,7 +29,7 @@ Add("Uri", new Uri("http://tempuri.org/myservice"));
 Add("Timeout", 10000);
 ```
 
-In the real world configuration is often more complex than this, e.g. multiple dev, test and production environments, per machine configuration, etc.
+In the real world configuration is often more complex than this, e.g. multiple dev, test and production environments, per-machine configuration, etc.
 
 In their great book, *[Continuous Delivery](http://www.amazon.co.uk/gp/product/0321601912/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0321601912&linkCode=as2&tag=adamralphcom-21)*\*, Jez Humble and David Farley describe how such configuration can be injected into your application at **build time**, **packaging time**, **deployment time** and **run time**.
 
@@ -67,9 +67,9 @@ Let's see how the application code has to change in order to support this:
 ```C#
 var uri = Configurator.Get<Uri>("Uri");
 ```
-The application code hasn't changed at all. This because the application is completely *decoupled* from the choice of configuration strategy.
+The application code hasn't changed at all. This is because the application is completely *decoupled* from the choice of configuration strategy.
 
-Later, we may wish to fetch our configuration from the file system or from an HTTP endpoint, perhaps based not only on the machine name but the current application version, or the current user. We may invent other weird and wonderful configuration strategies.
+Later, we may wish to fetch our configuration from the file system or from an HTTP endpoint, perhaps based not only on the machine name but also the current application version, or the current user. We may invent other weird and wonderful configuration strategies.
 
 By implementing your configuration strategy in a ConfigR configuration script, *the application code never needs to change.*
 

@@ -64,6 +64,6 @@ When the chat started, I was in the middle of a pairing session with a colleague
 
 The following weekend, I was out hiking and thinking about the conversation (yes, I have trouble switching off). It dawned on me that this wasn't such a silly offer after all. I played out an imaginary conversation with management in my head, and realised how valuable the conversation could have been. After all, if _management_ is causing the problem, why not fix _management_?
 
-When I'm posed a problem through chat, a support request, or at a conference or user group, I try to emphasise my effort to find the root cause. I often manage to convert a low level technical problem into a higher level reconsideration. In turn, a better approach emerges which avoids the technical problem and brings further benefits.
+When I'm posed a problem through chat, a support request, or at a conference or user group, I try to emphasise my effort to find the root cause. I often manage to convert a low-level technical problem into a higher-level reconsideration. In turn, a better approach emerges which avoids the technical problem and brings further benefits.
 
 The next time I'm in a similar conversation, I may make the same offer again. Who knows? Maybe someone will take me up on it.

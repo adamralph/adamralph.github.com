@@ -7,13 +7,13 @@ tags:
 - OSS
 ---
 
-When the initial placeholder for the [Bau.Xunit](https://www.nuget.org/packages/Bau.Xunit/) package was uploaded, the ID was cased `Bau.XUnit`. Later, when the first real package was uploaded, the ID was cased `Bau.Xunit`. Since the NuGet gallery compares IDs without case sensitivity, these ID were matched and hence the later package became a newer version of the older, but the original ID `Bau.XUnit` remained.<!--excerpt-->
+When the initial placeholder for the [Bau.Xunit](https://www.nuget.org/packages/Bau.Xunit/) package was uploaded, the ID was cased `Bau.XUnit`. Later, when the first real package was uploaded, the ID was cased `Bau.Xunit`. Since the NuGet gallery compares IDs without case sensitivity, these IDs were matched and hence the later package became a newer version of the older, but the original ID `Bau.XUnit` remained.<!--excerpt-->
 
-This caused problems in Linux, since the folder on disk was created using the gallery ID `Bau.XUnit`, but the .csproj reference was added using the ID in the package version that has been downloaded, `Bau.Xunit`. Now, because Linux has a case sensitive file system, the reference did not point to the package on disk, and everything blew up when trying to compile the project. This is a bug in itself, but getting a NuGet client patch pushed out wasn't something I fancied pursuing at the time. This lead to some [horrible build hacks](https://github.com/bau-build/bau/blob/780bb643bd8ec16aab1daa7cc3f1add31084ef3f/bau.sh#L22-L26). So, I decided it was time to fix things once and for all, in the NuGet gallery...
+This caused problems in Linux, since the folder on disk was created using the gallery ID `Bau.XUnit`, but the .csproj reference was added using the ID in the package version that has been downloaded, `Bau.Xunit`. Now, because Linux has a case-sensitive file system, the reference did not point to the package on disk, and everything blew up when trying to compile the project. This is a bug in itself, but getting a NuGet client patch pushed out wasn't something I fancied pursuing at the time. This led to some [horrible build hacks](https://github.com/bau-build/bau/blob/780bb643bd8ec16aab1daa7cc3f1add31084ef3f/bau.sh#L22-L26). So, I decided it was time to fix things once and for all, in the NuGet gallery...
 
-The natural thing to do was to fix the ID in the gallery, since `Bau.Xunit` is the desired casing. The NuGet support staff where very helpful and, on my request, removed all the versions of the package from the gallery. I then re-uploaded all the correctly ID'd versions of the package and, hey presto, the casing was fixed and the ID of the package was `Bau.Xunit`. This is proven since the URL for the package, in search results, etc. was now "https://www.nuget.org/packages/Bau.Xunit/" instead of "https://www.nuget.org/packages/Bau.XUnit/". All good.
+The natural thing to do was to fix the ID in the gallery, since `Bau.Xunit` is the desired casing. The NuGet support staff were very helpful and, at my request, removed all the versions of the package from the gallery. I then re-uploaded all the correctly ID'd versions of the package and, hey presto, the casing was fixed and the ID of the package was `Bau.Xunit`. This is proven since the URL for the package, in search results, etc. was now "https://www.nuget.org/packages/Bau.Xunit/" instead of "https://www.nuget.org/packages/Bau.XUnit/". All good.
 
-That is, until I tried to consume the package using the NuGet client. I received an error telling me
+That is, until I tried to consume the package using the NuGet client. I received an error telling me:
 
 > Unable to find version '0.1.0-beta07' of package 'Bau.Xunit'.
 
@@ -59,22 +59,22 @@ So I dug further and spun up Fiddler to see what was going on behind the scenes.
 
 Clearly something was going horribly wrong when trying to request this package from the API.
 
-Note that in the response, the package is referred to as `Bau.XUnit` which means that there are still traces of the old, incorrectly, cased package ID somewhere in the API.
+Note that in the response, the package is referred to as `Bau.XUnit` which means that there are still traces of the old, incorrectly cased package ID somewhere in the API.
 
 So it seems like some parts of the system are referring to the package as `Bau.Xunit` (correct) and others are still referring to it as `Bau.XUnit` (incorrect). I suspect this is the root of the problem.
 
-I've asked NuGet support to look into the problem since, as it stands, the Bau.Xunit package is completely out of action :scream:.
+I've asked NuGet support to look into the problem since, as it stands, the Bau.Xunit package is completely out of action. :scream:
 
 ---
 ### Update
 
 *05 Mar 2015*
 
-I've [raised a bug](https://github.com/NuGet/NuGetGallery/issues/2379) on the NuGet Gallery GitHub repo to try and get some more eyes on this. Ultimately this ought to be fixed, but in the meantime I'm hoping some keen eyed developers can spot a workaround that could be done by the support team.
+I've [raised a bug](https://github.com/NuGet/NuGetGallery/issues/2379) on the NuGet Gallery GitHub repo to try and get some more eyes on this. Ultimately this ought to be fixed, but in the meantime I'm hoping some keen-eyed developers can spot a workaround that could be done by the support team.
 
 ---
 ### Update
 
 *05 Mar 2015*
 
-Until the issue has been resolved, I've uploaded a temporary stand in package named [Bau.Xunit.Temp](https://www.nuget.org/packages/Bau.Xunit.Temp). You can switch your project to using this package whilst the saga continues.
+Until the issue has been resolved, I've uploaded a temporary stand-in package named [Bau.Xunit.Temp](https://www.nuget.org/packages/Bau.Xunit.Temp). You can switch your project to using this package whilst the saga continues.

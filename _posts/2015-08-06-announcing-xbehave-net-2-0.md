@@ -13,9 +13,9 @@ I'm enormously happy to announce that [xBehave.net 2.0](https://github.com/xbeha
 
 ![xBehave.net logo](/img/xbehave-128.png)
 
-Just like xUnit.net 2.0, xBehave.net 2.0 is a complete re-write from scratch, with only the public API type names and method signatures remaining relatively unchanged. However, only 'half' of the code base was in fact re-written. xBehave.net has dogfooded itself for it's own acceptance tests since pre-1.0, and those acceptance tests have remained largely as is and only added to, throughout the whole exercise. This meant that xBehave.net 2.0 was developed almost entirely in true TDD style. The suite of 1.x acceptance tests already existed. All that needed to be done was to create a project linked against xUnit.net 2.0 which made those tests green!
+Just like xUnit.net 2.0, xBehave.net 2.0 is a complete rewrite from scratch, with only the public API type names and method signatures remaining relatively unchanged. However, only 'half' of the code base was in fact rewritten. xBehave.net has dogfooded itself for its own acceptance tests since pre-1.0, and those acceptance tests have remained largely as is and only added to, throughout the whole exercise. This meant that xBehave.net 2.0 was developed almost entirely in true TDD style. The suite of 1.x acceptance tests already existed. All that needed to be done was to create a project linked against xUnit.net 2.0 which made those tests green!
 
-Linking against xUnit.net 2.0 is not the only change in xBehave.net 2.0. Several new features have been added (and, of course accompanying acceptance tests), some changed and some taken away. For full details, see the [Wiki](https://github.com/xbehave/xbehave.net/wiki/Changes-in-version-2.0).
+Linking against xUnit.net 2.0 is not the only change in xBehave.net 2.0. Several new features have been added (and, of course, accompanying acceptance tests), some changed and some taken away. For full details, see the [Wiki](https://github.com/xbehave/xbehave.net/wiki/Changes-in-version-2.0).
 
 ### Thanks ##
 
@@ -23,11 +23,11 @@ Linking against xUnit.net 2.0 is not the only change in xBehave.net 2.0. Several
 
 #### [Brad Wilson](https://github.com/bradwilson)
 
-Brad gave me a horde of advice and assistance over at the [xUnit.net chat room](https://xunit.slack.com/messages/general/details/) and made a slew of changes to xUnit.net 2.0 during the beta phase which allowed xBehave.net 2.0 to come into existence. Not least, the split of the component packages into meta packages and \*.extensibility.\* packages. Thank you Brad for embracing the community during the development of xUnit.net 2.0 and for one of the most elegantly designed extensibility API's this developer has ever had the pleasure to use!
+Brad gave me a wealth of advice and assistance over at the [xUnit.net chat room](https://xunit.slack.com/messages/general/details/) and made a slew of changes to xUnit.net 2.0 during the beta phase which allowed xBehave.net 2.0 to come into existence. Not least, the split of the component packages into meta packages and \*.extensibility.\* packages. Thank you Brad for embracing the community during the development of xUnit.net 2.0 and for one of the most elegantly designed extensibility APIs this developer has ever had the pleasure to use!
 
 #### [Matt Ellis](https://github.com/citizenmatt)
 
-During smoke testing with the [ReSharper](https://www.jetbrains.com/resharper/) xUnit.net plug-in, I discovered some problems in the beta versions of both xBehave.net and the ReSharper plug-in. I was lucky enough to able to collaborate closely with Matt in the xUnit.net chat room, resulting in a cross-pollination of improvement and fixes to both products.
+During smoke testing with the [ReSharper](https://www.jetbrains.com/resharper/) xUnit.net plug-in, I discovered some problems in the beta versions of both xBehave.net and the ReSharper plug-in. I was lucky enough to be able to collaborate closely with Matt in the xUnit.net chat room, resulting in a cross-pollination of improvements and fixes to both products.
 
 #### [Remco Mulder](https://github.com/remcomulder)
 
@@ -35,11 +35,11 @@ During smoke testing with a pre-release version of [NCrunch](http://www.ncrunch.
 
 #### [Urs Enzler](https://github.com/ursenzler)
 
-Urs gave me some enormously valuable feedback as a user of xBehave.net during the release candidate phase. Not least, he drove the split of the package into a meta package plus a core implementation package, to allow developers who do not want to take a dependency on xunit.assert to install the Xbehave.Core package instead of Xbehave, similarly to the xunit and xunit.core packages. Urs also presented the ideas which inspired the creation of the [continuing on failure](https://github.com/xbehave/xbehave.net/wiki/Continuing-on-failure) and [step filters](https://github.com/xbehave/xbehave.net/wiki/Step-filters) features. BTW, if you're interested in generating Markdown output from your xBehave.net tests, check out his [xBehaveMarkdownReport ](https://github.com/ursenzler/xBehaveMarkdownReport) tool.
+Urs gave me some enormously valuable feedback as a user of xBehave.net during the release candidate phase. Not least, he drove the split of the package into a meta package plus a core implementation package, to allow developers who do not want to take a dependency on xunit.assert to install the xBehave.Core package instead of xBehave, similarly to the xunit and xunit.core packages. Urs also presented the ideas which inspired the creation of the [continuing on failure](https://github.com/xbehave/xbehave.net/wiki/Continuing-on-failure) and [step filters](https://github.com/xbehave/xbehave.net/wiki/Step-filters) features. BTW, if you're interested in generating Markdown output from your xBehave.net tests, check out his [xBehaveMarkdownReport ](https://github.com/ursenzler/xBehaveMarkdownReport) tool.
 
 ### Future
 
-The next planned version of xBehave.net is 2.1, which will be linked against xUnit.net 2.1 (currently in beta), and will add support for the 'dotnet' (vNext, DNX, .NET Core, etc.) NuGet TFN.
+The next planned version of xBehave.net is 2.1, which will be linked against xUnit.net 2.1 (currently in beta), and will add support for the 'dotnet' (vNext, DNX, .NET Core, etc.) NuGet TFM.
 
 If you'd like to help out, just head over to the [GitHub repository](https://github.com/xbehave/xbehave.net/) where you can get familiar with the code, send pull requests or raise issues for new features, bugs, questions, discussions etc.
 
