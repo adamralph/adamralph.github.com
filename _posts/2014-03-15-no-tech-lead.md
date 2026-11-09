@@ -3,6 +3,8 @@
 layout: post
 title: No Tech Lead
 description: I've had many discussions about the notion of a 'tech lead' in a team of developers. It's something I feel passionate about as it affects both me personally and the entire software development industry.
+image: /img/no-tech-lead.svg
+social_image: /img/no-tech-lead.jpg
 location: Flims
 tags:
 - teamwork
@@ -67,6 +69,8 @@ Technical direction and institutional knowledge are things that the team needs t
 All members of the team need to be doing the things in 'good'.
 
 In my team we have heated debates and we always manage to settle them somehow. Sometimes, a team member takes the position of mediator and suggests a resolution to a particularly difficult conflict of views. This role emerges organically during the debate, and the person who takes it is usually the best person for that given debate. This is better than appointing one person to always mediate regardless and avoids the problems listed in 'bad'.
+
+![An abstract network of equal nodes connected in a mesh, with no central hub](/img/no-tech-lead-abstract.svg)
 
 ### Project management
 
