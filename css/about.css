@@ -53,16 +53,24 @@
     margin-top: 2.75rem;
 }
 
-.about ul li {
-    margin: 0.45em 0;
+.about-list {
+    align-items: baseline;
+    display: grid;
+    gap: 0.9rem 1.5rem;
+    grid-template-columns: max-content minmax(0, 1fr);
+    margin: 1.5rem 0;
 }
 
-.about .skills {
-    margin-bottom: 1.25rem;
+.about-list dt {
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
 }
 
-.about .skills li {
-    margin: 0.6em 0;
+.about-list dd {
+    margin: 0;
 }
 
 @media (max-width: 44rem) {
@@ -79,6 +87,15 @@
     .about-portrait {
         margin-inline: auto;
         max-width: 15rem;
+    }
+
+    .about-list {
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
+    }
+
+    .about-list dt:not(:first-of-type) {
+        margin-top: 0.85rem;
     }
 }
 
