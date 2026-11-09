@@ -432,7 +432,6 @@ article > :first-child {
 
 .post-hero {
     height: auto;
-    margin: 0 0 1.4em;
     width: 100%;
 }
 
@@ -451,6 +450,16 @@ article p > a > img {
     border: 1px solid var(--rule);
     border-radius: var(--radius);
     display: block;
+}
+
+article > img {
+    margin: 0 0 1.4em;
+}
+
+article img.emoji {
+    border: 0;
+    border-radius: 0;
+    display: inline;
 }
 
 article blockquote {
