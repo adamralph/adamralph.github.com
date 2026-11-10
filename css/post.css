@@ -48,6 +48,69 @@ article.post {
     }
 }
 
+article aside {
+    background: var(--bg-sunken);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    color: var(--ink-soft);
+    margin: 1.6em 0;
+    padding: 1rem 1.3rem;
+}
+
+article aside > :first-child {
+    margin-top: 0;
+}
+
+article aside > :last-child {
+    margin-bottom: 0;
+}
+
+section.appendix {
+    border-top: 1px solid var(--rule);
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+section.appendix > h2 {
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+}
+
+.appendix-backlink {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.appendix-backlink:hover {
+    color: var(--accent);
+}
+
+@keyframes reference-highlight {
+    0%,
+    20% {
+        background-color: var(--accent-soft);
+        background-color: color-mix(in srgb, var(--accent) 15%, transparent);
+        box-shadow: 0 0 0 0.4em var(--accent-soft);
+        box-shadow: 0 0 0 0.4em color-mix(in srgb, var(--accent) 15%, transparent);
+    }
+
+    100% {
+        background-color: transparent;
+        box-shadow: 0 0 0 0.4em transparent;
+    }
+}
+
+p[id$="-ref"]:target {
+    animation: reference-highlight 2.5s ease-out;
+    scroll-margin-top: 1rem;
+}
+
 section.related-posts {
     border-top: 1px solid var(--rule);
     padding-top: 2rem;
