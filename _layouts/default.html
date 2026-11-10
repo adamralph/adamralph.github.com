@@ -22,6 +22,13 @@
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
   <meta name="msapplication-TileColor" content="#0066cc" />
   <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:image" content="{{ page.social_image | default: page.image | default: site.image | absolute_url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:locale" content="en_GB" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@adamralph" />
   <meta name="twitter:title" content="{{ page.title }}" />
