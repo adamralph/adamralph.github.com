@@ -1,15 +1,13 @@
-adamralph.github.com
-====================
+# adamralph.github.com
 
 This is the source code for [adamralph.com](https://adamralph.com/).
 
-Local preview
--------------
-
-GitHub Pages builds the site with its own pinned gems, described by `Gemfile`. That toolchain needs Ruby 3.x.
-
-For local previews on a newer Ruby, `serve.sh` uses `Gemfile.local` instead:
+## Local preview
 
     ./serve.sh
 
 Then browse to <http://localhost:4000/>.
+
+## Deployment
+
+GitHub Actions builds and deploys the site on every push to `main`.

@@ -111,6 +111,70 @@ h6 {
     font-size: 1rem;
 }
 
+.heading-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.heading-hash {
+    color: var(--muted);
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 400;
+    margin-left: -1.05em;
+    margin-right: 0.45em;
+    opacity: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 120ms ease-in-out;
+    width: 0.6em;
+}
+
+h2:hover .heading-hash,
+h3:hover .heading-hash,
+.heading-link:focus-visible .heading-hash,
+.heading-hash:focus-visible {
+    opacity: 1;
+}
+
+.heading-hash:hover {
+    color: var(--accent);
+}
+
+@media (hover: none) {
+    .heading-hash {
+        opacity: 0.5;
+    }
+}
+
+@keyframes target-highlight {
+    0%,
+    20% {
+        background-color: var(--accent-soft);
+        background-color: color-mix(in srgb, var(--accent) 20%, transparent);
+        box-shadow: -0.55em 0 0 0.55em var(--accent-soft);
+        box-shadow: -0.55em 0 0 0.55em color-mix(in srgb, var(--accent) 20%, transparent);
+    }
+
+    100% {
+        background-color: transparent;
+        box-shadow: -0.55em 0 0 0.55em transparent;
+    }
+}
+
+h2:target,
+h3:target,
+section:target > h2 {
+    animation: target-highlight 2.5s ease-out;
+}
+
+h2:target .heading-hash,
+h3:target .heading-hash,
+section:target > h2 .heading-hash {
+    color: var(--accent);
+    opacity: 1;
+}
+
 p,
 ul,
 ol,

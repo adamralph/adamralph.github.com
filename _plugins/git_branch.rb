@@ -30,6 +30,8 @@ module GitBranch
 end
 
 Jekyll::Hooks.register :site, :post_read do |site|
+  next if Jekyll.env == "production"
+
   site.config["git_branch"] = GitBranch.ref(site.source)
   site.config["git_commit"] = GitBranch.commit(site.source)
 end
