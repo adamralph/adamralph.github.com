@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Archive
-description: Software, tea, and snowboarding
+description: Every post on adamralph.com, covering .NET, distributed systems, open source, and software design.
 stylesheet: '/css/archive.css'
 ---
     <h1>Archive</h1>{% for post in site.posts %}{% capture month %}{{ post.date | date: "%b-%Y" }}{% endcapture %}{% if month != previousmonth %}{% if forloop.first %}{% else %}
