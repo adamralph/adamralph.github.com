@@ -121,6 +121,12 @@ table {
     margin: 0 0 1.4em;
 }
 
+p,
+li,
+blockquote {
+    text-wrap: pretty;
+}
+
 p:last-child,
 ul:last-child,
 ol:last-child,
