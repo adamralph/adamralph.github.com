@@ -75,12 +75,19 @@
         <p class="footer-badge"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by/4.0/88x31.png" width="88" height="31" /></a></p>
       </div>
       <div class="footer-info">
-        <p>All opinions are my own, not my employer’s.</p>
-        <p class="footer-credits"><a href="https://jekyllrb.com/">Jekyll</a> on <a href="https://pages.github.com/">GitHub Pages</a>. <a href="https://github.com/adamralph/adamralph.github.com">Source on GitHub</a>.</p>
+        <div class="footer-notice">
+          <p>All opinions are my own, not my employer’s.</p>
+          <p>See the <a href="/privacy/">privacy notice</a>.</p>
+        </div>
+        <div class="footer-credits">
+          <p><a href="https://jekyllrb.com/">Jekyll</a> on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+          <p><a href="https://github.com/adamralph/adamralph.github.com">Source on GitHub</a>.</p>
+        </div>
       </div>{% if site.git_branch %}
       <p class="footer-branch">Local preview of <code>{{ site.git_branch }}</code>{% if site.git_commit %} at <code>{{ site.git_commit }}</code>{% endif %}.</p>{% endif %}
     </div>
-  </footer>
+  </footer>{% if site.goatcounter and jekyll.environment == "production" %}
+  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
 </body>
 
 </html>
