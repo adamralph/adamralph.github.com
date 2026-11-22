@@ -4,6 +4,50 @@ article.post {
     margin-bottom: 4rem;
 }
 
+.post-signoff {
+    align-items: center;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+}
+
+.post-signoff-avatar {
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    flex: 0 0 auto;
+    height: 72px;
+    object-fit: cover;
+    width: 72px;
+}
+
+.post-signoff-name {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.post-signoff-note {
+    color: var(--muted);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0.15rem 0 0;
+}
+
+@media (max-width: 30rem) {
+    .post-signoff {
+        align-items: flex-start;
+    }
+
+    .post-signoff-avatar {
+        height: 56px;
+        width: 56px;
+    }
+}
+
 section.related-posts {
     border-top: 1px solid var(--rule);
     padding-top: 2rem;
